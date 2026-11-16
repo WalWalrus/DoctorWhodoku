@@ -60,6 +60,8 @@
   .picker-header { margin-bottom: 16px; }
   #search-help { margin: 8px 0; font-size: 14px; }
   #picker > :not(#results) { flex-shrink: 0; }
+  #picker label[for="search"] { margin-bottom: 12px; }
+  #search:focus-visible { outline-offset: 1px; }
   #search {
     width: 100%; padding: 12px;
     border: 1px solid #496687;
@@ -97,7 +99,7 @@
     <h2 id="clue"></h2>
     <button id="close" type="button" aria-label="Close character search">Close ×</button>
   </div>
-  <label for="search">Search characters or actor names</label>
+  <label for="search">Search characters</label>
   <input id="search" autocomplete="off" aria-describedby="search-help">
   <p id="search-help">Type at least 3 characters for suggestions.</p>
   <p id="feedback" role="status"></p>
@@ -128,7 +130,6 @@ function shuffle(items) {
 
 function makeCategories(people, episodes, appearances) {
   const episodeIds = new Map(people.map(c => [c.id, new Set()]));
-  const performers = new Map(people.map(c => [c.id, new Set()]));
 
   for (const appearance of appearances) {
     // Still images, archive clips and remains do not qualify in this prototype.
@@ -136,16 +137,12 @@ function makeCategories(people, episodes, appearances) {
     if (!episodeIds.has(appearance.characterId)) continue;
 
     episodeIds.get(appearance.characterId).add(appearance.episodeId);
-    for (const actor of appearance.performers || []) {
-      performers.get(appearance.characterId).add(actor);
-    }
   }
 
   for (const character of people) {
     character.searchText = normalise([
       character.name,
-      ...(character.aliases || []),
-      ...performers.get(character.id)
+      ...(character.aliases || [])
     ].join(" "));
   }
 
@@ -177,13 +174,6 @@ function makeCategories(people, episodes, appearances) {
       c => episodeIds.get(c.id).has(episode.id), "episode");
   }
 
-  for (const director of new Set(episodes.map(e => e.director).filter(Boolean))) {
-    const directed = new Set(
-      episodes.filter(e => e.director === director).map(e => e.id)
-    );
-    add(`Appears in an episode directed by ${director}`,
-      c => [...episodeIds.get(c.id)].some(id => directed.has(id)), "director");
-  }
 
   return result;
 }
@@ -396,7 +386,7 @@ async function loadData(read) {
       .filter(a => ["in-person", "voice", "broadcast"].includes(a.mode))
       .map(a => a.characterId));
 
-    characters = people.filter(c => active.has(c.id))
+    characters = people.filter(c => c.playable !== false && active.has(c.id))
       .sort((a, b) => a.name.localeCompare(b.name));
     categories = makeCategories(characters, episodes, appearances);
     el("new").disabled = false;
