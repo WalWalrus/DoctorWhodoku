@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doctor Whodoku</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #091426;
+    color: #edf4ff;
+    font: 16px/1.5 system-ui, sans-serif;
+  }
+  main { max-width: 900px; margin: auto; padding: 24px 16px; }
+  h1 { margin-bottom: 0; }
+  p { color: #b5c7df; }
+  button, input { font: inherit; }
+  button {
+    border: 1px solid #496687;
+    border-radius: 8px;
+    padding: 10px 14px;
+    background: #182d48;
+    color: #edf4ff;
+    cursor: pointer;
+  }
+  button:hover:not(:disabled) { background: #26466d; }
+  button:disabled { cursor: default; opacity: .6; }
+  button:focus-visible, input:focus-visible {
+    outline: 3px solid #85d9ff;
+    outline-offset: 3px;
+  }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+  .scroll { overflow-x: auto; }
+  table { border-spacing: 6px; width: 100%; table-layout: fixed; min-width: 470px; }
+  th { font-size: 13px; padding: 10px; color: #b5c7df; }
+  th:first-child { width: 24%; }
+  td { padding: 0; }
+  td button { width: 100%; min-height: 100px; }
+  td button.correct {
+    background: #174f47;
+    border-color: #67ddba;
+    opacity: 1;
+  }
+  #status { min-height: 26px; }
+  dialog {
+    background: #10223b;
+    color: #edf4ff;
+    border: 1px solid #496687;
+    border-radius: 12px;
+    padding: 24px;
+    width: min(500px, 94vw);
+    max-height: 85vh;
+  }
+  dialog::backdrop { background: #000a; }
+  dialog h2 { margin-top: 0; font-size: 20px; }
+  #search {
+    width: 100%; padding: 12px;
+    border: 1px solid #496687;
+    border-radius: 8px;
+    background: #091426; color: white;
+  }
+  #results { display: grid; gap: 8px; margin: 16px 0; }
+  #results button { text-align: left; }
+  #feedback { color: #ffcd8c; }
+  details { padding: 10px 0; border-bottom: 1px solid #304561; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Doctor Whodoku</h1>
+  <p>Series 1 · Match both clues. Nine guesses. Use each answer once.</p>
+
+  <details id="import"><summary>Load different data</summary>
+    <label for="files">Choose characters.json, episodes.json and appearances.json</label>
+    <p><input id="files" type="file" accept=".json" multiple></p>
+  </details>
+
+  <div class="toolbar">
+    <button id="new" disabled>New grid</button>
+    <button id="reveal" disabled>Reveal answers</button>
+  </div>
+
+  <p id="status" role="status" aria-live="polite">Loading Series 1…</p>
+  <div class="scroll"><table id="grid" aria-label="Doctor Who puzzle"></table></div>
+  <section id="answers" aria-label="Possible answers"></section>
+</main>
+
+<dialog id="picker">
+  <h2 id="clue"></h2>
+  <label for="search">Search characters or actor names</label>
+  <input id="search" autocomplete="off">
+  <p id="feedback" role="status"></p>
+  <div id="results"></div>
+  <button id="close">Close</button>
+</dialog>
+
+<script>
+const el = id => document.getElementById(id);
+let characters = [];
+let categories = [];
+let puzzle = null;
+let selectedCell = null;
+let guesses = 0;
+let revealed = false;
+let picks = Array(9).fill(null);
+let rejected = Array.from({ length: 9 }, () => new Set());
+
+const normalise = value => String(value).toLowerCase().trim();
+
+function shuffle(items) {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+function makeCategories(people, episodes, appearances) {
+  const episodeIds = new Map(people.map(c => [c.id, new Set()]));
+  const performers = new Map(people.map(c => [c.id, new Set()]));
+
+  for (const appearance of appearances) {
+    // Still images, archive clips and remains do not qualify in this prototype.
+    if (!["in-person", "voice", "broadcast"].includes(appearance.mode)) continue;
+    if (!episodeIds.has(appearance.characterId)) continue;
+
+    episodeIds.get(appearance.characterId).add(appearance.episodeId);
+    for (const actor of appearance.performers || []) {
+      performers.get(appearance.characterId).add(actor);
+    }
+  }
+
+  for (const character of people) {
+    character.searchText = normalise([
+      character.name,
+      ...(character.aliases || []),
+      ...performers.get(character.id)
+    ].join(" "));
+  }
+
+  const result = [];
+  function add(label, matches, family = "general") {
+    const ids = new Set(people.filter(matches).map(c => c.id));
+    if (ids.size < 2 || ids.size === people.length) return;
+
+    const key = [...ids].sort().join("|");
+    if (result.some(category => category.key === key)) return;
+    result.push({ label, ids, family, key });
+  }
+
+  add("Appears in exactly one episode", c => episodeIds.get(c.id).size === 1);
+  add("Appears in two or more episodes", c => episodeIds.get(c.id).size >= 2);
+  add("Appears in three or more episodes", c => episodeIds.get(c.id).size >= 3);
+  add("Individual character", c => c.kind === "individual");
+  add("Creature type, group or role", c => c.kind !== "individual");
+  add("Name contains a space", c => c.name.includes(" "));
+  add("Name has no spaces", c => !c.name.includes(" "));
+
+  for (const letter of ["a", "e", "i", "o", "r", "s", "t"]) {
+    add(`Display name contains “${letter.toUpperCase()}”`,
+      c => normalise(c.name).includes(letter), "name");
+  }
+
+  for (const episode of episodes) {
+    add(`Appears in ${episode.title}`,
+      c => episodeIds.get(c.id).has(episode.id), "episode");
+  }
+
+  for (const director of new Set(episodes.map(e => e.director).filter(Boolean))) {
+    const directed = new Set(
+      episodes.filter(e => e.director === director).map(e => e.id)
+    );
+    add(`Appears in an episode directed by ${director}`,
+      c => [...episodeIds.get(c.id)].some(id => directed.has(id)), "director");
+  }
+
+  return result;
+}
+
+// Bipartite matching checks that all nine cells can have different answers.
+function hasDistinctSolution(cells) {
+  const assigned = new Map();
+
+  function place(cellIndex, visited) {
+    for (const characterId of cells[cellIndex]) {
+      if (visited.has(characterId)) continue;
+      visited.add(characterId);
+
+      if (!assigned.has(characterId) ||
+          place(assigned.get(characterId), visited)) {
+        assigned.set(characterId, cellIndex);
+        return true;
+      }
+    }
+    return false;
+  }
+
+  return cells.every((_, index) => place(index, new Set()));
+}
+
+function generatePuzzle() {
+  for (let attempt = 0; attempt < 10000; attempt++) {
+    const chosen = shuffle(categories).slice(0, 6);
+    if (chosen.length < 6) return null;
+    if (chosen.filter(c => c.family === "episode").length > 2) continue;
+    if (chosen.filter(c => c.family === "name").length > 2) continue;
+
+    const rows = chosen.slice(0, 3);
+    const columns = chosen.slice(3);
+
+    if (rows.filter(c => c.family === "episode").length > 1) continue;
+    if (columns.filter(c => c.family === "episode").length > 1) continue;
+
+    const cells = rows.flatMap(row => columns.map(column =>
+      [...row.ids].filter(id => column.ids.has(id))
+    ));
+
+    if (cells.some(cell => cell.length < 2)) continue;
+
+    const signatures = cells.map(cell => [...cell].sort().join("|"));
+    if (new Set(signatures).size !== 9) continue;
+    if (!hasDistinctSolution(cells)) continue;
+
+    return { rows, columns, cells };
+  }
+  return null;
+}
+
+function cellLabel(index) {
+  return `${puzzle.rows[Math.floor(index / 3)].label} × ${
+    puzzle.columns[index % 3].label}`;
+}
+
+function render() {
+  const table = el("grid");
+  table.replaceChildren();
+
+  const heading = document.createElement("tr");
+  heading.append(document.createElement("td"));
+  for (const category of puzzle.columns) {
+    const th = document.createElement("th");
+    th.scope = "col";
+    th.textContent = category.label;
+    heading.append(th);
+  }
+  table.append(heading);
+
+  puzzle.rows.forEach((category, rowIndex) => {
+    const row = document.createElement("tr");
+    const th = document.createElement("th");
+    th.scope = "row";
+    th.textContent = category.label;
+    row.append(th);
+
+    for (let column = 0; column < 3; column++) {
+      const index = rowIndex * 3 + column;
+      const td = document.createElement("td");
+      const button = document.createElement("button");
+      const character = characters.find(c => c.id === picks[index]);
+
+      button.textContent = character?.name || "Choose";
+      button.setAttribute("aria-label",
+        `${cellLabel(index)}. ${character?.name || "Choose an answer"}`);
+      button.disabled = Boolean(character) || guesses >= 9 || revealed;
+      if (character) button.classList.add("correct");
+      button.onclick = () => openCell(index);
+      td.append(button);
+      row.append(td);
+    }
+    table.append(row);
+  });
+
+  const solved = picks.filter(Boolean).length;
+  const ending = solved === 9 ? " · Completed!" :
+    guesses >= 9 ? " · Out of guesses." : "";
+  el("status").textContent =
+    `${solved}/9 solved · ${9 - guesses} guesses left${ending}` +
+    (revealed ? " · Answers revealed." : "");
+}
+
+function openCell(index) {
+  selectedCell = index;
+  el("clue").textContent = cellLabel(index);
+  el("search").value = "";
+  el("feedback").textContent = "";
+  showResults();
+  el("picker").showModal();
+  el("search").focus();
+}
+
+function showResults() {
+  const results = el("results");
+  results.replaceChildren();
+  const query = normalise(el("search").value);
+  const used = new Set(picks.filter(Boolean));
+
+  const matching = characters.filter(c =>
+    !used.has(c.id) &&
+    !rejected[selectedCell].has(c.id) &&
+    c.searchText.includes(query)
+  );
+
+  for (const character of matching.slice(0, 40)) {
+    const button = document.createElement("button");
+    button.textContent = character.name;
+    button.onclick = () => submitAnswer(character.id);
+    results.append(button);
+  }
+
+  if (!matching.length) results.textContent = "No matching unused characters.";
+  if (matching.length > 40) {
+    const hint = document.createElement("p");
+    hint.textContent = "Showing 40 results. Type to narrow your search.";
+    results.append(hint);
+  }
+}
+
+function submitAnswer(id) {
+  if (revealed || guesses >= 9 || picks[selectedCell] || picks.includes(id)) return;
+  if (rejected[selectedCell].has(id)) return;
+
+  guesses++;
+  if (puzzle.cells[selectedCell].includes(id)) {
+    picks[selectedCell] = id;
+    el("picker").close();
+  } else {
+    rejected[selectedCell].add(id);
+    el("feedback").textContent = "That character does not match both clues.";
+    showResults();
+    if (guesses >= 9) el("picker").close();
+  }
+  render();
+}
+
+function newGame() {
+  const generated = generatePuzzle();
+  if (!generated) {
+    el("status").textContent = "Could not find a suitable grid. Try again.";
+    return;
+  }
+  puzzle = generated;
+  guesses = 0;
+  revealed = false;
+  picks = Array(9).fill(null);
+  rejected = Array.from({ length: 9 }, () => new Set());
+  el("answers").replaceChildren();
+  el("reveal").disabled = false;
+  render();
+}
+
+let loadingData = false;
+
+async function loadData(read) {
+  if (loadingData) return;
+  loadingData = true;
+  el("files").disabled = true;
+  el("new").disabled = true;
+  el("reveal").disabled = true;
+  el("grid").replaceChildren();
+  el("answers").replaceChildren();
+  puzzle = null;
+  el("status").textContent = "Loading Series 1…";
+  try {
+    const [people, episodes, appearances] = await Promise.all([
+      read("characters.json"), read("episodes.json"), read("appearances.json")
+    ]);
+    if (![people, episodes, appearances].every(Array.isArray)) {
+      throw new Error("Each data file must contain an array.");
+    }
+    if (!people.every(c => typeof c.id === "string" &&
+        typeof c.name === "string") ||
+        new Set(people.map(c => c.id)).size !== people.length) {
+      throw new Error("Characters need unique IDs and names.");
+    }
+
+    const ids = new Set(people.map(c => c.id));
+    const episodeIds = new Set(episodes.map(e => e.id));
+    if (!appearances.every(a =>
+      ids.has(a.characterId) && episodeIds.has(a.episodeId))) {
+      throw new Error("An appearance references a missing character or episode.");
+    }
+
+    const active = new Set(appearances
+      .filter(a => ["in-person", "voice", "broadcast"].includes(a.mode))
+      .map(a => a.characterId));
+
+    characters = people.filter(c => active.has(c.id))
+      .sort((a, b) => a.name.localeCompare(b.name));
+    categories = makeCategories(characters, episodes, appearances);
+    el("new").disabled = false;
+    newGame();
+
+  } catch (error) {
+    el("status").textContent = "Unable to load data: " + error.message +
+      " Reload the page to retry, or use Load different data.";
+    el("import").open = true;
+  } finally {
+    loadingData = false;
+    el("files").disabled = false;
+  }
+}
+
+el("files").onchange = event => {
+  const files = [...event.target.files];
+  loadData(async name => {
+    const file = files.find(file => file.name === name);
+    if (!file) throw new Error("Please select " + name + " as well.");
+    return JSON.parse(await file.text());
+  });
+};
+
+el("search").oninput = showResults;
+el("close").onclick = () => el("picker").close();
+el("new").onclick = newGame;
+el("reveal").onclick = () => {
+  revealed = true;
+  render();
+  el("answers").replaceChildren();
+
+  puzzle.cells.forEach((ids, index) => {
+    const details = document.createElement("details");
+    const summary = document.createElement("summary");
+    summary.textContent = cellLabel(index);
+    const answers = document.createElement("p");
+    answers.textContent = characters.filter(c => ids.includes(c.id))
+      .map(c => c.name).join(", ");
+    details.append(summary, answers);
+    el("answers").append(details);
+  });
+};
+
+// Resolve relative to this page so project-path hosting works.
+if (location.protocol === "file:") {
+  el("status").textContent = "Choose the three JSON files to play locally.";
+  el("import").open = true;
+} else {
+  loadData(async name => {
+    const response = await fetch(new URL(name, location.href));
+    if (!response.ok) throw new Error(name + " returned HTTP " + response.status);
+    return response.json();
+  });
+}
+</script>
+</body>
+</html>
