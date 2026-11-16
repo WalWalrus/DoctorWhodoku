@@ -455,7 +455,9 @@ if (location.protocol === "file:") {
   el("import").open = true;
 } else {
   loadData(async name => {
-    const response = await fetch(new URL(name, location.href));
+    const dataUrl = new URL(name, location.href);
+    dataUrl.searchParams.set("v", "curated-series1-1");
+    const response = await fetch(dataUrl, { cache: "no-cache" });
     if (!response.ok) throw new Error(name + " returned HTTP " + response.status);
     return response.json();
   });
