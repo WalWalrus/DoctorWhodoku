@@ -58,6 +58,7 @@
   .picker-header h2 { flex: 1; min-width: 0; margin: 0; font-size: 20px; }
   .picker-header button { flex-shrink: 0; }
   .picker-header { margin-bottom: 16px; }
+  #clue-help { font-size: 14px; margin: 0 0 16px; }
   #search-help { margin: 8px 0; font-size: 14px; }
   #picker > :not(#results) { flex-shrink: 0; }
   #picker label[for="search"] { margin-bottom: 12px; }
@@ -77,7 +78,7 @@
 <body>
 <main>
   <h1>Doctor Whodoku</h1>
-  <p>Series 1 · Match both clues. Nine guesses. Use each answer once.</p>
+  <p>Series 1 only · Match both clues. Nine guesses. Use each answer once.</p>
 
   <details id="import"><summary>Load different data</summary>
     <label for="files">Choose characters.json, episodes.json and appearances.json</label>
@@ -99,6 +100,7 @@
     <h2 id="clue"></h2>
     <button id="close" type="button" aria-label="Close character search">Close ×</button>
   </div>
+  <p id="clue-help"></p>
   <label for="search">Search characters</label>
   <input id="search" autocomplete="off" aria-describedby="search-help">
   <p id="search-help">Type at least 3 characters for suggestions.</p>
@@ -147,26 +149,95 @@ function makeCategories(people, episodes, appearances) {
   }
 
   const result = [];
-  function add(label, matches, family = "general") {
+  function add(label, matches, family = "general", description = "", trait = null) {
     const ids = new Set(people.filter(matches).map(c => c.id));
     if (ids.size < 2 || ids.size === people.length) return;
 
     const key = [...ids].sort().join("|");
     if (result.some(category => category.key === key)) return;
-    result.push({ label, ids, family, key });
+    result.push({ label, ids, family, key, description, trait });
   }
 
-  add("Appears in exactly one episode", c => episodeIds.get(c.id).size === 1);
-  add("Appears in two or more episodes", c => episodeIds.get(c.id).size >= 2);
-  add("Appears in three or more episodes", c => episodeIds.get(c.id).size >= 3);
-  add("Individual character", c => c.kind === "individual");
-  add("Creature type, group or role", c => c.kind !== "individual");
-  add("Name contains a space", c => c.name.includes(" "));
-  add("Name has no spaces", c => !c.name.includes(" "));
-
-  for (const letter of ["a", "e", "i", "o", "r", "s", "t"]) {
-    add(`Display name contains “${letter.toUpperCase()}”`,
-      c => normalise(c.name).includes(letter), "name");
+  // Story facts are curated from Series 1, not inferred from co-appearance.
+  const storyCategories = [
+  [
+    "tardis",
+    "Has been inside the TARDIS",
+    "Physical entry during Series 1; seeing it from outside does not count."
+  ],
+  [
+    "dalek-encounter",
+    "Has encountered a Dalek",
+    "Direct interaction, attack or live communication; simply sharing an episode does not count."
+  ],
+  [
+    "transformed",
+    "Has had their body changed",
+    "A physical transformation, regeneration, implant or explicit bodily alteration; ordinary injury does not count."
+  ],
+  [
+    "deception",
+    "Uses a disguise or false identity",
+    "An impersonation, invented identity or concealed allegiance used to deceive another character."
+  ],
+  [
+    "leader",
+    "Gives orders or runs an organisation",
+    "Directs staff, followers, troops or a coordinated operation on screen."
+  ],
+  [
+    "rescuer",
+    "Helps save someone else's life",
+    "An action that protects someone from an immediate lethal threat; includes joint rescues."
+  ],
+  [
+    "rescued",
+    "Is saved from a lethal threat",
+    "Another character actively saves them; merely being near danger does not count."
+  ],
+  [
+    "kills",
+    "Causes a death or destroys a living enemy",
+    "Direct killing or deliberately causing the fatal event; includes artificial life and deaths later reversed."
+  ],
+  [
+    "captive",
+    "Is captured, restrained or imprisoned",
+    "Physically detained or locked in against their will; ordinary confinement at work does not count."
+  ],
+  [
+    "sacrifice",
+    "Risks their life to save others",
+    "A deliberate action taken in known mortal danger to protect someone else."
+  ],
+  [
+    "parent",
+    "Is a parent",
+    "Parenthood established in Series 1, including the Doctor's reference to having been a dad."
+  ],
+  [
+    "enhanced",
+    "Has a technological body or implant",
+    "Robots, cyborg casings, implanted interfaces or machinery that sustains the body."
+  ],
+  [
+    "mind",
+    "Uses mental powers or a brain interface",
+    "Psychic perception, consciousness-based control or direct access to technology through the brain."
+  ],
+  [
+    "healing",
+    "Heals, repairs or restores a body",
+    "Treats another person's body, restores life or demonstrably repairs their own body."
+  ],
+  [
+    "alien",
+    "Is a non-human alien",
+    "Alien life, including Time Lords; excludes humans, human-made robots and terrestrial animals."
+  ]
+];
+  for (const [trait, label, description] of storyCategories) {
+    add(label, c => Boolean(c.storyTraits?.[trait]), "story", description, trait);
   }
 
   for (const episode of episodes) {
@@ -203,8 +274,8 @@ function generatePuzzle() {
   for (let attempt = 0; attempt < 10000; attempt++) {
     const chosen = shuffle(categories).slice(0, 6);
     if (chosen.length < 6) return null;
-    if (chosen.filter(c => c.family === "episode").length > 2) continue;
-    if (chosen.filter(c => c.family === "name").length > 2) continue;
+    if (chosen.filter(c => c.family === "episode").length > 1) continue;
+
 
     const rows = chosen.slice(0, 3);
     const columns = chosen.slice(3);
@@ -217,6 +288,13 @@ function generatePuzzle() {
     ));
 
     if (cells.some(cell => cell.length < 2)) continue;
+    // Every square needs a choice beyond the regular TARDIS leads.
+    const leads = new Set(["ninth-doctor", "tenth-doctor", "rose-tyler", "captain-jack-harkness"]);
+    if (cells.some(cell => !cell.some(id => !leads.has(id)))) continue;
+    // A generic creature and one named member alone are not two distinct choices.
+    if (cells.some(cell => cell.length === 2 && characters.some(c =>
+      cell.includes(c.id) && (c.typeIds || []).some(type => cell.includes(type))
+    ))) continue;
 
     const signatures = cells.map(cell => [...cell].sort().join("|"));
     if (new Set(signatures).size !== 9) continue;
@@ -242,6 +320,7 @@ function render() {
     const th = document.createElement("th");
     th.scope = "col";
     th.textContent = category.label;
+    th.title = category.description || "Appears in this episode in person, by voice or in a broadcast.";
     heading.append(th);
   }
   table.append(heading);
@@ -251,6 +330,7 @@ function render() {
     const th = document.createElement("th");
     th.scope = "row";
     th.textContent = category.label;
+    th.title = category.description || "Appears in this episode in person, by voice or in a broadcast.";
     row.append(th);
 
     for (let column = 0; column < 3; column++) {
@@ -282,6 +362,9 @@ function render() {
 function openCell(index) {
   selectedCell = index;
   el("clue").textContent = cellLabel(index);
+  el("clue-help").textContent = [
+    puzzle.rows[Math.floor(index / 3)], puzzle.columns[index % 3]
+  ].map(c => c.description || "Must appear in the named episode.").join(" ");
   el("search").value = "";
   el("feedback").textContent = "";
   showResults();
@@ -441,9 +524,19 @@ el("reveal").onclick = () => {
     const details = document.createElement("details");
     const summary = document.createElement("summary");
     summary.textContent = cellLabel(index);
-    const answers = document.createElement("p");
-    answers.textContent = characters.filter(c => ids.includes(c.id))
-      .map(c => c.name).join(", ");
+    const answers = document.createElement("div");
+    for (const character of characters.filter(c => ids.includes(c.id))) {
+      const entry = document.createElement("p");
+      const label = document.createElement("strong");
+      label.textContent = character.name + ": ";
+      entry.append(label);
+      const pair = [puzzle.rows[Math.floor(index / 3)], puzzle.columns[index % 3]];
+      entry.append(pair.map(category => {
+        const fact = character.storyTraits?.[category.trait];
+        return fact ? fact.evidence + " (" + fact.episodeId + ")" : category.label + ".";
+      }).join(" "));
+      answers.append(entry);
+    }
     details.append(summary, answers);
     el("answers").append(details);
   });
@@ -456,7 +549,7 @@ if (location.protocol === "file:") {
 } else {
   loadData(async name => {
     const dataUrl = new URL(name, location.href);
-    dataUrl.searchParams.set("v", "curated-series1-1");
+    dataUrl.searchParams.set("v", "story-traits-1");
     const response = await fetch(dataUrl, { cache: "no-cache" });
     if (!response.ok) throw new Error(name + " returned HTTP " + response.status);
     return response.json();
