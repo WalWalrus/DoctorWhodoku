@@ -159,7 +159,7 @@ function makeCategories(people, episodes, appearances) {
   }
 
   // Story facts are curated from Series 1, not inferred from co-appearance.
-  const storyCategories = [
+  const storyCategories =[
   [
     "tardis",
     "Has been inside the TARDIS",
@@ -186,29 +186,9 @@ function makeCategories(people, episodes, appearances) {
     "Directs staff, followers, troops or a coordinated operation on screen."
   ],
   [
-    "rescuer",
-    "Helps save someone else's life",
-    "An action that protects someone from an immediate lethal threat; includes joint rescues."
-  ],
-  [
-    "rescued",
-    "Is saved from a lethal threat",
-    "Another character actively saves them; merely being near danger does not count."
-  ],
-  [
-    "kills",
-    "Causes a death or destroys a living enemy",
-    "Direct killing or deliberately causing the fatal event; includes artificial life and deaths later reversed."
-  ],
-  [
     "captive",
     "Is captured, restrained or imprisoned",
     "Physically detained or locked in against their will; ordinary confinement at work does not count."
-  ],
-  [
-    "sacrifice",
-    "Risks their life to save others",
-    "A deliberate action taken in known mortal danger to protect someone else."
   ],
   [
     "parent",
@@ -219,16 +199,6 @@ function makeCategories(people, episodes, appearances) {
     "enhanced",
     "Has a technological body or implant",
     "Robots, cyborg casings, implanted interfaces or machinery that sustains the body."
-  ],
-  [
-    "mind",
-    "Uses mental powers or a brain interface",
-    "Psychic perception, consciousness-based control or direct access to technology through the brain."
-  ],
-  [
-    "healing",
-    "Heals, repairs or restores a body",
-    "Treats another person's body, restores life or demonstrably repairs their own body."
   ],
   [
     "alien",
@@ -272,7 +242,10 @@ function hasDistinctSolution(cells) {
 
 function generatePuzzle() {
   for (let attempt = 0; attempt < 10000; attempt++) {
-    const chosen = shuffle(categories).slice(0, 6);
+    const story = shuffle(categories.filter(c => c.family === "story"));
+    const episode = shuffle(categories.filter(c => c.family === "episode"));
+    const chosen = shuffle(episode.length && Math.random() < 0.35
+      ? [...story.slice(0, 5), episode[0]] : story.slice(0, 6));
     if (chosen.length < 6) return null;
     if (chosen.filter(c => c.family === "episode").length > 1) continue;
 
@@ -290,7 +263,8 @@ function generatePuzzle() {
     if (cells.some(cell => cell.length < 2)) continue;
     // Every square needs a choice beyond the regular TARDIS leads.
     const leads = new Set(["ninth-doctor", "tenth-doctor", "rose-tyler", "captain-jack-harkness"]);
-    if (cells.some(cell => !cell.some(id => !leads.has(id)))) continue;
+    if (cells.some(cell => cell.filter(id => !leads.has(id)).length < 2)) continue;
+    if (!hasDistinctSolution(cells.map(cell => cell.filter(id => !leads.has(id))))) continue;
     // A generic creature and one named member alone are not two distinct choices.
     if (cells.some(cell => cell.length === 2 && characters.some(c =>
       cell.includes(c.id) && (c.typeIds || []).some(type => cell.includes(type))
