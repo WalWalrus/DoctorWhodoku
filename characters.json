@@ -4,56 +4,72 @@
     "name": "Adam Mitchell",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "adherents-of-the-repeated-meme",
     "name": "Adherents of the Repeated Meme",
     "kind": "group",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "agorax",
     "name": "Agorax",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "alexander-graham-bell",
     "name": "Alexander Graham Bell",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "alf",
     "name": "Alf",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "algy",
     "name": "Algy",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "ambassadors-from-the-city-state-of-binding-light",
     "name": "Ambassadors from the City State of Binding Light",
     "kind": "group",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "andrew-marr",
     "name": "Andrew Marr",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "anne-droid",
@@ -62,14 +78,18 @@
     "aliases": [
       "Anne-Droid"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "arthur-lloyd",
     "name": "Arthur Lloyd",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "asquith-slitheen",
@@ -83,7 +103,9 @@
     ],
     "typeIds": [
       "slitheen"
-    ]
+    ],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "auton",
@@ -92,7 +114,9 @@
     "aliases": [
       "Autons"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "auton-mickey",
@@ -105,55 +129,69 @@
     ],
     "typeIds": [
       "auton"
-    ]
+    ],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "bau",
     "name": "Bau",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "bev",
     "name": "Bev",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "blon-fel-fotch-passameer-day-slitheen",
-    "name": "Blon Fel-Fotch Passameer-Day Slitheen",
+    "name": "Margaret Blaine",
     "kind": "individual",
     "aliases": [
+      "Margaret",
       "Blon",
-      "Margaret Blaine",
-      "Margaret"
+      "Blon Fel-Fotch Passameer-Day Slitheen"
     ],
     "typeIds": [
       "slitheen"
-    ]
+    ],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "broff",
     "name": "Broff",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "brothers-hop-pyleen",
     "name": "Brothers Hop Pyleen",
     "kind": "group",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "bywater",
     "name": "Bywater",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "cal-macnannovich",
@@ -162,7 +200,9 @@
     "aliases": [
       "Cal MacNannovitch"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "captain-jack-harkness",
@@ -173,30 +213,38 @@
       "Captain Jack",
       "Jack"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "cardiff-carriage-driver",
     "name": "Cardiff carriage driver",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "caroline-finch",
     "name": "Caroline Finch",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "cathica-santini-khadeni",
-    "name": "Cathica Santini Khadeni",
+    "name": "Cathica",
     "kind": "individual",
     "aliases": [
-      "Cathica"
+      "Cathica Santini Khadeni"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "cathy-salt",
@@ -205,56 +253,72 @@
     "aliases": [
       "Cathy"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "charles-dickens",
     "name": "Charles Dickens",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "chula-ship-computer",
     "name": "Chula ship computer",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "clive-finch",
-    "name": "Clive Finch",
+    "name": "Clive",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "clive-s-son",
     "name": "Clive's Son",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "coffa",
     "name": "Coffa",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "colleen",
     "name": "Colleen",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "crosbie",
     "name": "Crosbie",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "cyberman",
@@ -263,7 +327,9 @@
     "aliases": [
       "Cybermen"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "dalek",
@@ -272,7 +338,9 @@
     "aliases": [
       "Daleks"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "dalek-emperor",
@@ -284,14 +352,18 @@
     ],
     "typeIds": [
       "dalek"
-    ]
+    ],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "daniels-family",
     "name": "Daniels family",
     "kind": "group",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "davinadroid",
@@ -300,7 +372,9 @@
     "aliases": [
       "Davina Droid"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "davitch-pavale",
@@ -310,28 +384,36 @@
       "Male Programmer",
       "Pavale"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "de-maggio",
     "name": "De Maggio",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "diana-goddard",
     "name": "Diana Goddard",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "downing-street-academic",
     "name": "Downing Street academic",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "dr-constantine",
@@ -341,24 +423,30 @@
       "Doctor Constantine",
       "Constantine"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "ernie",
     "name": "Ernie",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "eva-saint-julienne",
-    "name": "Eva Saint Julienne",
+    "name": "Suki",
     "kind": "individual",
     "aliases": [
-      "Suki",
+      "Eva Saint Julienne",
       "Suki Macrae Cantrell"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "ewan-mcallister-slitheen",
@@ -369,7 +457,9 @@
     ],
     "typeIds": [
       "slitheen"
-    ]
+    ],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "face-of-boe",
@@ -378,49 +468,67 @@
     "aliases": [
       "The Face of Boe"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "fitch",
     "name": "Fitch",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "gabriel-sneed",
-    "name": "Gabriel Sneed",
+    "name": "Mr Sneed",
     "kind": "individual",
-    "aliases": [],
-    "typeIds": []
+    "aliases": [
+      "Sneed"
+    ],
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "game-station-controller",
-    "name": "Game Station Controller",
+    "name": "The Controller",
     "kind": "individual",
-    "aliases": [],
-    "typeIds": []
+    "aliases": [
+      "Controller"
+    ],
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "game-station-female-programmer",
     "name": "Game Station female programmer",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "game-station-floor-manager",
     "name": "Game Station floor manager",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "game-station-security-guard",
     "name": "Game Station security guard",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "gas-mask-patient",
@@ -430,14 +538,18 @@
       "Gas-mask zombies",
       "Gas mask patients"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "gelth",
     "name": "Gelth",
     "kind": "type",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "general-asquith",
@@ -446,96 +558,117 @@
     "aliases": [
       "R. Asquith"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "gwyneth",
     "name": "Gwyneth",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "harriet-jones",
     "name": "Harriet Jones",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "henry-van-statten",
     "name": "Henry van Statten",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "idris-hopper",
     "name": "Idris Hopper",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "indra-ganesh",
     "name": "Indra Ganesh",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "jabe",
     "name": "Jabe",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "jackie-tyler",
     "name": "Jackie Tyler",
     "kind": "individual",
     "aliases": [
-      "Jackie",
-      "Jacqueline Prentice",
-      "Jackie Prentice"
+      "Jackie"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "jamie",
-    "name": "Jamie",
+    "name": "The Empty Child",
     "kind": "individual",
     "aliases": [
-      "The Empty Child",
-      "The Child"
+      "Jamie"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "jenkins",
     "name": "Jenkins",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "jim",
     "name": "Jim",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "jocrassa-fel-fotch-passameer-day-slitheen",
-    "name": "Jocrassa Fel-Fotch Passameer-Day Slitheen",
+    "name": "Joseph Green",
     "kind": "individual",
     "aliases": [
       "Jocrassa",
-      "Joseph Green"
+      "Jocrassa Fel-Fotch Passameer-Day Slitheen"
     ],
     "typeIds": [
       "slitheen"
-    ]
+    ],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "lady-cassandra",
@@ -546,52 +679,65 @@
       "Cassandra",
       "Cassandra O'Brien.Δ17"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "london-nightclub-singer",
     "name": "London nightclub singer",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "lute",
     "name": "Lute",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "lyceum-stage-manager",
     "name": "Lyceum stage manager",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "lynda-moss",
-    "name": "Lynda Moss",
+    "name": "Lynda",
     "kind": "individual",
     "aliases": [
-      "Lynda with a Y",
-      "Lynda"
+      "Lynda with a Y"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "matt",
     "name": "Matt",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "matt-baker",
     "name": "Matt Baker",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "metaltron",
@@ -604,7 +750,9 @@
     ],
     "typeIds": [
       "dalek"
-    ]
+    ],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "mickey-smith",
@@ -614,77 +762,99 @@
       "Mickey",
       "Young Mickey"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "mickey-smith-s-mother",
     "name": "Mickey Smith's mother",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "missing-british-prime-minister",
     "name": "Missing British Prime Minister",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "moxx-of-balhoon",
     "name": "Moxx of Balhoon",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "mr-cleaver",
     "name": "Mr Cleaver",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "mr-pakoo",
     "name": "Mr Pakoo",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "mrs-harcourt",
     "name": "Mrs Harcourt",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "mrs-lloyd",
     "name": "Mrs Lloyd",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "mrs-pakoo",
     "name": "Mrs Pakoo",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "mrs-peace",
     "name": "Mrs Peace",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "nancy",
     "name": "Nancy",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "nanogene",
@@ -693,7 +863,9 @@
     "aliases": [
       "Nanogenes"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "nestene-consciousness",
@@ -702,7 +874,9 @@
     "aliases": [
       "Nestene"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "ninth-doctor",
@@ -714,31 +888,38 @@
       "Nine",
       "9"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "noxwen-van-coofen",
     "name": "Noxwen Van Coofen",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "oliver-charles",
     "name": "Oliver Charles",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "pete-tyler",
     "name": "Pete Tyler",
     "kind": "individual",
     "aliases": [
-      "Pete",
-      "Peter Alan Tyler"
+      "Pete"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "platform-one-computer",
@@ -747,42 +928,56 @@
     "aliases": [
       "Control"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "platform-one-steward",
-    "name": "Platform One Steward",
+    "name": "The Steward",
     "kind": "role",
-    "aliases": [],
-    "typeIds": []
+    "aliases": [
+      "Platform One Steward"
+    ],
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "polkowski",
     "name": "Polkowski",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "powell-estate-graffiti-artist",
     "name": "Powell Estate graffiti artist",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "powell-estate-policeman",
     "name": "Powell Estate policeman",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "raffalo",
     "name": "Raffalo",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "reaper",
@@ -791,14 +986,18 @@
     "aliases": [
       "Reapers"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "redpath",
     "name": "Redpath",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "robot-spider",
@@ -807,14 +1006,18 @@
     "aliases": [
       "Robot spiders"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "rodrick",
     "name": "Rodrick",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "rose-tyler",
@@ -824,14 +1027,18 @@
       "Rose",
       "Bad Wolf"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "ru",
     "name": "Ru",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "sandra-mitchell",
@@ -840,7 +1047,9 @@
     "aliases": [
       "Adam's mum"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "sarah-clark",
@@ -849,42 +1058,54 @@
     "aliases": [
       "Sarah Clarke"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "satellite-five-head-chef",
     "name": "Satellite Five head chef",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "satellite-five-nurse",
     "name": "Satellite Five nurse",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "scholars-of-the-university-of-rago-rago-56-rago",
     "name": "Scholars of the University of Rago Rago 56 Rago",
     "kind": "group",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "sergeant-price",
     "name": "Sergeant Price",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "simmons",
     "name": "Simmons",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "sip-fel-fotch-passameer-day-slitheen",
@@ -897,7 +1118,9 @@
     ],
     "typeIds": [
       "slitheen"
-    ]
+    ],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "slitheen",
@@ -906,14 +1129,18 @@
     "aliases": [
       "Slitheen family"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "sonny-hoskins",
     "name": "Sonny Hoskins",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "space-pig",
@@ -922,35 +1149,45 @@
     "aliases": [
       "Space Pig Alien"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "st-christopher-s-vicar",
     "name": "St Christopher's vicar",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "strood",
     "name": "Strood",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "stuart-hoskins",
     "name": "Stuart Hoskins",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "suzie",
     "name": "Suzie",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "sylvia-dillane-slitheen",
@@ -961,7 +1198,9 @@
     ],
     "typeIds": [
       "slitheen"
-    ]
+    ],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "tennant-james-slitheen",
@@ -972,7 +1211,9 @@
     ],
     "typeIds": [
       "slitheen"
-    ]
+    ],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "tenth-doctor",
@@ -984,14 +1225,18 @@
       "Ten",
       "10"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "the-editor",
     "name": "The Editor",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "the-mighty-jagrafess",
@@ -1002,21 +1247,27 @@
       "Jagrafess",
       "The Mighty Jagrafess of the Holy Hadrojassic Maxarodenfoe"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "timothy-lloyd",
     "name": "Timothy Lloyd",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "tom-hitchinson",
     "name": "Tom Hitchinson",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "toshiko-sato",
@@ -1026,41 +1277,53 @@
       "Tosh",
       "Dr Sato"
     ],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "trine-e",
     "name": "Trine-E",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   },
   {
     "id": "trinity-wells",
     "name": "Trinity Wells",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "tyler-wedding-registrar",
     "name": "Tyler wedding registrar",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "vault-commander",
     "name": "Vault commander",
     "kind": "role",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": false,
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
   },
   {
     "id": "zu-zana",
     "name": "Zu-Zana",
     "kind": "individual",
     "aliases": [],
-    "typeIds": []
+    "typeIds": [],
+    "playable": true,
+    "selectionNote": "Included in the curated Series 1 starter pool."
   }
 ]
