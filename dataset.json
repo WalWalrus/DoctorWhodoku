@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "scope": "The 13 main BBC television episodes of Doctor Who Series 1 (2005), UK broadcast order. One storyId per standalone or two-part story.",
+  "files": {
+    "episodes.json": "Broadcast metadata, main narrative settings, and episode-level sources. Dates of settings preserve the available precision. These are locations for the story, not a travel history for every character.",
+    "characters.json": "Searchable identities, named groups, optional role-labelled characters, and generic creature types. IDs are opaque strings; keep them stable when extending the catalogue.",
+    "appearances.json": "One row per character and episode. Performers belong to that portrayal, so young and adult versions share an identity. An empty performer list means unrecorded.",
+    "encounters.json": "Selected positive direct encounters from every episode, with scene evidence. Participant IDs are unordered. Missing pairs are unreviewed.",
+    "character-facts.json": "Selected positive examples for the TARDIS and regeneration categories. Missing facts are unreviewed."
+  },
+  "inclusion": "Named narrative characters, identifiable credited roles, named delegations and selected generic monsters. Character names can be established by credits or cast references even when nobody says them on screen. Includes in-story voice, stills, broadcasts and selected archive material as labelled. Opening recaps, next-time trailers, the incidental content of TV/music clips and mentions alone are outside the appearance catalogue.",
+  "appearanceModes": {
+    "in-person": "The character participates in the episode; this can include an embodied alien or robot with a voice performer.",
+    "broadcast": "Seen or heard through an in-story broadcast.",
+    "voice": "Identifiable audio-only role or telephone signal.",
+    "remains": "Body, discarded skin or detached remains; filter out for active appearances.",
+    "archive": "Earlier episode footage or sound reused inside the story.",
+    "still-image": "Depicted in a photograph."
+  },
+  "identity": "An incarnation is a separate Doctor. A younger self, disguise or temporary transformation retains one identity. An independently acting duplicate gets its own ID. The dead human Oliver Charles and the Slitheen wearing his skin are separate; the plain-name alias may return both. Doctor search by actor uses appearances.performers.",
+  "typeMatching": "For a generic clue, match character.id == typeId OR character.typeIds includes typeId. For an episode query, expand each appearance to the character and its types and deduplicate. For an encounter, expand only the opposite endpoint. A generic Dalek encounter cannot establish a Metaltron encounter. For grids with individual answers only, omit type and group records from the answer picker.",
+  "coverage": "Episode and character appearances are the catalogue. Encounter and fact tables are seeds: only enable a derived clue as exhaustive after reviewing all relevant scenes. Broadcast chronology and story settings do not prove that two characters met.",
+  "sourcePolicy": "Each appearance and fact joins to its episode sources via episodeId. Cast references supply full names and cast credits; transcripts identify interactions and cameo context. Story settings describe principal scenes. The individual reference pages may use different episode or character naming conventions."
+}

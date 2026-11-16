@@ -1,0 +1,488 @@
+[
+  {
+    "episodeId": "s01e01",
+    "participantIds": [
+      "ninth-doctor",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "He takes her hand and leads her away from the shop-window dummies."
+  },
+  {
+    "episodeId": "s01e01",
+    "participantIds": [
+      "clive-finch",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "Rose visits Clive to ask about the Doctor."
+  },
+  {
+    "episodeId": "s01e01",
+    "participantIds": [
+      "auton-mickey",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "The imitation Mickey questions Rose at dinner."
+  },
+  {
+    "episodeId": "s01e01",
+    "participantIds": [
+      "auton-mickey",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "He confronts the duplicate at the restaurant and removes its head."
+  },
+  {
+    "episodeId": "s01e01",
+    "participantIds": [
+      "nestene-consciousness",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "He attempts to negotiate with it beneath the London Eye."
+  },
+  {
+    "episodeId": "s01e01",
+    "participantIds": [
+      "clive-s-son",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "He answers the door when Rose arrives looking for Clive."
+  },
+  {
+    "episodeId": "s01e02",
+    "participantIds": [
+      "raffalo",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "Rose asks the maintenance worker where she comes from."
+  },
+  {
+    "episodeId": "s01e02",
+    "participantIds": [
+      "jabe",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "They investigate the failing safety systems together."
+  },
+  {
+    "episodeId": "s01e02",
+    "participantIds": [
+      "lady-cassandra",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "Rose confronts Cassandra over her definition of humanity."
+  },
+  {
+    "episodeId": "s01e02",
+    "participantIds": [
+      "jabe",
+      "robot-spider"
+    ],
+    "medium": "in-person",
+    "evidence": "Jabe catches a spider in a vine."
+  },
+  {
+    "episodeId": "s01e02",
+    "participantIds": [
+      "raffalo",
+      "robot-spider"
+    ],
+    "medium": "in-person",
+    "evidence": "The machines drag Raffalo into the duct."
+  },
+  {
+    "episodeId": "s01e03",
+    "participantIds": [
+      "charles-dickens",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "The Doctor joins Dickens in his carriage."
+  },
+  {
+    "episodeId": "s01e03",
+    "participantIds": [
+      "gwyneth",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "They talk privately at the funeral parlour."
+  },
+  {
+    "episodeId": "s01e03",
+    "participantIds": [
+      "gelth",
+      "gwyneth"
+    ],
+    "medium": "in-person",
+    "evidence": "Gwyneth acts as their medium."
+  },
+  {
+    "episodeId": "s01e04",
+    "participantIds": [
+      "ninth-doctor",
+      "toshiko-sato"
+    ],
+    "medium": "in-person",
+    "evidence": "They investigate the alien at Albion Hospital."
+  },
+  {
+    "episodeId": "s01e04",
+    "participantIds": [
+      "harriet-jones",
+      "indra-ganesh"
+    ],
+    "medium": "in-person",
+    "evidence": "Harriet tries to persuade him to give her access to the acting prime minister."
+  },
+  {
+    "episodeId": "s01e04",
+    "participantIds": [
+      "harriet-jones",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "They discover the body in Downing Street together."
+  },
+  {
+    "episodeId": "s01e05",
+    "participantIds": [
+      "mickey-smith",
+      "sip-fel-fotch-passameer-day-slitheen"
+    ],
+    "medium": "in-person",
+    "evidence": "Mickey uses vinegar against the Slitheen attacking the flat."
+  },
+  {
+    "episodeId": "s01e05",
+    "participantIds": [
+      "harriet-jones",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "They work together in the sealed Cabinet Room."
+  },
+  {
+    "episodeId": "s01e06",
+    "participantIds": [
+      "metaltron",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "They recognise each other in the Vault."
+  },
+  {
+    "episodeId": "s01e06",
+    "participantIds": [
+      "metaltron",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "Rose touches its casing, allowing it to repair itself."
+  },
+  {
+    "episodeId": "s01e06",
+    "participantIds": [
+      "metaltron",
+      "simmons"
+    ],
+    "medium": "in-person",
+    "evidence": "Simmons tortures the captive and is attacked after it breaks free."
+  },
+  {
+    "episodeId": "s01e06",
+    "participantIds": [
+      "de-maggio",
+      "metaltron"
+    ],
+    "medium": "in-person",
+    "evidence": "She stays behind as Rose and Adam escape up the stairs."
+  },
+  {
+    "episodeId": "s01e06",
+    "participantIds": [
+      "henry-van-statten",
+      "metaltron"
+    ],
+    "medium": "in-person",
+    "evidence": "The Dalek confronts its former captor before Rose intervenes."
+  },
+  {
+    "episodeId": "s01e06",
+    "participantIds": [
+      "adam-mitchell",
+      "metaltron"
+    ],
+    "medium": "in-person",
+    "evidence": "The Dalek pursues Adam, Rose and De Maggio up the stairs."
+  },
+  {
+    "episodeId": "s01e06",
+    "participantIds": [
+      "bywater",
+      "metaltron"
+    ],
+    "medium": "in-person",
+    "evidence": "The Dalek pursues him through the Vault."
+  },
+  {
+    "episodeId": "s01e07",
+    "participantIds": [
+      "adam-mitchell",
+      "satellite-five-nurse"
+    ],
+    "medium": "in-person",
+    "evidence": "The nurse arranges his brain-interface implant."
+  },
+  {
+    "episodeId": "s01e07",
+    "participantIds": [
+      "eva-saint-julienne",
+      "the-editor"
+    ],
+    "medium": "in-person",
+    "evidence": "He exposes her cover identity on Floor 500."
+  },
+  {
+    "episodeId": "s01e07",
+    "participantIds": [
+      "cathica-santini-khadeni",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "He questions Cathica about life on the station."
+  },
+  {
+    "episodeId": "s01e08",
+    "participantIds": [
+      "pete-tyler",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "Rose saves Pete from the car and spends the day with him."
+  },
+  {
+    "episodeId": "s01e08",
+    "participantIds": [
+      "ninth-doctor",
+      "reaper"
+    ],
+    "medium": "in-person",
+    "evidence": "A Reaper consumes him inside the church."
+  },
+  {
+    "episodeId": "s01e09",
+    "participantIds": [
+      "captain-jack-harkness",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "Jack catches Rose after she loses her grip on the barrage balloon."
+  },
+  {
+    "episodeId": "s01e09",
+    "participantIds": [
+      "dr-constantine",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "They talk in the hospital before Constantine transforms."
+  },
+  {
+    "episodeId": "s01e09",
+    "participantIds": [
+      "nancy",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "He joins the children at dinner and speaks with Nancy."
+  },
+  {
+    "episodeId": "s01e10",
+    "participantIds": [
+      "jamie",
+      "nancy"
+    ],
+    "medium": "in-person",
+    "evidence": "Nancy acknowledges Jamie as her son and embraces him."
+  },
+  {
+    "episodeId": "s01e10",
+    "participantIds": [
+      "jenkins",
+      "nancy"
+    ],
+    "medium": "in-person",
+    "evidence": "Nancy speaks to the soldier while held prisoner."
+  },
+  {
+    "episodeId": "s01e10",
+    "participantIds": [
+      "dr-constantine",
+      "mrs-harcourt"
+    ],
+    "medium": "in-person",
+    "evidence": "They discuss her restored leg outside the hospital."
+  },
+  {
+    "episodeId": "s01e11",
+    "participantIds": [
+      "blon-fel-fotch-passameer-day-slitheen",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "They discuss her impending execution over dinner."
+  },
+  {
+    "episodeId": "s01e11",
+    "participantIds": [
+      "blon-fel-fotch-passameer-day-slitheen",
+      "cathy-salt"
+    ],
+    "medium": "in-person",
+    "evidence": "Cathy questions the mayor about the power station."
+  },
+  {
+    "episodeId": "s01e11",
+    "participantIds": [
+      "blon-fel-fotch-passameer-day-slitheen",
+      "mr-cleaver"
+    ],
+    "medium": "in-person",
+    "evidence": "Cleaver presents his safety concerns to the mayor."
+  },
+  {
+    "episodeId": "s01e12",
+    "participantIds": [
+      "lynda-moss",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "Lynda explains the rules of the Big Brother house."
+  },
+  {
+    "episodeId": "s01e12",
+    "participantIds": [
+      "anne-droid",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "Rose answers questions on The Weakest Link."
+  },
+  {
+    "episodeId": "s01e12",
+    "participantIds": [
+      "captain-jack-harkness",
+      "davitch-pavale"
+    ],
+    "medium": "in-person",
+    "evidence": "They introduce themselves on Floor 500."
+  },
+  {
+    "episodeId": "s01e12",
+    "participantIds": [
+      "captain-jack-harkness",
+      "trine-e"
+    ],
+    "medium": "in-person",
+    "evidence": "The makeover android examines Jack."
+  },
+  {
+    "episodeId": "s01e12",
+    "participantIds": [
+      "captain-jack-harkness",
+      "zu-zana"
+    ],
+    "medium": "in-person",
+    "evidence": "The makeover android examines Jack."
+  },
+  {
+    "episodeId": "s01e12",
+    "participantIds": [
+      "dalek",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "A Dalek addresses Rose after she materialises on the ship."
+  },
+  {
+    "episodeId": "s01e13",
+    "participantIds": [
+      "dalek-emperor",
+      "ninth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "The Doctor addresses the Emperor aboard the flagship."
+  },
+  {
+    "episodeId": "s01e13",
+    "participantIds": [
+      "dalek-emperor",
+      "rose-tyler"
+    ],
+    "medium": "in-person",
+    "evidence": "Harnessing the time vortex, Rose confronts and destroys the Emperor."
+  },
+  {
+    "episodeId": "s01e13",
+    "participantIds": [
+      "dalek",
+      "lynda-moss"
+    ],
+    "medium": "in-person",
+    "evidence": "Daleks outside the station blast the observation window."
+  },
+  {
+    "episodeId": "s01e13",
+    "participantIds": [
+      "anne-droid",
+      "dalek"
+    ],
+    "medium": "in-person",
+    "evidence": "The game-show android fires on the invading Daleks."
+  },
+  {
+    "episodeId": "s01e13",
+    "participantIds": [
+      "captain-jack-harkness",
+      "dalek"
+    ],
+    "medium": "in-person",
+    "evidence": "Jack stands his ground and is exterminated."
+  },
+  {
+    "episodeId": "s01e13",
+    "participantIds": [
+      "rose-tyler",
+      "tenth-doctor"
+    ],
+    "medium": "in-person",
+    "evidence": "The newly regenerated Doctor speaks to Rose in the TARDIS."
+  },
+  {
+    "episodeId": "s01e02",
+    "participantIds": [
+      "jackie-tyler",
+      "rose-tyler"
+    ],
+    "medium": "live-audio",
+    "evidence": "Rose phones her mother from Platform One."
+  },
+  {
+    "episodeId": "s01e12",
+    "participantIds": [
+      "dalek",
+      "ninth-doctor"
+    ],
+    "medium": "live-video",
+    "evidence": "The Doctor addresses the Daleks across the video link and promises to rescue Rose."
+  }
+]

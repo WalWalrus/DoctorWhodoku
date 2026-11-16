@@ -1,0 +1,104 @@
+[
+  {
+    "characterId": "ninth-doctor",
+    "episodeId": "s01e01",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Escapes the underground chamber aboard the TARDIS."
+  },
+  {
+    "characterId": "rose-tyler",
+    "episodeId": "s01e01",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Escapes the underground chamber aboard the TARDIS."
+  },
+  {
+    "characterId": "mickey-smith",
+    "episodeId": "s01e01",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Escapes the underground chamber aboard the TARDIS."
+  },
+  {
+    "characterId": "ninth-doctor",
+    "episodeId": "s01e07",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Travels between Satellite Five and Adam’s time with the TARDIS party."
+  },
+  {
+    "characterId": "rose-tyler",
+    "episodeId": "s01e07",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Travels between Satellite Five and Adam’s time with the TARDIS party."
+  },
+  {
+    "characterId": "adam-mitchell",
+    "episodeId": "s01e07",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Travels between Satellite Five and Adam’s time with the TARDIS party."
+  },
+  {
+    "characterId": "ninth-doctor",
+    "episodeId": "s01e10",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Together in the TARDIS after Jack is rescued from the bomb."
+  },
+  {
+    "characterId": "rose-tyler",
+    "episodeId": "s01e10",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Together in the TARDIS after Jack is rescued from the bomb."
+  },
+  {
+    "characterId": "captain-jack-harkness",
+    "episodeId": "s01e10",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Together in the TARDIS after Jack is rescued from the bomb."
+  },
+  {
+    "characterId": "ninth-doctor",
+    "episodeId": "s01e11",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Present inside the TARDIS during the Cardiff visit."
+  },
+  {
+    "characterId": "rose-tyler",
+    "episodeId": "s01e11",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Present inside the TARDIS during the Cardiff visit."
+  },
+  {
+    "characterId": "captain-jack-harkness",
+    "episodeId": "s01e11",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Present inside the TARDIS during the Cardiff visit."
+  },
+  {
+    "characterId": "mickey-smith",
+    "episodeId": "s01e11",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Brings Rose her passport in the console room."
+  },
+  {
+    "characterId": "blon-fel-fotch-passameer-day-slitheen",
+    "episodeId": "s01e11",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Present inside the TARDIS during the Cardiff visit."
+  },
+  {
+    "characterId": "ninth-doctor",
+    "episodeId": "s01e13",
+    "predicate": "regenerated-on-screen",
+    "evidence": "Changes into his tenth incarnation in front of Rose."
+  },
+  {
+    "characterId": "rose-tyler",
+    "episodeId": "s01e13",
+    "predicate": "witnessed-regeneration",
+    "evidence": "Watches the Ninth Doctor become the Tenth Doctor."
+  },
+  {
+    "characterId": "tenth-doctor",
+    "episodeId": "s01e13",
+    "predicate": "inside-doctors-tardis",
+    "evidence": "Appears in the console room after the regeneration."
+  }
+]

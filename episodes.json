@@ -1,0 +1,354 @@
+[
+  {
+    "id": "s01e01",
+    "series": 1,
+    "episodeNumber": 1,
+    "broadcastOrder": 1,
+    "title": "Rose",
+    "ukAirDate": "2005-03-26",
+    "storyId": "rose",
+    "storyPart": 1,
+    "writer": "Russell T Davies",
+    "director": "Keith Boak",
+    "settings": [
+      {
+        "place": "London",
+        "year": 2005,
+        "month": 3
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/rose",
+      "cast": "https://tardis.wiki/wiki/Rose_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/rose/",
+      "transcript": "https://tardis.guide/story/rose/transcript/"
+    }
+  },
+  {
+    "id": "s01e02",
+    "series": 1,
+    "episodeNumber": 2,
+    "broadcastOrder": 2,
+    "title": "The End of the World",
+    "ukAirDate": "2005-04-02",
+    "storyId": "the-end-of-the-world",
+    "storyPart": 1,
+    "writer": "Russell T Davies",
+    "director": "Euros Lyn",
+    "settings": [
+      {
+        "place": "Platform One, Earth orbit",
+        "year": 5000000000
+      },
+      {
+        "place": "London",
+        "year": 2005
+      },
+      {
+        "place": "TARDIS",
+        "year": 12005
+      },
+      {
+        "place": "TARDIS",
+        "note": "Earlier stop approximately one century after departure."
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/the-end-of-the-world",
+      "cast": "https://tardis.wiki/wiki/The_End_of_the_World_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/the-end-of-the-world/",
+      "transcript": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+    }
+  },
+  {
+    "id": "s01e03",
+    "series": 1,
+    "episodeNumber": 3,
+    "broadcastOrder": 3,
+    "title": "The Unquiet Dead",
+    "ukAirDate": "2005-04-09",
+    "storyId": "the-unquiet-dead",
+    "storyPart": 1,
+    "writer": "Mark Gatiss",
+    "director": "Euros Lyn",
+    "settings": [
+      {
+        "place": "Cardiff",
+        "year": 1869,
+        "month": 12,
+        "day": 24
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/the-unquiet-dead",
+      "cast": "https://tardis.wiki/wiki/The_Unquiet_Dead_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/the-unquiet-dead/",
+      "transcript": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+    }
+  },
+  {
+    "id": "s01e04",
+    "series": 1,
+    "episodeNumber": 4,
+    "broadcastOrder": 4,
+    "title": "Aliens of London",
+    "ukAirDate": "2005-04-16",
+    "storyId": "aliens-of-london",
+    "storyPart": 1,
+    "writer": "Russell T Davies",
+    "director": "Keith Boak",
+    "settings": [
+      {
+        "place": "London",
+        "year": 2006,
+        "month": 3
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/aliens-of-london",
+      "cast": "https://tardis.wiki/wiki/Aliens_of_London_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/aliens-of-london/",
+      "transcript": "https://tardis.guide/story/aliens-of-london/transcript/"
+    }
+  },
+  {
+    "id": "s01e05",
+    "series": 1,
+    "episodeNumber": 5,
+    "broadcastOrder": 5,
+    "title": "World War Three",
+    "ukAirDate": "2005-04-23",
+    "storyId": "aliens-of-london",
+    "storyPart": 2,
+    "writer": "Russell T Davies",
+    "director": "Keith Boak",
+    "settings": [
+      {
+        "place": "London",
+        "year": 2006,
+        "month": 3
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/world-war-three",
+      "cast": "https://tardis.wiki/wiki/World_War_Three_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/world-war-three/",
+      "transcript": "https://tardis.guide/story/world-war-three/transcript/"
+    }
+  },
+  {
+    "id": "s01e06",
+    "series": 1,
+    "episodeNumber": 6,
+    "broadcastOrder": 6,
+    "title": "Dalek",
+    "ukAirDate": "2005-04-30",
+    "storyId": "dalek",
+    "storyPart": 1,
+    "writer": "Robert Shearman",
+    "director": "Joe Ahearne",
+    "settings": [
+      {
+        "place": "The Vault, Utah",
+        "year": 2012
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/dalek",
+      "cast": "https://tardis.wiki/wiki/Dalek_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/dalek/",
+      "transcript": "https://tardis.guide/story/dalek/transcript/"
+    }
+  },
+  {
+    "id": "s01e07",
+    "series": 1,
+    "episodeNumber": 7,
+    "broadcastOrder": 7,
+    "title": "The Long Game",
+    "ukAirDate": "2005-05-07",
+    "storyId": "the-long-game",
+    "storyPart": 1,
+    "writer": "Russell T Davies",
+    "director": "Brian Grant",
+    "settings": [
+      {
+        "place": "Satellite Five, Earth orbit",
+        "year": 200000
+      },
+      {
+        "place": "Adam’s home",
+        "note": "Contemporary Earth relative to Adam."
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/the-long-game",
+      "cast": "https://tardis.wiki/wiki/The_Long_Game_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/the-long-game/",
+      "transcript": "https://tardis.guide/story/the-long-game/transcript/"
+    }
+  },
+  {
+    "id": "s01e08",
+    "series": 1,
+    "episodeNumber": 8,
+    "broadcastOrder": 8,
+    "title": "Father's Day",
+    "ukAirDate": "2005-05-14",
+    "storyId": "fathers-day",
+    "storyPart": 1,
+    "writer": "Paul Cornell",
+    "director": "Joe Ahearne",
+    "settings": [
+      {
+        "place": "London",
+        "year": 1987,
+        "month": 11,
+        "day": 7
+      },
+      {
+        "place": "London registry office",
+        "note": "Jackie and Pete’s earlier wedding."
+      },
+      {
+        "place": "Tyler home",
+        "note": "Childhood memory of Rose with Jackie."
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/fathers-day",
+      "cast": "https://tardis.wiki/wiki/Father's_Day_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/fathers-day/",
+      "transcript": "https://tardis.guide/story/fathers-day/transcript/"
+    }
+  },
+  {
+    "id": "s01e09",
+    "series": 1,
+    "episodeNumber": 9,
+    "broadcastOrder": 9,
+    "title": "The Empty Child",
+    "ukAirDate": "2005-05-21",
+    "storyId": "the-empty-child",
+    "storyPart": 1,
+    "writer": "Steven Moffat",
+    "director": "James Hawes",
+    "settings": [
+      {
+        "place": "London",
+        "year": 1941
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/the-empty-child",
+      "cast": "https://tardis.wiki/wiki/The_Empty_Child_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/the-empty-child/",
+      "transcript": "https://tardis.guide/story/the-empty-child/transcript/"
+    }
+  },
+  {
+    "id": "s01e10",
+    "series": 1,
+    "episodeNumber": 10,
+    "broadcastOrder": 10,
+    "title": "The Doctor Dances",
+    "ukAirDate": "2005-05-28",
+    "storyId": "the-empty-child",
+    "storyPart": 2,
+    "writer": "Steven Moffat",
+    "director": "James Hawes",
+    "settings": [
+      {
+        "place": "London",
+        "year": 1941
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/the-doctor-dances",
+      "cast": "https://tardis.wiki/wiki/The_Doctor_Dances_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/the-doctor-dances/",
+      "transcript": "https://tardis.guide/story/the-doctor-dances/transcript/"
+    }
+  },
+  {
+    "id": "s01e11",
+    "series": 1,
+    "episodeNumber": 11,
+    "broadcastOrder": 11,
+    "title": "Boom Town",
+    "ukAirDate": "2005-06-04",
+    "storyId": "boom-town",
+    "storyPart": 1,
+    "writer": "Russell T Davies",
+    "director": "Joe Ahearne",
+    "settings": [
+      {
+        "place": "Cardiff",
+        "year": 2006,
+        "month": 9
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/boom-town",
+      "cast": "https://tardis.wiki/wiki/Boom_Town_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/boom-town/",
+      "transcript": "https://tardis.guide/story/boom-town/transcript/"
+    }
+  },
+  {
+    "id": "s01e12",
+    "series": 1,
+    "episodeNumber": 12,
+    "broadcastOrder": 12,
+    "title": "Bad Wolf",
+    "ukAirDate": "2005-06-11",
+    "storyId": "bad-wolf",
+    "storyPart": 1,
+    "writer": "Russell T Davies",
+    "director": "Joe Ahearne",
+    "settings": [
+      {
+        "place": "Game Station, Earth orbit",
+        "year": 200100
+      },
+      {
+        "place": "Dalek fleet near Earth",
+        "year": 200100
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/bad-wolf",
+      "cast": "https://tardis.wiki/wiki/Bad_Wolf_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/bad-wolf/",
+      "transcript": "https://tardis.guide/story/bad-wolf/transcript/"
+    }
+  },
+  {
+    "id": "s01e13",
+    "series": 1,
+    "episodeNumber": 13,
+    "broadcastOrder": 13,
+    "title": "The Parting of the Ways",
+    "ukAirDate": "2005-06-18",
+    "storyId": "bad-wolf",
+    "storyPart": 2,
+    "writer": "Russell T Davies",
+    "director": "Joe Ahearne",
+    "settings": [
+      {
+        "place": "Game Station and Dalek fleet, Earth orbit",
+        "year": 200100
+      },
+      {
+        "place": "London",
+        "year": 2006
+      }
+    ],
+    "sources": {
+      "official": "https://www.doctorwho.tv/stories/the-parting-of-the-ways",
+      "cast": "https://tardis.wiki/wiki/The_Parting_of_the_Ways_(TV_story)",
+      "episodeGuide": "https://tardis.guide/story/the-parting-of-the-ways/",
+      "transcript": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+    }
+  }
+]

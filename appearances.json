@@ -1,0 +1,1675 @@
+[
+  {
+    "episodeId": "s01e01",
+    "characterId": "auton",
+    "mode": "in-person",
+    "performers": [
+      "Alan Ruscoe",
+      "Paul Kasey",
+      "David Sant",
+      "Elizabeth Fost",
+      "Helen Otway"
+    ]
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "auton-mickey",
+    "mode": "in-person",
+    "performers": [
+      "Noel Clarke"
+    ],
+    "note": "Auton duplicate impersonating Mickey at the restaurant."
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "caroline-finch",
+    "mode": "in-person",
+    "performers": [
+      "Elli Garnett"
+    ]
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "clive-finch",
+    "mode": "in-person",
+    "performers": [
+      "Mark Benton"
+    ]
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "clive-s-son",
+    "mode": "in-person",
+    "performers": [
+      "Adam McCoy"
+    ]
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "daniels-family",
+    "mode": "still-image",
+    "performers": [],
+    "note": "Clive shows Rose the family photograph taken before the Titanic sailed."
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "jackie-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Camille Coduri"
+    ]
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "mickey-smith",
+    "mode": "in-person",
+    "performers": [
+      "Noel Clarke"
+    ]
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "nestene-consciousness",
+    "mode": "in-person",
+    "performers": [
+      "Nicholas Briggs"
+    ]
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e01",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "adherents-of-the-repeated-meme",
+    "mode": "in-person",
+    "performers": [
+      "Michael Humphries",
+      "Paul Newbolt",
+      "Saul Murphy",
+      "Dean Cummins",
+      "Jason Jones"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "ambassadors-from-the-city-state-of-binding-light",
+    "mode": "in-person",
+    "performers": [
+      "Toby Hunt",
+      "Jamie Jones"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "brothers-hop-pyleen",
+    "mode": "in-person",
+    "performers": [
+      "Giles Hibberd",
+      "Josh Kingston"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "cal-macnannovich",
+    "mode": "in-person",
+    "performers": [
+      "Ioan Mansaray"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "coffa",
+    "mode": "in-person",
+    "performers": [
+      "Paul Kasey"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "face-of-boe",
+    "mode": "in-person",
+    "performers": [],
+    "note": "Guest aboard Platform One."
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "jabe",
+    "mode": "in-person",
+    "performers": [
+      "Yasmin Bannerman"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "jackie-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Camille Coduri"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "lady-cassandra",
+    "mode": "in-person",
+    "performers": [
+      "Zoë Wanamaker"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "lute",
+    "mode": "in-person",
+    "performers": [
+      "Alan Ruscoe"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "moxx-of-balhoon",
+    "mode": "in-person",
+    "performers": [
+      "Jimmy Vee"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "mr-pakoo",
+    "mode": "in-person",
+    "performers": [
+      "Matthew Hill"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "mrs-pakoo",
+    "mode": "in-person",
+    "performers": [
+      "Trey Tyler"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "noxwen-van-coofen",
+    "mode": "in-person",
+    "performers": [
+      "Alex Yell"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "platform-one-computer",
+    "mode": "voice",
+    "performers": [
+      "Sara Stewart"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "platform-one-steward",
+    "mode": "in-person",
+    "performers": [
+      "Simon Day"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "raffalo",
+    "mode": "in-person",
+    "performers": [
+      "Beccy Armory"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "robot-spider",
+    "mode": "in-person",
+    "performers": [],
+    "note": "Cassandra’s sabotage devices attack staff and disable safety systems."
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e02",
+    "characterId": "scholars-of-the-university-of-rago-rago-56-rago",
+    "mode": "in-person",
+    "performers": [
+      "Greg Mothersdale",
+      "Keith Newell",
+      "Matthew Gilbert",
+      "Adam Moore"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "cardiff-carriage-driver",
+    "mode": "in-person",
+    "performers": [
+      "Meic Povey"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "charles-dickens",
+    "mode": "in-person",
+    "performers": [
+      "Simon Callow"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "gabriel-sneed",
+    "mode": "in-person",
+    "performers": [
+      "Alan David"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "gelth",
+    "mode": "in-person",
+    "performers": [
+      "Zoe Thorne"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "gwyneth",
+    "mode": "in-person",
+    "performers": [
+      "Eve Myles"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "lyceum-stage-manager",
+    "mode": "in-person",
+    "performers": [
+      "Wayne Cater"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "mrs-peace",
+    "mode": "in-person",
+    "performers": [
+      "Jennifer Hill"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "redpath",
+    "mode": "in-person",
+    "performers": [
+      "Huw Rhys"
+    ]
+  },
+  {
+    "episodeId": "s01e03",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "andrew-marr",
+    "mode": "broadcast",
+    "performers": [
+      "Andrew Marr"
+    ],
+    "note": "Appears as himself reporting on the emergency."
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "asquith-slitheen",
+    "mode": "in-person",
+    "performers": [
+      "Eric Potts",
+      "Rupert Vansittart"
+    ],
+    "note": "Wears Oliver Charles and subsequently General Asquith."
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "bau",
+    "mode": "in-person",
+    "performers": [
+      "Basil Chung"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "blon-fel-fotch-passameer-day-slitheen",
+    "mode": "in-person",
+    "performers": [
+      "Annette Badland"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "downing-street-academic",
+    "mode": "in-person",
+    "performers": [
+      "Claudia Blondeau"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "general-asquith",
+    "mode": "in-person",
+    "performers": [
+      "Rupert Vansittart"
+    ],
+    "note": "The human general appears before the Slitheen takes his skin."
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "harriet-jones",
+    "mode": "in-person",
+    "performers": [
+      "Penelope Wilton"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "indra-ganesh",
+    "mode": "in-person",
+    "performers": [
+      "Navin Chowdhry"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "jackie-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Camille Coduri"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "jocrassa-fel-fotch-passameer-day-slitheen",
+    "mode": "in-person",
+    "performers": [
+      "David Verrey"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "matt-baker",
+    "mode": "broadcast",
+    "performers": [
+      "Matt Baker"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "mickey-smith",
+    "mode": "in-person",
+    "performers": [
+      "Noel Clarke"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "missing-british-prime-minister",
+    "mode": "remains",
+    "performers": [
+      "Roderick Mair"
+    ],
+    "note": "The dead prime minister is shown. The television story does not name him."
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "oliver-charles",
+    "mode": "remains",
+    "performers": [
+      "Ian Kay"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "powell-estate-graffiti-artist",
+    "mode": "in-person",
+    "performers": [
+      "Corey Doabe"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "powell-estate-policeman",
+    "mode": "in-person",
+    "performers": [
+      "Ceris Jones"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "ru",
+    "mode": "in-person",
+    "performers": [
+      "Fiesta Mei Ling"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "sip-fel-fotch-passameer-day-slitheen",
+    "mode": "in-person",
+    "performers": [
+      "Steve Speirs"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "slitheen",
+    "mode": "in-person",
+    "performers": [
+      "Elizabeth Fost",
+      "Paul Kasey",
+      "Alan Ruscoe"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "space-pig",
+    "mode": "in-person",
+    "performers": [
+      "Jimmy Vee"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "tom-hitchinson",
+    "mode": "broadcast",
+    "performers": [
+      "Jack Tarlton"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "toshiko-sato",
+    "mode": "in-person",
+    "performers": [
+      "Naoko Mori"
+    ]
+  },
+  {
+    "episodeId": "s01e04",
+    "characterId": "trinity-wells",
+    "mode": "broadcast",
+    "performers": [
+      "Lachele Carl"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "andrew-marr",
+    "mode": "broadcast",
+    "performers": [
+      "Andrew Marr"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "asquith-slitheen",
+    "mode": "in-person",
+    "performers": [
+      "Rupert Vansittart"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "blon-fel-fotch-passameer-day-slitheen",
+    "mode": "in-person",
+    "performers": [
+      "Annette Badland"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "ewan-mcallister-slitheen",
+    "mode": "in-person",
+    "performers": [],
+    "note": "Arrives disguised as the Scottish Parliament official."
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "harriet-jones",
+    "mode": "in-person",
+    "performers": [
+      "Penelope Wilton"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "indra-ganesh",
+    "mode": "remains",
+    "performers": [],
+    "note": "The Doctor moves his body."
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "jackie-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Camille Coduri"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "jocrassa-fel-fotch-passameer-day-slitheen",
+    "mode": "in-person",
+    "performers": [
+      "David Verrey"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "mickey-smith",
+    "mode": "in-person",
+    "performers": [
+      "Noel Clarke"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "missing-british-prime-minister",
+    "mode": "remains",
+    "performers": [
+      "Roderick Mair"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "oliver-charles",
+    "mode": "remains",
+    "performers": [
+      "Ian Kay"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "powell-estate-graffiti-artist",
+    "mode": "in-person",
+    "performers": [
+      "Corey Doabe"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "sergeant-price",
+    "mode": "in-person",
+    "performers": [
+      "Morgan Hopkins"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "sip-fel-fotch-passameer-day-slitheen",
+    "mode": "in-person",
+    "performers": [
+      "Steve Spiers"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "slitheen",
+    "mode": "in-person",
+    "performers": [
+      "Elizabeth Fost",
+      "Paul Kasey",
+      "Alan Ruscoe"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "sylvia-dillane-slitheen",
+    "mode": "in-person",
+    "performers": [],
+    "note": "Arrives disguised as the boating club chair."
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "tennant-james-slitheen",
+    "mode": "in-person",
+    "performers": [],
+    "note": "Arrives at Downing Street disguised as the RAF group captain."
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "tom-hitchinson",
+    "mode": "broadcast",
+    "performers": [
+      "Jack Tarlton"
+    ]
+  },
+  {
+    "episodeId": "s01e05",
+    "characterId": "trinity-wells",
+    "mode": "broadcast",
+    "performers": [
+      "Lachele Carl"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "adam-mitchell",
+    "mode": "in-person",
+    "performers": [
+      "Bruno Langley"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "bywater",
+    "mode": "in-person",
+    "performers": [
+      "John Schwab"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "cyberman",
+    "mode": "remains",
+    "performers": [],
+    "note": "A detached Cyberman head is displayed in the collection."
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "de-maggio",
+    "mode": "in-person",
+    "performers": [
+      "Jana Carpenter"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "diana-goddard",
+    "mode": "in-person",
+    "performers": [
+      "Anna-Louise Plowman"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "henry-van-statten",
+    "mode": "in-person",
+    "performers": [
+      "Corey Johnson"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "metaltron",
+    "mode": "in-person",
+    "performers": [
+      "Barnaby Edwards",
+      "Nicholas Briggs"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "polkowski",
+    "mode": "in-person",
+    "performers": [
+      "Steven Beckingham"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "simmons",
+    "mode": "in-person",
+    "performers": [
+      "Nigel Whitmey"
+    ]
+  },
+  {
+    "episodeId": "s01e06",
+    "characterId": "vault-commander",
+    "mode": "in-person",
+    "performers": [
+      "Joe Montana"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "adam-mitchell",
+    "mode": "in-person",
+    "performers": [
+      "Bruno Langley"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "cathica-santini-khadeni",
+    "mode": "in-person",
+    "performers": [
+      "Christine Adams"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "eva-saint-julienne",
+    "mode": "in-person",
+    "performers": [
+      "Anna Maxwell-Martin"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "face-of-boe",
+    "mode": "broadcast",
+    "performers": [],
+    "note": "Seen on the Bad Wolf channel."
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "sandra-mitchell",
+    "mode": "in-person",
+    "performers": [
+      "Judy Holt"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "satellite-five-head-chef",
+    "mode": "in-person",
+    "performers": [
+      "Colin Prockter"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "satellite-five-nurse",
+    "mode": "in-person",
+    "performers": [
+      "Tamsin Greig"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "the-editor",
+    "mode": "in-person",
+    "performers": [
+      "Simon Pegg"
+    ]
+  },
+  {
+    "episodeId": "s01e07",
+    "characterId": "the-mighty-jagrafess",
+    "mode": "in-person",
+    "performers": [],
+    "note": "The creature above the Editor on Floor 500."
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "alexander-graham-bell",
+    "mode": "voice",
+    "performers": [],
+    "note": "His first telephone call bleeds through time."
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "bev",
+    "mode": "in-person",
+    "performers": [
+      "Eirlys Bellin"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "jackie-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Camille Coduri"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "matt",
+    "mode": "in-person",
+    "performers": [
+      "Crispin Layfield"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "mickey-smith",
+    "mode": "in-person",
+    "performers": [
+      "Casey Dyer"
+    ],
+    "note": "Child incarnation of Mickey, portrayed here by Casey Dyer."
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "mickey-smith-s-mother",
+    "mode": "in-person",
+    "performers": [
+      "Monique Ennis"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "pete-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Shaun Dingwall"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "reaper",
+    "mode": "in-person",
+    "performers": [],
+    "note": "Creatures consume people inside the disrupted timeline."
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper",
+      "Julia Joyce",
+      "Abigail Nichols",
+      "Charlotte Nichols"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "sarah-clark",
+    "mode": "in-person",
+    "performers": [
+      "Natalie Jones"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "sonny-hoskins",
+    "mode": "in-person",
+    "performers": [
+      "Frank Rozelaar-Green"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "st-christopher-s-vicar",
+    "mode": "in-person",
+    "performers": [
+      "Lee Griffiths"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "stuart-hoskins",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Llewellyn"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "suzie",
+    "mode": "in-person",
+    "performers": [
+      "Rhian James"
+    ]
+  },
+  {
+    "episodeId": "s01e08",
+    "characterId": "tyler-wedding-registrar",
+    "mode": "in-person",
+    "performers": [
+      "Robert Barton"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "alf",
+    "mode": "in-person",
+    "performers": [
+      "Brandon Miller"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "algy",
+    "mode": "in-person",
+    "performers": [
+      "Robert Hands"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "arthur-lloyd",
+    "mode": "in-person",
+    "performers": [
+      "Damian Samuels"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "captain-jack-harkness",
+    "mode": "in-person",
+    "performers": [
+      "John Barrowman"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "chula-ship-computer",
+    "mode": "voice",
+    "performers": [
+      "Dian Perry"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "dr-constantine",
+    "mode": "in-person",
+    "performers": [
+      "Richard Wilson"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "ernie",
+    "mode": "in-person",
+    "performers": [
+      "Jordan Murphy"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "gas-mask-patient",
+    "mode": "in-person",
+    "performers": [],
+    "note": "Transformed patients in Albion Hospital."
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "jamie",
+    "mode": "in-person",
+    "performers": [
+      "Albert Valentine",
+      "Noah Johnson"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "jim",
+    "mode": "in-person",
+    "performers": [
+      "Joseph Tremain"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "london-nightclub-singer",
+    "mode": "in-person",
+    "performers": [
+      "Kate Harvey"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "mrs-lloyd",
+    "mode": "in-person",
+    "performers": [
+      "Cheryl Fergison"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "nancy",
+    "mode": "in-person",
+    "performers": [
+      "Florence Hoath"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "nanogene",
+    "mode": "in-person",
+    "performers": [],
+    "note": "Jack uses the medical particles aboard his ship."
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e09",
+    "characterId": "timothy-lloyd",
+    "mode": "in-person",
+    "performers": [
+      "Luke Perry"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "algy",
+    "mode": "in-person",
+    "performers": [
+      "Robert Hands"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "arthur-lloyd",
+    "mode": "in-person",
+    "performers": [
+      "Damian Samuels"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "captain-jack-harkness",
+    "mode": "in-person",
+    "performers": [
+      "John Barrowman"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "chula-ship-computer",
+    "mode": "voice",
+    "performers": [
+      "Dian Perry"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "dr-constantine",
+    "mode": "in-person",
+    "performers": [
+      "Richard Wilson"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "ernie",
+    "mode": "in-person",
+    "performers": [
+      "Jordan Murphy"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "gas-mask-patient",
+    "mode": "in-person",
+    "performers": [],
+    "note": "The transformed patients follow the child."
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "jamie",
+    "mode": "in-person",
+    "performers": [
+      "Albert Valentine",
+      "Noah Johnson"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "jenkins",
+    "mode": "in-person",
+    "performers": [
+      "Martin Hodgson"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "jim",
+    "mode": "in-person",
+    "performers": [
+      "Joseph Tremain"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "mrs-harcourt",
+    "mode": "in-person",
+    "performers": [
+      "Vilma Hollingbery"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "mrs-lloyd",
+    "mode": "in-person",
+    "performers": [
+      "Cheryl Fergison"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "nancy",
+    "mode": "in-person",
+    "performers": [
+      "Florence Hoath"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "nanogene",
+    "mode": "in-person",
+    "performers": [],
+    "note": "The ambulance particles use Nancy to repair Jamie."
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e10",
+    "characterId": "timothy-lloyd",
+    "mode": "in-person",
+    "performers": [
+      "Luke Perry"
+    ]
+  },
+  {
+    "episodeId": "s01e11",
+    "characterId": "blon-fel-fotch-passameer-day-slitheen",
+    "mode": "in-person",
+    "performers": [
+      "Annette Badland",
+      "Alan Ruscoe"
+    ]
+  },
+  {
+    "episodeId": "s01e11",
+    "characterId": "captain-jack-harkness",
+    "mode": "in-person",
+    "performers": [
+      "John Barrowman"
+    ]
+  },
+  {
+    "episodeId": "s01e11",
+    "characterId": "cathy-salt",
+    "mode": "in-person",
+    "performers": [
+      "Mali Harries"
+    ]
+  },
+  {
+    "episodeId": "s01e11",
+    "characterId": "idris-hopper",
+    "mode": "in-person",
+    "performers": [
+      "Aled Pedrick"
+    ]
+  },
+  {
+    "episodeId": "s01e11",
+    "characterId": "mickey-smith",
+    "mode": "in-person",
+    "performers": [
+      "Noel Clarke"
+    ]
+  },
+  {
+    "episodeId": "s01e11",
+    "characterId": "mr-cleaver",
+    "mode": "in-person",
+    "performers": [
+      "William Thomas"
+    ]
+  },
+  {
+    "episodeId": "s01e11",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e11",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "agorax",
+    "mode": "in-person",
+    "performers": [
+      "Dominic Burgess"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "anne-droid",
+    "mode": "in-person",
+    "performers": [
+      "Anne Robinson"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "broff",
+    "mode": "in-person",
+    "performers": [
+      "Sebastian Armesto"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "captain-jack-harkness",
+    "mode": "in-person",
+    "performers": [
+      "John Barrowman"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "colleen",
+    "mode": "in-person",
+    "performers": [
+      "Kate Loustau"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "crosbie",
+    "mode": "in-person",
+    "performers": [
+      "Abi Eniola"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "dalek",
+    "mode": "in-person",
+    "performers": [
+      "Barnaby Edwards",
+      "Nicholas Pegg",
+      "David Hankinson",
+      "Nicholas Briggs"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "davinadroid",
+    "mode": "voice",
+    "performers": [
+      "Davina McCall"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "davitch-pavale",
+    "mode": "in-person",
+    "performers": [
+      "Jo Stone Fewings"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "face-of-boe",
+    "mode": "archive",
+    "performers": [],
+    "note": "The earlier Bad Wolf channel image reappears in the montage."
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "fitch",
+    "mode": "in-person",
+    "performers": [
+      "Karren Winchester"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "game-station-controller",
+    "mode": "in-person",
+    "performers": [
+      "Martha Cope"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "game-station-female-programmer",
+    "mode": "in-person",
+    "performers": [
+      "Nisha Nayar"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "game-station-floor-manager",
+    "mode": "in-person",
+    "performers": [
+      "Jenna Russell"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "game-station-security-guard",
+    "mode": "in-person",
+    "performers": [
+      "Sam Callis"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "gwyneth",
+    "mode": "archive",
+    "performers": [],
+    "note": "Rose remembers her warning about the big bad wolf."
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "lynda-moss",
+    "mode": "in-person",
+    "performers": [
+      "Jo Joyner"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "rodrick",
+    "mode": "in-person",
+    "performers": [
+      "Paterson Joseph"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "strood",
+    "mode": "in-person",
+    "performers": [
+      "Jamie Bradley"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "trine-e",
+    "mode": "in-person",
+    "performers": [
+      "Trinny Woodall"
+    ]
+  },
+  {
+    "episodeId": "s01e12",
+    "characterId": "zu-zana",
+    "mode": "in-person",
+    "performers": [
+      "Susannah Constantine"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "anne-droid",
+    "mode": "in-person",
+    "performers": [
+      "Anne Robinson",
+      "Alan Ruscoe"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "captain-jack-harkness",
+    "mode": "in-person",
+    "performers": [
+      "John Barrowman"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "dalek",
+    "mode": "in-person",
+    "performers": [
+      "Nicholas Briggs",
+      "Barnaby Edwards",
+      "Nicholas Pegg",
+      "David Hankinson"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "dalek-emperor",
+    "mode": "in-person",
+    "performers": [
+      "Nicholas Briggs"
+    ],
+    "note": "The Doctor confronts the survivor aboard the flagship."
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "davitch-pavale",
+    "mode": "in-person",
+    "performers": [
+      "Jo Stone-Fewings"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "game-station-female-programmer",
+    "mode": "in-person",
+    "performers": [
+      "Nisha Nayar"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "game-station-floor-manager",
+    "mode": "in-person",
+    "performers": [
+      "Jenna Russell"
+    ],
+    "note": "Volunteers to defend the station."
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "jackie-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Camille Coduri"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "lynda-moss",
+    "mode": "in-person",
+    "performers": [
+      "Jo Joyner"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "mickey-smith",
+    "mode": "in-person",
+    "performers": [
+      "Noel Clarke"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "ninth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "Christopher Eccleston"
+    ],
+    "note": "Also appears as the emergency-programme hologram."
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "rodrick",
+    "mode": "in-person",
+    "performers": [
+      "Paterson Joseph"
+    ]
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "rose-tyler",
+    "mode": "in-person",
+    "performers": [
+      "Billie Piper"
+    ],
+    "note": "Includes the empowered Bad Wolf state of Rose."
+  },
+  {
+    "episodeId": "s01e13",
+    "characterId": "tenth-doctor",
+    "mode": "in-person",
+    "performers": [
+      "David Tennant"
+    ],
+    "note": "The Ninth Doctor regenerates aboard the TARDIS."
+  }
+]
