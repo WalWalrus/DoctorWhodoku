@@ -6,7 +6,39 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "tardis": {
+        "episodeId": "s01e07",
+        "evidence": "Travels to Satellite Five.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "dalek-encounter": {
+        "episodeId": "s01e06",
+        "evidence": "Directly confronts, communicates with or is pursued by the captive Dalek.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "transformed": {
+        "episodeId": "s01e07",
+        "evidence": "Has a surgically installed head interface.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e06",
+        "evidence": "Escapes the pursuing Dalek through the closing barrier.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e07",
+        "evidence": "A head interface connects them to the station.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "mind": {
+        "episodeId": "s01e07",
+        "evidence": "Uses a head interface to connect with the station.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      }
+    }
   },
   {
     "id": "adherents-of-the-repeated-meme",
@@ -15,7 +47,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "agorax",
@@ -24,7 +57,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "alexander-graham-bell",
@@ -33,7 +67,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "alf",
@@ -42,7 +77,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "algy",
@@ -51,7 +87,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "ambassadors-from-the-city-state-of-binding-light",
@@ -60,7 +97,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "andrew-marr",
@@ -69,7 +107,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "anne-droid",
@@ -80,7 +119,24 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "dalek-encounter": {
+        "episodeId": "s01e13",
+        "evidence": "Directly attacked by Daleks.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e13",
+        "evidence": "Destroys attacking Daleks.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e12",
+        "evidence": "Android body or direct bodily connection to station technology.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      }
+    }
   },
   {
     "id": "arthur-lloyd",
@@ -89,7 +145,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "asquith-slitheen",
@@ -105,7 +162,8 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "auton",
@@ -116,7 +174,19 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "kills": {
+        "episodeId": "s01e01",
+        "evidence": "Participates in the lethal Auton attack.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e01",
+        "evidence": "Artificial plastic bodies animated by the Nestene.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      }
+    }
   },
   {
     "id": "auton-mickey",
@@ -131,7 +201,19 @@
       "auton"
     ],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "deception": {
+        "episodeId": "s01e01",
+        "evidence": "Impersonates Mickey.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e01",
+        "evidence": "Artificial plastic bodies animated by the Nestene.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      }
+    }
   },
   {
     "id": "bau",
@@ -140,7 +222,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "bev",
@@ -149,7 +232,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "blon-fel-fotch-passameer-day-slitheen",
@@ -164,7 +248,39 @@
       "slitheen"
     ],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "tardis": {
+        "episodeId": "s01e11",
+        "evidence": "Held inside during the Cardiff visit.",
+        "source": "https://tardis.guide/story/boom-town/transcript/"
+      },
+      "transformed": {
+        "episodeId": "s01e11",
+        "evidence": "The TARDIS reduces her to an egg.",
+        "source": "https://tardis.guide/story/boom-town/transcript/"
+      },
+      "deception": {
+        "episodeId": "s01e05",
+        "evidence": "Uses stolen human identities.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "leader": {
+        "episodeId": "s01e11",
+        "evidence": "Runs Cardiff's nuclear project as mayor.",
+        "source": "https://tardis.guide/story/boom-town/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e11",
+        "evidence": "Taken prisoner by the TARDIS party.",
+        "source": "https://tardis.guide/story/boom-town/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e04",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/aliens-of-london/transcript/"
+      }
+    }
   },
   {
     "id": "broff",
@@ -173,7 +289,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "brothers-hop-pyleen",
@@ -182,7 +299,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "bywater",
@@ -191,7 +309,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "cal-macnannovich",
@@ -202,7 +321,8 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "captain-jack-harkness",
@@ -215,7 +335,49 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "tardis": {
+        "episodeId": "s01e10",
+        "evidence": "Rescued aboard the TARDIS.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "dalek-encounter": {
+        "episodeId": "s01e13",
+        "evidence": "Directly attacked by Daleks.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "deception": {
+        "episodeId": "s01e09",
+        "evidence": "Poses as a wartime officer during a con.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
+      },
+      "leader": {
+        "episodeId": "s01e13",
+        "evidence": "Commands forces during the battle.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "rescuer": {
+        "episodeId": "s01e09",
+        "evidence": "Catches Rose before she falls.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e10",
+        "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e12",
+        "evidence": "Forced to participate in Game Station programmes.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e10",
+        "evidence": "Jack removes the bomb; Nancy approaches the infectious child.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      }
+    }
   },
   {
     "id": "cardiff-carriage-driver",
@@ -224,7 +386,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "caroline-finch",
@@ -233,7 +396,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "cathica-santini-khadeni",
@@ -244,7 +408,39 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "transformed": {
+        "episodeId": "s01e07",
+        "evidence": "Has a surgically installed head interface.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "rescuer": {
+        "episodeId": "s01e07",
+        "evidence": "Overrides the station systems to stop the Jagrafess.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e07",
+        "evidence": "The rulers kill Suki; Cathica brings down their lethal regime.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e07",
+        "evidence": "Returns to Floor 500 and fights its controllers.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e07",
+        "evidence": "A head interface connects them to the station.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "mind": {
+        "episodeId": "s01e07",
+        "evidence": "Uses a head interface to connect with the station.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      }
+    }
   },
   {
     "id": "cathy-salt",
@@ -255,7 +451,8 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "charles-dickens",
@@ -264,7 +461,24 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "rescuer": {
+        "episodeId": "s01e03",
+        "evidence": "Helps stop the Gelth and free the trapped visitors.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e03",
+        "evidence": "Escapes the Gelth with the others.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e03",
+        "evidence": "Stays to stop the Gelth or returns to the threatened house.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      }
+    }
   },
   {
     "id": "chula-ship-computer",
@@ -273,7 +487,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "clive-finch",
@@ -282,7 +497,14 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "parent": {
+        "episodeId": "s01e01",
+        "evidence": "Shown with their child.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      }
+    }
   },
   {
     "id": "clive-s-son",
@@ -291,7 +513,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "coffa",
@@ -300,7 +523,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "colleen",
@@ -309,7 +533,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "crosbie",
@@ -318,7 +543,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "cyberman",
@@ -329,7 +555,8 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "dalek",
@@ -340,7 +567,44 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "dalek-encounter": {
+        "episodeId": "s01e13",
+        "evidence": "Communicates with other Daleks.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "transformed": {
+        "episodeId": "s01e06",
+        "evidence": "The captive Dalek changes after absorbing Rose's DNA.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e06",
+        "evidence": "Kills Vault personnel.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e06",
+        "evidence": "Rose is held in the Vault; the Dalek is restrained and tortured.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e06",
+        "evidence": "A mutant housed in a mechanical casing.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "healing": {
+        "episodeId": "s01e06",
+        "evidence": "Rebuilds itself using Rose's DNA and electrical power.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e12",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      }
+    }
   },
   {
     "id": "dalek-emperor",
@@ -354,7 +618,34 @@
       "dalek"
     ],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "dalek-encounter": {
+        "episodeId": "s01e13",
+        "evidence": "Communicates with other Daleks.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "leader": {
+        "episodeId": "s01e13",
+        "evidence": "Commands forces during the battle.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e13",
+        "evidence": "Orders the Dalek assault.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e13",
+        "evidence": "A mutant housed in a mechanical casing.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e13",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      }
+    }
   },
   {
     "id": "daniels-family",
@@ -363,7 +654,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "davinadroid",
@@ -374,7 +666,14 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "enhanced": {
+        "episodeId": "s01e12",
+        "evidence": "Android body or direct bodily connection to station technology.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      }
+    }
   },
   {
     "id": "davitch-pavale",
@@ -386,7 +685,8 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "de-maggio",
@@ -395,7 +695,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "diana-goddard",
@@ -404,7 +705,19 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "dalek-encounter": {
+        "episodeId": "s01e06",
+        "evidence": "Directly confronts, communicates with or is pursued by the captive Dalek.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "leader": {
+        "episodeId": "s01e06",
+        "evidence": "Gives orders to Vault staff.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      }
+    }
   },
   {
     "id": "downing-street-academic",
@@ -413,7 +726,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "dr-constantine",
@@ -425,7 +739,24 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "transformed": {
+        "episodeId": "s01e10",
+        "evidence": "Body is altered and restored by nanogenes.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e10",
+        "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "healing": {
+        "episodeId": "s01e10",
+        "evidence": "Repairs bodies or provides medical treatment.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      }
+    }
   },
   {
     "id": "ernie",
@@ -434,7 +765,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "eva-saint-julienne",
@@ -446,7 +778,29 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "deception": {
+        "episodeId": "s01e07",
+        "evidence": "Works undercover as Suki.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e07",
+        "evidence": "Detained on Floor 500.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e07",
+        "evidence": "A head interface connects them to the station.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "mind": {
+        "episodeId": "s01e07",
+        "evidence": "Uses a head interface to connect with the station.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      }
+    }
   },
   {
     "id": "ewan-mcallister-slitheen",
@@ -459,7 +813,8 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "face-of-boe",
@@ -470,7 +825,19 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "rescued": {
+        "episodeId": "s01e02",
+        "evidence": "Survives the station sabotage through the shields being restored; Cassandra escapes by teleport.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      }
+    }
   },
   {
     "id": "fitch",
@@ -479,7 +846,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "gabriel-sneed",
@@ -490,7 +858,8 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {}
   },
   {
     "id": "game-station-controller",
@@ -501,7 +870,34 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "dalek-encounter": {
+        "episodeId": "s01e13",
+        "evidence": "Directly attacked by Daleks.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "leader": {
+        "episodeId": "s01e12",
+        "evidence": "Directs Game Station operations.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e12",
+        "evidence": "Connected to the station and forced to serve the Daleks.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e12",
+        "evidence": "Android body or direct bodily connection to station technology.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      },
+      "mind": {
+        "episodeId": "s01e12",
+        "evidence": "Her brain is connected to the station.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      }
+    }
   },
   {
     "id": "game-station-female-programmer",
@@ -510,7 +906,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "game-station-floor-manager",
@@ -519,7 +916,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "game-station-security-guard",
@@ -528,7 +926,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "gas-mask-patient",
@@ -540,7 +939,19 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "transformed": {
+        "episodeId": "s01e10",
+        "evidence": "Body is altered and restored by nanogenes.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e10",
+        "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      }
+    }
   },
   {
     "id": "gelth",
@@ -549,7 +960,29 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "deception": {
+        "episodeId": "s01e03",
+        "evidence": "Misrepresents its intentions to secure access through the Rift.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e03",
+        "evidence": "The Gelth kill Sneed; Gwyneth destroys the invaders.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "mind": {
+        "episodeId": "s01e03",
+        "evidence": "Gwyneth reads thoughts; the Gelth take control of corpses.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e03",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      }
+    }
   },
   {
     "id": "general-asquith",
@@ -560,7 +993,8 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "gwyneth",
@@ -569,7 +1003,29 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "rescuer": {
+        "episodeId": "s01e03",
+        "evidence": "Helps stop the Gelth and free the trapped visitors.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e03",
+        "evidence": "The Gelth kill Sneed; Gwyneth destroys the invaders.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e03",
+        "evidence": "Stays to stop the Gelth or returns to the threatened house.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "mind": {
+        "episodeId": "s01e03",
+        "evidence": "Gwyneth reads thoughts; the Gelth take control of corpses.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      }
+    }
   },
   {
     "id": "harriet-jones",
@@ -578,7 +1034,34 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "leader": {
+        "episodeId": "s01e05",
+        "evidence": "Directs the government response or authorises the missile strike.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "rescuer": {
+        "episodeId": "s01e05",
+        "evidence": "Helps stop the Slitheen attack.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e05",
+        "evidence": "Survives the Slitheen threat through the joint rescue.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e05",
+        "evidence": "Slitheen kill their victims; Mickey and Harriet arrange the lethal counterattack.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e05",
+        "evidence": "Confronts the Slitheen threat despite mortal danger.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      }
+    }
   },
   {
     "id": "henry-van-statten",
@@ -587,7 +1070,24 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "dalek-encounter": {
+        "episodeId": "s01e06",
+        "evidence": "Directly confronts, communicates with or is pursued by the captive Dalek.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "leader": {
+        "episodeId": "s01e06",
+        "evidence": "Gives orders to Vault staff.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e06",
+        "evidence": "Rose stops the Dalek killing him.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      }
+    }
   },
   {
     "id": "idris-hopper",
@@ -596,7 +1096,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "indra-ganesh",
@@ -605,7 +1106,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "jabe",
@@ -614,7 +1116,24 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "rescuer": {
+        "episodeId": "s01e02",
+        "evidence": "Holds the fan control so the Doctor can restore the shields.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e02",
+        "evidence": "Braves the heat and fan system to save the station.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      }
+    }
   },
   {
     "id": "jackie-tyler",
@@ -625,7 +1144,29 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "tardis": {
+        "episodeId": "s01e13",
+        "evidence": "Seen inside the console room.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "rescuer": {
+        "episodeId": "s01e13",
+        "evidence": "Brings the truck needed to open the TARDIS console and enable Rose's rescue.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e05",
+        "evidence": "Survives the Slitheen threat through the joint rescue.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "parent": {
+        "episodeId": "s01e01",
+        "evidence": "Shown with their child.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      }
+    }
   },
   {
     "id": "jamie",
@@ -636,7 +1177,19 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "transformed": {
+        "episodeId": "s01e10",
+        "evidence": "Body is altered and restored by nanogenes.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e10",
+        "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      }
+    }
   },
   {
     "id": "jenkins",
@@ -645,7 +1198,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "jim",
@@ -654,7 +1208,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "jocrassa-fel-fotch-passameer-day-slitheen",
@@ -668,7 +1223,29 @@
       "slitheen"
     ],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "deception": {
+        "episodeId": "s01e05",
+        "evidence": "Uses stolen human identities.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "leader": {
+        "episodeId": "s01e05",
+        "evidence": "Directs the government response or authorises the missile strike.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e05",
+        "evidence": "Slitheen kill their victims; Mickey and Harriet arrange the lethal counterattack.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e04",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/aliens-of-london/transcript/"
+      }
+    }
   },
   {
     "id": "lady-cassandra",
@@ -681,7 +1258,34 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "transformed": {
+        "episodeId": "s01e02",
+        "evidence": "Explains her extensive surgical alterations.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "deception": {
+        "episodeId": "s01e02",
+        "evidence": "Conceals her role in the sabotage and blames her decoys.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "leader": {
+        "episodeId": "s01e02",
+        "evidence": "Directs staff or attendants.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e02",
+        "evidence": "Causes lethal station sabotage.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e02",
+        "evidence": "Cassandra relies on a support frame; the spiders are machines.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      }
+    }
   },
   {
     "id": "london-nightclub-singer",
@@ -690,7 +1294,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "lute",
@@ -699,7 +1304,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "lyceum-stage-manager",
@@ -708,7 +1314,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "lynda-moss",
@@ -719,7 +1326,24 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "dalek-encounter": {
+        "episodeId": "s01e13",
+        "evidence": "Directly attacked by Daleks.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e12",
+        "evidence": "Forced to participate in Game Station programmes.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e13",
+        "evidence": "Rose returns to the Daleks; Lynda volunteers to help defend the station.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      }
+    }
   },
   {
     "id": "matt",
@@ -728,7 +1352,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "matt-baker",
@@ -737,7 +1362,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "metaltron",
@@ -752,7 +1378,39 @@
       "dalek"
     ],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "transformed": {
+        "episodeId": "s01e06",
+        "evidence": "The captive Dalek changes after absorbing Rose's DNA.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e06",
+        "evidence": "Kills Vault personnel.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e06",
+        "evidence": "Rose is held in the Vault; the Dalek is restrained and tortured.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e06",
+        "evidence": "A mutant housed in a mechanical casing.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "healing": {
+        "episodeId": "s01e06",
+        "evidence": "Rebuilds itself using Rose's DNA and electrical power.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e06",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      }
+    }
   },
   {
     "id": "mickey-smith",
@@ -764,7 +1422,39 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "tardis": {
+        "episodeId": "s01e01",
+        "evidence": "Escapes in the TARDIS.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "rescuer": {
+        "episodeId": "s01e05",
+        "evidence": "Helps stop the Slitheen attack.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e01",
+        "evidence": "Escapes the Nestene chamber with Rose and the Doctor.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e05",
+        "evidence": "Slitheen kill their victims; Mickey and Harriet arrange the lethal counterattack.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e01",
+        "evidence": "Held in the Nestene chamber.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e05",
+        "evidence": "Confronts the Slitheen threat despite mortal danger.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      }
+    }
   },
   {
     "id": "mickey-smith-s-mother",
@@ -773,7 +1463,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "missing-british-prime-minister",
@@ -782,7 +1473,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "moxx-of-balhoon",
@@ -791,7 +1483,14 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      }
+    }
   },
   {
     "id": "mr-cleaver",
@@ -800,7 +1499,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "mr-pakoo",
@@ -809,7 +1509,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "mrs-harcourt",
@@ -818,7 +1519,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "mrs-lloyd",
@@ -827,7 +1529,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "mrs-pakoo",
@@ -836,7 +1539,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "mrs-peace",
@@ -845,7 +1549,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "nancy",
@@ -854,7 +1559,39 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "deception": {
+        "episodeId": "s01e10",
+        "evidence": "Pretends to be Jamie's sister.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "leader": {
+        "episodeId": "s01e09",
+        "evidence": "Organises the children and their food raids.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
+      },
+      "rescuer": {
+        "episodeId": "s01e10",
+        "evidence": "Helps restore Jamie and the infected patients.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e10",
+        "evidence": "Handcuffed at the bomb site.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e10",
+        "evidence": "Jack removes the bomb; Nancy approaches the infectious child.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "parent": {
+        "episodeId": "s01e10",
+        "evidence": "Acknowledges Jamie as her son.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      }
+    }
   },
   {
     "id": "nanogene",
@@ -865,7 +1602,19 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "rescuer": {
+        "episodeId": "s01e10",
+        "evidence": "Helps restore Jamie and the infected patients.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "healing": {
+        "episodeId": "s01e10",
+        "evidence": "Repairs bodies or provides medical treatment.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      }
+    }
   },
   {
     "id": "nestene-consciousness",
@@ -876,7 +1625,29 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "leader": {
+        "episodeId": "s01e01",
+        "evidence": "Controls the Autons.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e01",
+        "evidence": "Participates in the lethal Auton attack.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "mind": {
+        "episodeId": "s01e01",
+        "evidence": "Controls plastic bodies through its consciousness.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e01",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      }
+    }
   },
   {
     "id": "ninth-doctor",
@@ -890,7 +1661,69 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "tardis": {
+        "episodeId": "s01e01",
+        "evidence": "Escapes in the TARDIS.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "dalek-encounter": {
+        "episodeId": "s01e06",
+        "evidence": "Directly confronts, communicates with or is pursued by the captive Dalek.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "transformed": {
+        "episodeId": "s01e13",
+        "evidence": "The regeneration changes the Doctor's body.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "deception": {
+        "episodeId": "s01e05",
+        "evidence": "Bluffs the Slitheen with a claimed alcohol vulnerability.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "rescuer": {
+        "episodeId": "s01e01",
+        "evidence": "Stops the Nestene attack and escapes with Mickey.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e02",
+        "evidence": "Survives the station sabotage through the shields being restored; Cassandra escapes by teleport.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e01",
+        "evidence": "Held in the Nestene chamber.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e02",
+        "evidence": "Braves the heat and fan system to save the station.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "parent": {
+        "episodeId": "s01e09",
+        "evidence": "Says he has been a dad.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
+      },
+      "mind": {
+        "episodeId": "s01e13",
+        "evidence": "Channels the time vortex through their mind and body.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "healing": {
+        "episodeId": "s01e13",
+        "evidence": "Rose revives Jack; the Doctor removes the vortex from Rose and regenerates.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e01",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      }
+    }
   },
   {
     "id": "noxwen-van-coofen",
@@ -899,7 +1732,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "oliver-charles",
@@ -908,7 +1742,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "pete-tyler",
@@ -919,7 +1754,29 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "rescuer": {
+        "episodeId": "s01e08",
+        "evidence": "Repairs the paradox by stepping into the car's path.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e08",
+        "evidence": "Rose initially pulls him clear of the car.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e08",
+        "evidence": "Deliberately gives his life to repair time.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "parent": {
+        "episodeId": "s01e08",
+        "evidence": "Rose's father.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      }
+    }
   },
   {
     "id": "platform-one-computer",
@@ -930,7 +1787,8 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "platform-one-steward",
@@ -941,7 +1799,19 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "leader": {
+        "episodeId": "s01e02",
+        "evidence": "Directs staff or attendants.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      }
+    }
   },
   {
     "id": "polkowski",
@@ -950,7 +1820,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "powell-estate-graffiti-artist",
@@ -959,7 +1830,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "powell-estate-policeman",
@@ -968,7 +1840,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "raffalo",
@@ -977,7 +1850,14 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      }
+    }
   },
   {
     "id": "reaper",
@@ -988,7 +1868,19 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "kills": {
+        "episodeId": "s01e08",
+        "evidence": "Consumes people in the damaged timeline.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e08",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      }
+    }
   },
   {
     "id": "redpath",
@@ -997,7 +1889,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "robot-spider",
@@ -1008,7 +1901,19 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "kills": {
+        "episodeId": "s01e02",
+        "evidence": "Causes lethal station sabotage.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "enhanced": {
+        "episodeId": "s01e02",
+        "evidence": "Cassandra relies on a support frame; the spiders are machines.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      }
+    }
   },
   {
     "id": "rodrick",
@@ -1017,7 +1922,14 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "captive": {
+        "episodeId": "s01e12",
+        "evidence": "Forced to participate in Game Station programmes.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      }
+    }
   },
   {
     "id": "rose-tyler",
@@ -1029,7 +1941,64 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "tardis": {
+        "episodeId": "s01e01",
+        "evidence": "Escapes in the TARDIS.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "dalek-encounter": {
+        "episodeId": "s01e06",
+        "evidence": "Directly confronts, communicates with or is pursued by the captive Dalek.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "deception": {
+        "episodeId": "s01e08",
+        "evidence": "Conceals her identity as Pete's daughter.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "rescuer": {
+        "episodeId": "s01e01",
+        "evidence": "Stops the Nestene attack and escapes with Mickey.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "rescued": {
+        "episodeId": "s01e02",
+        "evidence": "Survives the station sabotage through the shields being restored; Cassandra escapes by teleport.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e01",
+        "evidence": "Drops anti-plastic into the Nestene.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "captive": {
+        "episodeId": "s01e06",
+        "evidence": "Rose is held in the Vault; the Dalek is restrained and tortured.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "sacrifice": {
+        "episodeId": "s01e13",
+        "evidence": "Rose returns to the Daleks; Lynda volunteers to help defend the station.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "mind": {
+        "episodeId": "s01e13",
+        "evidence": "Channels the time vortex through their mind and body.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "healing": {
+        "episodeId": "s01e13",
+        "evidence": "Rose revives Jack; the Doctor removes the vortex from Rose and regenerates.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "transformed": {
+        "episodeId": "s01e13",
+        "evidence": "Absorbing the time vortex changes her into Bad Wolf, with glowing eyes and destructive power.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      }
+    }
   },
   {
     "id": "ru",
@@ -1038,7 +2007,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "sandra-mitchell",
@@ -1049,7 +2019,8 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "sarah-clark",
@@ -1060,7 +2031,8 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "satellite-five-head-chef",
@@ -1069,7 +2041,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "satellite-five-nurse",
@@ -1078,7 +2051,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "scholars-of-the-university-of-rago-rago-56-rago",
@@ -1087,7 +2061,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "sergeant-price",
@@ -1096,7 +2071,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "simmons",
@@ -1105,7 +2081,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "sip-fel-fotch-passameer-day-slitheen",
@@ -1120,7 +2097,8 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "slitheen",
@@ -1131,7 +2109,24 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "deception": {
+        "episodeId": "s01e05",
+        "evidence": "Uses stolen human identities.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e05",
+        "evidence": "Slitheen kill their victims; Mickey and Harriet arrange the lethal counterattack.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e04",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/aliens-of-london/transcript/"
+      }
+    }
   },
   {
     "id": "sonny-hoskins",
@@ -1140,7 +2135,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "space-pig",
@@ -1151,7 +2147,14 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "transformed": {
+        "episodeId": "s01e04",
+        "evidence": "The Doctor identifies it as a surgically modified pig.",
+        "source": "https://tardis.guide/story/aliens-of-london/transcript/"
+      }
+    }
   },
   {
     "id": "st-christopher-s-vicar",
@@ -1160,7 +2163,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "strood",
@@ -1169,7 +2173,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "stuart-hoskins",
@@ -1178,7 +2183,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "suzie",
@@ -1187,7 +2193,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "sylvia-dillane-slitheen",
@@ -1200,7 +2207,8 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "tennant-james-slitheen",
@@ -1213,7 +2221,8 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "tenth-doctor",
@@ -1227,7 +2236,29 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "tardis": {
+        "episodeId": "s01e13",
+        "evidence": "Seen inside the console room.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "transformed": {
+        "episodeId": "s01e13",
+        "evidence": "The regeneration changes the Doctor's body.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e13",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "parent": {
+        "episodeId": "s01e13",
+        "evidence": "The same Time Lord who stated he had been a dad, now in a new incarnation.",
+        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      }
+    }
   },
   {
     "id": "the-editor",
@@ -1236,7 +2267,19 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "leader": {
+        "episodeId": "s01e07",
+        "evidence": "Runs Satellite Five's information-control operation.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e07",
+        "evidence": "The rulers kill Suki; Cathica brings down their lethal regime.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      }
+    }
   },
   {
     "id": "the-mighty-jagrafess",
@@ -1249,7 +2292,24 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "leader": {
+        "episodeId": "s01e07",
+        "evidence": "Runs Satellite Five's information-control operation.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "kills": {
+        "episodeId": "s01e07",
+        "evidence": "The rulers kill Suki; Cathica brings down their lethal regime.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "alien": {
+        "episodeId": "s01e07",
+        "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      }
+    }
   },
   {
     "id": "timothy-lloyd",
@@ -1258,7 +2318,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "tom-hitchinson",
@@ -1267,7 +2328,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "toshiko-sato",
@@ -1279,7 +2341,8 @@
     ],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {}
   },
   {
     "id": "trine-e",
@@ -1288,7 +2351,14 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "enhanced": {
+        "episodeId": "s01e12",
+        "evidence": "Android body or direct bodily connection to station technology.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      }
+    }
   },
   {
     "id": "trinity-wells",
@@ -1297,7 +2367,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "tyler-wedding-registrar",
@@ -1306,7 +2377,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "vault-commander",
@@ -1315,7 +2387,8 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review."
+    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "storyTraits": {}
   },
   {
     "id": "zu-zana",
@@ -1324,6 +2397,13 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "selectionNote": "Included in the curated Series 1 starter pool."
+    "selectionNote": "Included in the curated Series 1 starter pool.",
+    "storyTraits": {
+      "enhanced": {
+        "episodeId": "s01e12",
+        "evidence": "Android body or direct bodily connection to station technology.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      }
+    }
   }
 ]
