@@ -88,3 +88,14 @@ Download and upload `categories.json` to publish category-only edits. If you als
 Older local drafts without categories inherit the currently loaded category definitions when restored. Legacy facts have been preserved in disabled categories marked for review, rather than silently deleted or re-enabled. Bulk imports can add categories and fill missing fields; as before, conflicts with existing values are preserved for manual editing.
 
 Turning off too many categories can leave no valid grid. The generator will explain this; it never silently re-enables a category. Every generated square still needs at least two answers and the whole grid needs nine distinct answers.
+
+
+## Delete a category or character
+
+Select an existing entry, then use **Delete category** or **Delete character** beside its Save button. The confirmation lists the affected connections. Cancel leaves the draft untouched.
+
+- Deleting a category removes its definition and every character fact assigned to it. It does not delete characters or episode appearance links. Disable it instead if you want to retain those facts.
+- Deleting a character removes their record, episode appearances and category facts, plus references to them in other characters' `typeIds`. It retains the episodes, other characters and category definitions.
+- **Undo last deletion** restores the draft immediately before the most recent deletion. It is available until another save, import, restore, reload or deletion replaces that state; it does not persist across page refreshes.
+
+Deletion edits the local draft only. **Download and upload all four JSON files** to publish removals consistently. Do not use the additive bulk importer to publish deletions: it deliberately preserves existing records. GitHub's commit history retains previous published versions.

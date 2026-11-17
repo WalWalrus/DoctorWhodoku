@@ -104,7 +104,31 @@
       factsWithoutAppearance:data.characters.flatMap(c=>Object.entries(c.storyTraits||{}).filter(([,f])=>!data.appearances.some(a=>a.characterId===c.id&&a.episodeId===f.episodeId)).map(([category,f])=>({characterId:c.id,name:c.name,category,episodeId:f.episodeId})))
     };
   }
-  root.EditorData={validate,readBatch,merge,gaps};
+  function deletionImpact(data,kind,id){
+    if(!['category','character'].includes(kind))throw Error('Unknown deletion type.');
+    const record=data[kind==='category'?'categories':'characters'].find(r=>r.id===id);
+    if(!record)throw Error('Select an existing '+kind+' first.');
+    return {name:record.label||record.name,
+      facts:kind==='category'?data.characters.filter(c=>Object.hasOwn(c.storyTraits||{},id)).length:Object.keys(record.storyTraits||{}).length,
+      appearances:kind==='character'?data.appearances.filter(a=>a.characterId===id).length:0,
+      typeLinks:kind==='character'?data.characters.filter(c=>(c.typeIds||[]).includes(id)).length:0};
+  }
+  function removeRecord(data,kind,id){
+    deletionImpact(data,kind,id);
+    const next=copy(data);
+    if(kind==='category'){
+      next.categories=next.categories.filter(c=>c.id!==id);
+      for(const c of next.characters)if(c.storyTraits)delete c.storyTraits[id];
+    }else{
+      next.characters=next.characters.filter(c=>c.id!==id);
+      next.appearances=next.appearances.filter(a=>a.characterId!==id);
+      for(const c of next.characters)if(c.typeIds)c.typeIds=c.typeIds.filter(typeId=>typeId!==id);
+    }
+    const errors=validate(next);if(errors.length)throw Error(errors.join('\n'));
+    return next;
+  }
+  root.EditorData={validate,readBatch,merge,gaps,deletionImpact,removeRecord};
   if(typeof module!=='undefined')module.exports=root.EditorData;
 })(typeof globalThis!=='undefined'?globalThis:this);
+
 

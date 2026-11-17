@@ -10,7 +10,7 @@ section{border:1px solid #496687;border-radius:12px;padding:20px;margin:20px 0;b
 label{display:block;margin:14px 0 8px}input,select,textarea,button{font:inherit;color:inherit}
 input:not([type=checkbox]),select,textarea{display:block;width:100%;padding:10px;background:#091426;border:1px solid #496687;border-radius:7px}
 textarea{min-height:90px}button{padding:10px 14px;background:#182d48;border:1px solid #496687;border-radius:7px;cursor:pointer}
-button:disabled{opacity:.5;cursor:default}button:hover:not(:disabled){background:#26466d}
+button.danger{border-color:#c87878;color:#ffd3d3}button:disabled{opacity:.5;cursor:default}button:hover:not(:disabled){background:#26466d}
 :focus-visible{outline:3px solid #85d9ff;outline-offset:2px}.row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.check{display:flex;gap:10px;align-items:center}
 .notice{border-left:3px solid #85d9ff;padding:12px 16px;background:#10223b}#status{position:sticky;top:0;background:#091426;padding:12px 0;z-index:1}
@@ -22,7 +22,7 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <h1>Data editor</h1><p>Add Series 1–4 characters, episodes and specials. Start with a character and an episode, link their appearance, then add confirmed facts.</p>
 <p class="notice"><strong>This edits a draft on this device.</strong> Changes do not publish automatically. Download the four game JSON files below and upload them to the repository root to update the live game.</p>
 <p id="status" role="status" aria-live="polite">Loading existing game data…</p>
-<div class="actions"><button id="restore" disabled>Restore saved draft</button><button id="reload" disabled>Reload published data</button></div>
+<div class="actions"><button id="restore" disabled>Restore saved draft</button><button id="reload" disabled>Reload published data</button><button id="undo-delete" disabled>Undo last deletion</button></div>
 <section><h2>Bulk import game data</h2>
 <p>Merge existing game-format JSON files or a bundle with <code>characters</code>, <code>episodes</code>, <code>appearances</code> and <code>categories</code> arrays. Existing values and evidence are kept; conflicts are listed for review. External database exports need conversion first.</p>
 <label for="bulk-files">Game JSON files</label><input id="bulk-files" type="file" accept=".json,application/json" multiple data-ready disabled>
@@ -41,7 +41,7 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <label class="check"><input id="category-enabled" type="checkbox" checked data-ready disabled>Enabled in new grids</label>
 <label class="check"><input id="category-reviewed" type="checkbox" data-ready disabled>I have checked the definition against the saved connections</label>
 <p class="hint">Changing the definition marks existing connections for review and pauses the category in grids until you tick the review checkbox and save. Renaming the clue or disabling it does not change its connections.</p>
-<button type="submit" data-ready disabled>Save category</button>
+<div class="actions"><button type="submit" data-ready disabled>Save category</button><button id="delete-category" class="danger" type="button" disabled>Delete category</button></div>
 </form><p id="category-summary" role="status"></p><ul id="category-members"></ul></section>
 <section><h2>1. Characters</h2>
 <label for="character-select">Edit an existing character</label><select id="character-select" data-ready disabled></select>
@@ -53,7 +53,7 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <label for="aliases">Alternative names (one per line)</label><textarea id="aliases" data-ready disabled></textarea>
 <label for="kind">Entry type</label><select id="kind" data-ready disabled><option value="individual">Individual character</option><option value="type">Creature type</option><option value="group">Group</option><option value="role">Recognisable role</option></select>
 <label class="check"><input id="playable" type="checkbox" checked data-ready disabled>Include in the answer pool</label>
-<button type="submit" data-ready disabled>Save character</button></form>
+<div class="actions"><button type="submit" data-ready disabled>Save character</button><button id="delete-character" class="danger" type="button" disabled>Delete character</button></div></form>
 <p id="selection-note" class="hint"></p>
 <div id="connections" aria-live="polite"><h3>Existing connections</h3><p id="connection-summary">Choose a character to see their saved episodes and category facts.</p>
 <h4>Linked episodes</h4><ul id="character-episodes"></ul><h4>Confirmed facts</h4><ul id="character-facts"></ul></div>
@@ -96,7 +96,7 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <ol><li>Save your entries above, then download all four files.</li><li>On <a href="https://github.com/WalWalrus/DoctorWhodoku">GitHub</a>, choose <strong>Add file → Upload files</strong> in the repository root.</li><li>Upload the four files with their exact filenames and commit the changes.</li><li>Once Pages deploys, refresh the game. You can also test the files using <strong>Load different data</strong> on the game page before uploading.</li></ol>
 </section></main>
 <script src="category-config.js"></script>
-<script src="editor-data.js?v=categories-1"></script>
+<script src="editor-data.js?v=deletion-1"></script>
 <script>
 "use strict";
 let categories = [];
@@ -104,7 +104,33 @@ const el=id=>document.getElementById(id);
 const draftKey="doctorwhodoku-data-editor-v1";
 let data=null, editingCharacter=null, editingEpisode=null, dirty=false, pendingImport=null;
 const clone=value=>JSON.parse(JSON.stringify(value));
-let editingCategory=null;
+let editingCategory=null, deletionUndo=null;
+function updateDeleteButtons(){
+  el('delete-category').disabled=!data?.categories.some(c=>c.id===editingCategory);
+  el('delete-character').disabled=!data?.characters.some(c=>c.id===editingCharacter);
+}
+function clearDeletionUndo(){deletionUndo=null;el('undo-delete').disabled=true;}
+function deleteSelected(kind){
+  const id=kind==='category'?editingCategory:editingCharacter;
+  try{
+    const impact=EditorData.deletionImpact(data,kind,id);
+    const details=kind==='category'
+      ? 'This removes the category and '+impact.facts+' saved character facts. Episode appearance links are kept. To keep the facts, cancel and disable the category instead.'
+      : 'This removes the character, '+impact.appearances+' episode links, '+impact.facts+' category facts and '+impact.typeLinks+' creature-type references from other characters. Episodes and category definitions are kept.';
+    if(!confirm('Delete '+impact.name+' from this draft?\n\n'+details+'\n\nYou can undo immediately. Nothing changes on GitHub until you upload the updated files.'))return;
+    const before=clone(data),next=EditorData.removeRecord(data,kind,id);
+    data=next;
+    if(kind==='category')resetCategory();else resetCharacter();
+    save('Deleted '+impact.name+'. Download and upload all four JSON files to publish the removal.');
+    deletionUndo=before;el('undo-delete').disabled=false;loadFact();loadAppearance();
+  }catch(error){report(error.message,true);}
+}
+el('delete-category').onclick=()=>deleteSelected('category');
+el('delete-character').onclick=()=>deleteSelected('character');
+el('undo-delete').onclick=()=>{
+  if(!deletionUndo)return;
+  data=deletionUndo;save('Deletion undone.');resetCategory();resetCharacter();loadFact();loadAppearance();
+};
 function refreshCategories(){
   categories=data.categories.filter(c=>c.kind==='story').map(c=>[c.id,c.label+(c.needsReview?' (review needed)':!c.enabled?' (disabled)':''),c.description]);
   const previous=el('trait').value;el('trait').replaceChildren();
@@ -113,7 +139,7 @@ function refreshCategories(){
   populate('category-select',data.categories,c=>c.label+(c.needsReview?' (review needed)':!c.enabled?' (disabled)':''),'Choose a category');
   showCategoryMembers();
 }
-function resetCategory(){editingCategory=null;el('category-form').reset();el('category-select').value='';el('category-id').readOnly=false;showCategoryMembers();}
+function resetCategory(){editingCategory=null;el('category-form').reset();el('category-select').value='';el('category-id').readOnly=false;updateDeleteButtons();showCategoryMembers();}
 function showCategoryMembers(){
   const c=data?.categories.find(c=>c.id===el('category-select').value);el('category-members').replaceChildren();
   if(!c){el('category-summary').textContent='Choose a category to see its saved connections.';return;}
@@ -127,7 +153,7 @@ el('category-label').oninput=()=>{if(!editingCategory)el('category-id').value=sl
 el('category-select').onchange=()=>{
   const c=data.categories.find(c=>c.id===el('category-select').value);if(!c)return resetCategory();
   editingCategory=c.id;el('category-id').value=c.id;el('category-id').readOnly=true;
-  el('category-label').value=c.label;el('category-description').value=c.description;el('category-enabled').checked=c.enabled;el('category-reviewed').checked=false;showCategoryMembers();
+  el('category-label').value=c.label;el('category-description').value=c.description;el('category-enabled').checked=c.enabled;el('category-reviewed').checked=false;updateDeleteButtons();showCategoryMembers();
 };
 el('category-form').onsubmit=event=>{
   event.preventDefault();
@@ -225,6 +251,7 @@ function populate(id,items,label,placeholder){
   if(items.some(i=>i.id===previous))select.value=previous;
 }
 function refresh(){
+  updateDeleteButtons();
   refreshCategories();
   const chars=[...data.characters].sort((a,b)=>a.name.localeCompare(b.name));
   const eps=[...data.episodes].sort((a,b)=>(a.ukAirDate||"9999").localeCompare(b.ukAirDate||"9999")||a.id.localeCompare(b.id));
@@ -237,6 +264,7 @@ function refresh(){
   showAppearances();showFacts();showConnections();showGaps();
 }
 function save(message){
+  clearDeletionUndo();
   dirty=true;pendingImport=null;el("apply-import").disabled=true;refresh();
   try{localStorage.setItem(draftKey,JSON.stringify(data));el("restore").disabled=false;report(message+" Draft saved on this device.");}
   catch{report(message+" Browser storage is unavailable; download the files before leaving.",true);}
@@ -248,20 +276,20 @@ async function loadPublished(){
     const lists=await Promise.all(names.map(async name=>{const response=await fetch(name+".json",{cache:"no-store"});if(!response.ok)throw Error("Could not load "+name+".json");return response.json();}));
     const candidate=Object.fromEntries(names.map((name,i)=>[name,lists[i]]));
     const issues=validate(candidate);if(issues.length)throw Error(issues.join(" "));
-    data=candidate;dirty=false;
+    data=candidate;dirty=false;clearDeletionUndo();
     document.querySelectorAll("[data-ready]").forEach(e=>e.disabled=false);
     el("reload").disabled=false;
     refresh();resetCategory();resetCharacter();resetEpisode();loadFact();report("Published data loaded. Edits stay in your local draft until you upload the files.");
   }catch(error){report(error.message,true);}
 }
-function resetCharacter(){editingCharacter=null;el("character-form").reset();el("character-id").readOnly=false;el("character-select").value="";el("appearance-character").value="";el("fact-character").value="";if(data){showAppearances();showFacts();showConnections();loadFact();loadAppearance();}}
+function resetCharacter(){editingCharacter=null;el("character-form").reset();el("character-id").readOnly=false;el("character-select").value="";el("appearance-character").value="";el("fact-character").value="";updateDeleteButtons();if(data){showAppearances();showFacts();showConnections();loadFact();loadAppearance();}}
 function resetEpisode(){editingEpisode=null;el("episode-form").reset();el("episode-id").readOnly=false;el("episode-select").value="";}
 el("new-character").onclick=resetCharacter;el("new-episode").onclick=resetEpisode;
 el("character-name").oninput=()=>{if(!editingCharacter)el("character-id").value=slug(el("character-name").value);};
 el("character-select").onchange=()=>{
   const c=data.characters.find(c=>c.id===el("character-select").value);if(!c){resetCharacter();return;}
   editingCharacter=c.id;el("character-id").value=c.id;el("character-id").readOnly=true;el("character-name").value=c.name;
-  el("aliases").value=(c.aliases||[]).join("\n");el("kind").value=c.kind||"individual";el("playable").checked=c.playable!==false;
+  el("aliases").value=(c.aliases||[]).join("\n");el("kind").value=c.kind||"individual";el("playable").checked=c.playable!==false;updateDeleteButtons();
   el("appearance-character").value=c.id;el("fact-character").value=c.id;el("appearance-episode").value="";showAppearances();showFacts();showConnections();loadFact();loadAppearance();
 };
 el("character-form").onsubmit=event=>{
@@ -331,7 +359,7 @@ el("restore").onclick=()=>{
     const candidate=JSON.parse(localStorage.getItem(draftKey));
     if(!candidate.categories){if(!data?.categories)throw Error("Load published categories before restoring an older draft.");candidate.categories=clone(data.categories);}
     const issues=validate(candidate);if(issues.length)throw Error(issues.join(" "));
-    data=clone(candidate);document.querySelectorAll("[data-ready]").forEach(e=>e.disabled=false);el("reload").disabled=false;dirty=true;refresh();resetCategory();resetCharacter();resetEpisode();loadFact();report("Saved draft restored. Nothing has been published.");
+    data=clone(candidate);clearDeletionUndo();document.querySelectorAll("[data-ready]").forEach(e=>e.disabled=false);el("reload").disabled=false;dirty=true;refresh();resetCategory();resetCharacter();resetEpisode();loadFact();report("Saved draft restored. Nothing has been published.");
   }catch(error){report("Could not restore draft: "+error.message,true);}
 };
 el("reload").onclick=()=>{if(!dirty||confirm("Discard current edits and reload published data? Your saved draft remains available."))loadPublished();};
@@ -345,4 +373,5 @@ for(const name of ["characters","episodes","appearances","categories"])el("downl
 try{el("restore").disabled=!localStorage.getItem(draftKey);}catch{}
 loadFact();loadPublished();
 </script></body></html>
+
 
