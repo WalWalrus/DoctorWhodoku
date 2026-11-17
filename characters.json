@@ -37,6 +37,16 @@
         "episodeId": "s01e07",
         "evidence": "Uses a head interface to connect with the station.",
         "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "companion": {
+        "episodeId": "s01e07",
+        "evidence": "Travels with the Doctor as a companion.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e06",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
       }
     }
   },
@@ -376,6 +386,26 @@
         "episodeId": "s01e10",
         "evidence": "Jack removes the bomb; Nancy approaches the infectious child.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "companion": {
+        "episodeId": "s01e10",
+        "evidence": "Joins the Doctor and Rose aboard the TARDIS.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "slitheen-encounter": {
+        "episodeId": "s01e11",
+        "evidence": "Helps capture Margaret and speaks with her.",
+        "source": "https://tardis.guide/story/boom-town/transcript/"
+      },
+      "empty-child-encounter": {
+        "episodeId": "s01e10",
+        "evidence": "Directly encounters Jamie, the Empty Child.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e09",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
       }
     }
   },
@@ -439,6 +469,11 @@
         "episodeId": "s01e07",
         "evidence": "Uses a head interface to connect with the station.",
         "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e07",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
       }
     }
   },
@@ -477,6 +512,16 @@
         "episodeId": "s01e03",
         "evidence": "Stays to stop the Gelth or returns to the threatened house.",
         "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "gelth-encounter": {
+        "episodeId": "s01e03",
+        "evidence": "Directly interacts with the Gelth or their possessed bodies.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e03",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
       }
     }
   },
@@ -502,6 +547,16 @@
       "parent": {
         "episodeId": "s01e01",
         "evidence": "Shown with their child.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "auton-encounter": {
+        "episodeId": "s01e01",
+        "evidence": "Directly attacked by or present face-to-face with the animated plastic attackers.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e01",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
         "source": "https://tardis.guide/story/rose/transcript/"
       }
     }
@@ -569,11 +624,6 @@
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
     "storyTraits": {
-      "dalek-encounter": {
-        "episodeId": "s01e13",
-        "evidence": "Communicates with other Daleks.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
       "transformed": {
         "episodeId": "s01e06",
         "evidence": "The captive Dalek changes after absorbing Rose's DNA.",
@@ -620,11 +670,6 @@
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
     "storyTraits": {
-      "dalek-encounter": {
-        "episodeId": "s01e13",
-        "evidence": "Communicates with other Daleks.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
       "leader": {
         "episodeId": "s01e13",
         "evidence": "Commands forces during the battle.",
@@ -716,6 +761,11 @@
         "episodeId": "s01e06",
         "evidence": "Gives orders to Vault staff.",
         "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e06",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
       }
     }
   },
@@ -755,6 +805,16 @@
         "episodeId": "s01e10",
         "evidence": "Repairs bodies or provides medical treatment.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "empty-child-encounter": {
+        "episodeId": "s01e09",
+        "evidence": "Treats the injured child brought to his hospital.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e09",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
       }
     }
   },
@@ -798,6 +858,11 @@
       "mind": {
         "episodeId": "s01e07",
         "evidence": "Uses a head interface to connect with the station.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e07",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
         "source": "https://tardis.guide/story/the-long-game/transcript/"
       }
     }
@@ -859,7 +924,18 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
-    "storyTraits": {}
+    "storyTraits": {
+      "gelth-encounter": {
+        "episodeId": "s01e03",
+        "evidence": "Directly interacts with the Gelth or their possessed bodies.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e03",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      }
+    }
   },
   {
     "id": "game-station-controller",
@@ -895,6 +971,11 @@
       "mind": {
         "episodeId": "s01e12",
         "evidence": "Her brain is connected to the station.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e12",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
         "source": "https://tardis.guide/story/bad-wolf/transcript/"
       }
     }
@@ -950,6 +1031,11 @@
         "episodeId": "s01e10",
         "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e09",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
       }
     }
   },
@@ -1024,6 +1110,16 @@
         "episodeId": "s01e03",
         "evidence": "Gwyneth reads thoughts; the Gelth take control of corpses.",
         "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "gelth-encounter": {
+        "episodeId": "s01e03",
+        "evidence": "Directly interacts with the Gelth or their possessed bodies.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e03",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
       }
     }
   },
@@ -1060,6 +1156,16 @@
         "episodeId": "s01e05",
         "evidence": "Confronts the Slitheen threat despite mortal danger.",
         "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "slitheen-encounter": {
+        "episodeId": "s01e05",
+        "evidence": "Directly confronts or is attacked by a Slitheen.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e04",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/aliens-of-london/transcript/"
       }
     }
   },
@@ -1085,6 +1191,11 @@
       "rescued": {
         "episodeId": "s01e06",
         "evidence": "Rose stops the Dalek killing him.",
+        "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e06",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
         "source": "https://tardis.guide/story/dalek/transcript/"
       }
     }
@@ -1132,6 +1243,11 @@
         "episodeId": "s01e02",
         "evidence": "Depicted or identified as non-human alien life in this story.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "spider-encounter": {
+        "episodeId": "s01e02",
+        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
     }
   },
@@ -1165,6 +1281,26 @@
         "episodeId": "s01e01",
         "evidence": "Shown with their child.",
         "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "slitheen-encounter": {
+        "episodeId": "s01e05",
+        "evidence": "Directly confronts or is attacked by a Slitheen.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "auton-encounter": {
+        "episodeId": "s01e01",
+        "evidence": "Directly attacked by or present face-to-face with the animated plastic attackers.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "reaper-encounter": {
+        "episodeId": "s01e08",
+        "evidence": "Faces the Reapers during the attack at the church, including young Mickey.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e01",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/rose/transcript/"
       }
     }
   },
@@ -1188,6 +1324,11 @@
         "episodeId": "s01e10",
         "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e09",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
       }
     }
   },
@@ -1284,6 +1425,16 @@
         "episodeId": "s01e02",
         "evidence": "Cassandra relies on a support frame; the spiders are machines.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "spider-encounter": {
+        "episodeId": "s01e02",
+        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e02",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
     }
   },
@@ -1342,6 +1493,11 @@
         "episodeId": "s01e13",
         "evidence": "Rose returns to the Daleks; Lynda volunteers to help defend the station.",
         "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e12",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
       }
     }
   },
@@ -1453,6 +1609,26 @@
         "episodeId": "s01e05",
         "evidence": "Confronts the Slitheen threat despite mortal danger.",
         "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "slitheen-encounter": {
+        "episodeId": "s01e05",
+        "evidence": "Directly confronts or is attacked by a Slitheen.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "auton-encounter": {
+        "episodeId": "s01e01",
+        "evidence": "Directly attacked by or present face-to-face with the animated plastic attackers.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "reaper-encounter": {
+        "episodeId": "s01e08",
+        "evidence": "Faces the Reapers during the attack at the church, including young Mickey.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e01",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/rose/transcript/"
       }
     }
   },
@@ -1590,6 +1766,16 @@
         "episodeId": "s01e10",
         "evidence": "Acknowledges Jamie as her son.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "empty-child-encounter": {
+        "episodeId": "s01e10",
+        "evidence": "Directly encounters Jamie, the Empty Child.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e09",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-empty-child/transcript/"
       }
     }
   },
@@ -1722,6 +1908,36 @@
         "episodeId": "s01e01",
         "evidence": "Depicted or identified as non-human alien life in this story.",
         "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "slitheen-encounter": {
+        "episodeId": "s01e05",
+        "evidence": "Directly confronts or is attacked by a Slitheen.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "auton-encounter": {
+        "episodeId": "s01e01",
+        "evidence": "Directly attacked by or present face-to-face with the animated plastic attackers.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "gelth-encounter": {
+        "episodeId": "s01e03",
+        "evidence": "Directly interacts with the Gelth or their possessed bodies.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "reaper-encounter": {
+        "episodeId": "s01e08",
+        "evidence": "Faces the Reapers during the attack at the church, including young Mickey.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "empty-child-encounter": {
+        "episodeId": "s01e10",
+        "evidence": "Directly encounters Jamie, the Empty Child.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "spider-encounter": {
+        "episodeId": "s01e02",
+        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
     }
   },
@@ -1775,6 +1991,16 @@
         "episodeId": "s01e08",
         "evidence": "Rose's father.",
         "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "reaper-encounter": {
+        "episodeId": "s01e08",
+        "evidence": "Faces the Reapers during the attack at the church, including young Mickey.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e08",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
       }
     }
   },
@@ -1809,6 +2035,11 @@
       "alien": {
         "episodeId": "s01e02",
         "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "spider-encounter": {
+        "episodeId": "s01e02",
+        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
     }
@@ -1855,6 +2086,11 @@
       "alien": {
         "episodeId": "s01e02",
         "evidence": "Depicted or identified as non-human alien life in this story.",
+        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
+      },
+      "spider-encounter": {
+        "episodeId": "s01e02",
+        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
     }
@@ -1928,6 +2164,11 @@
         "episodeId": "s01e12",
         "evidence": "Forced to participate in Game Station programmes.",
         "source": "https://tardis.guide/story/bad-wolf/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e12",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/bad-wolf/transcript/"
       }
     }
   },
@@ -1997,6 +2238,41 @@
         "episodeId": "s01e13",
         "evidence": "Absorbing the time vortex changes her into Bad Wolf, with glowing eyes and destructive power.",
         "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "companion": {
+        "episodeId": "s01e07",
+        "evidence": "Travels with the Doctor as a companion.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "slitheen-encounter": {
+        "episodeId": "s01e05",
+        "evidence": "Directly confronts or is attacked by a Slitheen.",
+        "source": "https://tardis.guide/story/world-war-three/transcript/"
+      },
+      "auton-encounter": {
+        "episodeId": "s01e01",
+        "evidence": "Directly attacked by or present face-to-face with the animated plastic attackers.",
+        "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "gelth-encounter": {
+        "episodeId": "s01e03",
+        "evidence": "Directly interacts with the Gelth or their possessed bodies.",
+        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
+      },
+      "reaper-encounter": {
+        "episodeId": "s01e08",
+        "evidence": "Faces the Reapers during the attack at the church, including young Mickey.",
+        "source": "https://tardis.guide/story/fathers-day/transcript/"
+      },
+      "empty-child-encounter": {
+        "episodeId": "s01e10",
+        "evidence": "Directly encounters Jamie, the Empty Child.",
+        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e01",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/rose/transcript/"
       }
     }
   },
@@ -2278,6 +2554,11 @@
         "episodeId": "s01e07",
         "evidence": "The rulers kill Suki; Cathica brings down their lethal regime.",
         "source": "https://tardis.guide/story/the-long-game/transcript/"
+      },
+      "human": {
+        "episodeId": "s01e07",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/the-long-game/transcript/"
       }
     }
   },
@@ -2342,7 +2623,13 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
-    "storyTraits": {}
+    "storyTraits": {
+      "human": {
+        "episodeId": "s01e04",
+        "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
+        "source": "https://tardis.guide/story/aliens-of-london/transcript/"
+      }
+    }
   },
   {
     "id": "trine-e",
