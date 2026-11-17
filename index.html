@@ -81,11 +81,11 @@
   <p>Match both clues. Nine guesses. Use each answer once.</p>
 
   <details id="import"><summary>Load different data</summary>
-    <label for="files">Choose characters.json, episodes.json and appearances.json</label>
+    <label for="files">Choose characters.json, episodes.json, appearances.json and categories.json</label>
     <p><input id="files" type="file" accept=".json" multiple></p>
   </details>
 
-  <p><a href="data-editor.html" style="color:#85d9ff">Edit characters and episode data</a></p>
+  <p><a href="data-editor.html" style="color:#85d9ff">Edit categories, characters and episodes</a></p>
   <p id="coverage"></p>
   <div class="toolbar">
     <button id="new" disabled>New grid</button>
@@ -110,6 +110,7 @@
   <div id="results"></div>
 </dialog>
 
+<script src="category-config.js"></script>
 <script>
 const el = id => document.getElementById(id);
 let characters = [];
@@ -132,7 +133,7 @@ function shuffle(items) {
   return result;
 }
 
-function makeCategories(people, episodes, appearances) {
+function makeCategories(people, episodes, appearances, definitions) {
   const episodeIds = new Map(people.map(c => [c.id, new Set()]));
 
   for (const appearance of appearances) {
@@ -160,141 +161,14 @@ function makeCategories(people, episodes, appearances) {
     result.push({ label, ids, family, key, description, trait });
   }
 
-  // Story facts are curated from Series 1, not inferred from co-appearance.
-  const storyCategories =[
-  [
-    "tardis",
-    "Has been inside the TARDIS",
-    "Physical entry within the loaded TV era; seeing it from outside does not count."
-  ],
-  [
-    "dalek-encounter",
-    "Has met the Daleks",
-    "Direct interaction, attack or live communication; simply sharing an episode does not count."
-  ],
-  [
-    "transformed",
-    "Has had their body changed",
-    "A physical transformation, regeneration, implant or explicit bodily alteration; ordinary injury does not count."
-  ],
-  [
-    "deception",
-    "Uses a disguise or false identity",
-    "An impersonation, invented identity or concealed allegiance used to deceive another character."
-  ],
-  [
-    "leader",
-    "Gives orders or runs an organisation",
-    "Directs staff, followers, troops or a coordinated operation on screen."
-  ],
-  [
-    "captive",
-    "Is captured, restrained or imprisoned",
-    "Physically detained or locked in against their will; ordinary confinement at work does not count."
-  ],
-  [
-    "parent",
-    "Is a parent",
-    "Parenthood established within the loaded TV era, including the Doctor's reference to having been a dad."
-  ],
-  [
-    "enhanced",
-    "Has a technological body or implant",
-    "Robots, cyborg casings, implanted interfaces or machinery that sustains the body."
-  ],
-  [
-    "alien",
-    "Is a non-human alien",
-    "Alien life, including Time Lords; excludes humans, human-made robots and terrestrial animals."
-  ],
-  [
-    "companion",
-    "Is a companion",
-    "Travels with the Doctor as a companion within the loaded TV era. The Doctor himself does not count."
-  ],
-  [
-    "slitheen-encounter",
-    "Has met the Slitheen",
-    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "auton-encounter",
-    "Has met the Autons",
-    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "gelth-encounter",
-    "Has met the Gelth",
-    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "reaper-encounter",
-    "Has met the Reapers",
-    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "empty-child-encounter",
-    "Has met the Empty Child",
-    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "spider-encounter",
-    "Has met the robot spiders",
-    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "human",
-    "Is human",
-    "Human characters, including humans with surgical or technological alterations. Excludes Time Lords and artificial duplicates."
-  ],
-  [
-    "cyberman-encounter",
-    "Has met the Cybermen",
-    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "weeping-angel-encounter",
-    "Has met the Weeping Angels",
-    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "master-encounter",
-    "Has met the Master",
-    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "ood-encounter",
-    "Has met the Ood",
-    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "sontaran-encounter",
-    "Has met the Sontarans",
-    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "judoon-encounter",
-    "Has met the Judoon",
-    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
-  ],
-  [
-    "time-travel",
-    "Has travelled through time",
-    "A journey to a different time, not simply being alive in a historical or future setting."
-  ],
-  [
-    "parallel-world",
-    "Has visited a parallel universe",
-    "Physically crosses into a parallel universe, rather than merely seeing or hearing about it."
-  ]
-];
-  for (const [trait, label, description] of storyCategories) {
-    add(label, c => Boolean(c.storyTraits?.[trait]), "story", description, trait);
-  }
-
-  for (const episode of episodes) {
-    add(`Appears in ${episode.title}`,
-      c => episodeIds.get(c.id).has(episode.id), "episode");
+  for (const definition of definitions) {
+    if (!definition.enabled || definition.needsReview) continue;
+    if (definition.kind === "episode") {
+      for (const episode of episodes) add(definition.label.replaceAll("{episode}", episode.title),
+        c => episodeIds.get(c.id).has(episode.id), "episode", definition.description);
+    } else {
+      add(definition.label, c => Boolean(c.storyTraits?.[definition.id]), "story", definition.description, definition.id);
+    }
   }
 
 
@@ -332,7 +206,7 @@ function generatePuzzle() {
   const wantsEpisode = gridNumber % 2 === 0;
   let best = null, bestScore = -Infinity;
   for (let attempt = 0; attempt < 60000; attempt++) {
-    const chosen = shuffle(Math.random() < 0.5 && episodes.length
+    const chosen = shuffle((story.length < 6 || Math.random() < 0.5) && episodes.length
       ? [...shuffle(story).slice(0, 5), shuffle(episodes)[0]]
       : shuffle(story).slice(0, 6));
     if (chosen.length < 6) return null;
@@ -340,7 +214,7 @@ function generatePuzzle() {
     if (gridNumber % 4 !== 0 && chosen.some(c => ["captive", "enhanced"].includes(c.trait))) continue;
     const preferred = chosen.filter(c => c.trait === "tardis" ||
       c.trait === "companion" || c.trait?.endsWith("-encounter"));
-    if (preferred.length < 3) continue;
+    // Preferred categories influence variety but never make disabled categories mandatory.
     const rows = chosen.slice(0, 3), columns = chosen.slice(3);
     const cells = rows.flatMap(row => columns.map(column =>
       [...row.ids].filter(id => column.ids.has(id))));
@@ -356,7 +230,7 @@ function generatePuzzle() {
     if (signature === lastGridSignature) continue;
     const includesEpisode = chosen.some(c => c.family === "episode");
     const freshness = chosen.reduce((n,c) => n + 1 / (1 + (categoryUses.get(c.key) || 0)), 0);
-    const score = freshness * 10 + (includesEpisode === wantsEpisode ? 4 : 0) + Math.random();
+    const score = freshness * 10 + Math.min(preferred.length, 3) * 2 + (includesEpisode === wantsEpisode ? 4 : 0) + Math.random();
     if (score > bestScore) { best = {rows, columns, cells, signature}; bestScore = score; }
     if (best && attempt >= 2500) break;
   }
@@ -483,7 +357,7 @@ function submitAnswer(id) {
 function newGame() {
   const generated = generatePuzzle();
   if (!generated) {
-    el("status").textContent = "Could not find a suitable grid. Try again.";
+    el("status").textContent = "Could not find a suitable grid with the enabled categories. Enable more categories or add matching character facts in the editor, then try again.";
     return;
   }
   puzzle = generated;
@@ -509,8 +383,8 @@ async function loadData(read) {
   puzzle = null;
   el("status").textContent = "Loading game data…";
   try {
-    const [people, episodes, appearances] = await Promise.all([
-      read("characters.json"), read("episodes.json"), read("appearances.json")
+    const [people, episodes, appearances, definitions] = await Promise.all([
+      read("characters.json"), read("episodes.json"), read("appearances.json"), read("categories.json")
     ]);
     if (![people, episodes, appearances].every(Array.isArray)) {
       throw new Error("Each data file must contain an array.");
@@ -521,6 +395,8 @@ async function loadData(read) {
       throw new Error("Characters need unique IDs and names.");
     }
 
+    const categoryErrors = CategoryConfig.validate(definitions);
+    if (categoryErrors.length) throw new Error(categoryErrors.join(" "));
     const ids = new Set(people.map(c => c.id));
     const episodeIds = new Set(episodes.map(e => e.id));
     if (!appearances.every(a =>
@@ -534,7 +410,7 @@ async function loadData(read) {
 
     characters = people.filter(c => c.playable !== false && active.has(c.id))
       .sort((a, b) => a.name.localeCompare(b.name));
-    categories = makeCategories(characters, episodes, appearances);
+    categories = makeCategories(characters, episodes, appearances, definitions);
     el("coverage").textContent = `${characters.length} playable characters · ${episodes.length} episodes loaded. Unknown facts are not treated as confirmed matches.`;
     el("new").disabled = false;
     newGame();
@@ -608,12 +484,12 @@ el("reveal").onclick = () => {
 
 // Resolve relative to this page so project-path hosting works.
 if (location.protocol === "file:") {
-  el("status").textContent = "Choose the three JSON files to play locally.";
+  el("status").textContent = "Choose the four JSON files to play locally.";
   el("import").open = true;
 } else {
   loadData(async name => {
     const dataUrl = new URL(name, location.href);
-    dataUrl.searchParams.set("v", "connections-review-2");
+    dataUrl.searchParams.set("v", "category-manager-1");
     const response = await fetch(dataUrl, { cache: "no-cache" });
     if (!response.ok) throw new Error(name + " returned HTTP " + response.status);
     return response.json();
@@ -622,4 +498,5 @@ if (location.protocol === "file:") {
 </script>
 </body>
 </html>
+
 

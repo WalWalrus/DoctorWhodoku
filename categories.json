@@ -1,0 +1,258 @@
+[
+  {
+    "id": "tardis",
+    "label": "Has been inside the TARDIS",
+    "description": "Physical entry within the loaded TV era; seeing it from outside does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "dalek-encounter",
+    "label": "Has met the Daleks",
+    "description": "Direct interaction, attack or live communication; simply sharing an episode does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "transformed",
+    "label": "Has had their body changed",
+    "description": "A physical transformation, regeneration, implant or explicit bodily alteration; ordinary injury does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "deception",
+    "label": "Uses a disguise or false identity",
+    "description": "An impersonation, invented identity or concealed allegiance used to deceive another character.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "leader",
+    "label": "Gives orders or runs an organisation",
+    "description": "Directs staff, followers, troops or a coordinated operation on screen.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "captive",
+    "label": "Is captured, restrained or imprisoned",
+    "description": "Physically detained or locked in against their will; ordinary confinement at work does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "parent",
+    "label": "Is a parent",
+    "description": "Parenthood established within the loaded TV era, including the Doctor's reference to having been a dad.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "enhanced",
+    "label": "Has a technological body or implant",
+    "description": "Robots, cyborg casings, implanted interfaces or machinery that sustains the body.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "alien",
+    "label": "Is a non-human alien",
+    "description": "Alien life, including Time Lords; excludes humans, human-made robots and terrestrial animals.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "companion",
+    "label": "Is a companion",
+    "description": "Travels with the Doctor as a companion within the loaded TV era. The Doctor himself does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "slitheen-encounter",
+    "label": "Has met the Slitheen",
+    "description": "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "auton-encounter",
+    "label": "Has met the Autons",
+    "description": "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "gelth-encounter",
+    "label": "Has met the Gelth",
+    "description": "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "reaper-encounter",
+    "label": "Has met the Reapers",
+    "description": "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "empty-child-encounter",
+    "label": "Has met the Empty Child",
+    "description": "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "spider-encounter",
+    "label": "Has met the robot spiders",
+    "description": "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "human",
+    "label": "Is human",
+    "description": "Human characters, including humans with surgical or technological alterations. Excludes Time Lords and artificial duplicates.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "cyberman-encounter",
+    "label": "Has met the Cybermen",
+    "description": "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "weeping-angel-encounter",
+    "label": "Has met the Weeping Angels",
+    "description": "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "master-encounter",
+    "label": "Has met the Master",
+    "description": "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "ood-encounter",
+    "label": "Has met the Ood",
+    "description": "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "sontaran-encounter",
+    "label": "Has met the Sontarans",
+    "description": "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "judoon-encounter",
+    "label": "Has met the Judoon",
+    "description": "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "time-travel",
+    "label": "Has travelled through time",
+    "description": "A journey to a different time, not simply being alive in a historical or future setting.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "parallel-world",
+    "label": "Has visited a parallel universe",
+    "description": "Physically crosses into a parallel universe, rather than merely seeing or hearing about it.",
+    "enabled": true,
+    "kind": "story",
+    "needsReview": false
+  },
+  {
+    "id": "rescued",
+    "label": "Rescued",
+    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
+    "enabled": false,
+    "kind": "story",
+    "needsReview": true
+  },
+  {
+    "id": "mind",
+    "label": "Mind",
+    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
+    "enabled": false,
+    "kind": "story",
+    "needsReview": true
+  },
+  {
+    "id": "kills",
+    "label": "Kills",
+    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
+    "enabled": false,
+    "kind": "story",
+    "needsReview": true
+  },
+  {
+    "id": "rescuer",
+    "label": "Rescuer",
+    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
+    "enabled": false,
+    "kind": "story",
+    "needsReview": true
+  },
+  {
+    "id": "sacrifice",
+    "label": "Sacrifice",
+    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
+    "enabled": false,
+    "kind": "story",
+    "needsReview": true
+  },
+  {
+    "id": "healing",
+    "label": "Healing",
+    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
+    "enabled": false,
+    "kind": "story",
+    "needsReview": true
+  },
+  {
+    "id": "episode-appearance",
+    "label": "Appears in {episode}",
+    "description": "An active appearance in the named episode.",
+    "enabled": true,
+    "kind": "episode",
+    "needsReview": false
+  }
+]

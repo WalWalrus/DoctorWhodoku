@@ -18,7 +18,7 @@ One supporting scene per category is enough. The editor can revise or clear a fa
 
 ### Bulk import
 
-Use **Bulk import game data** to merge existing game-schema JSON into the current draft. Select one or more of `characters.json`, `episodes.json`, `appearances.json`, or a single JSON object containing any of those arrays. Click **Preview import**, review counts and conflicts, then **Add preview to draft**. Importing never publishes to GitHub.
+Use **Bulk import game data** to merge existing game-schema JSON into the current draft. Select one or more of `characters.json`, `episodes.json`, `appearances.json`, `categories.json`, or a single JSON object containing any of those arrays. Click **Preview import**, review counts and conflicts, then **Add preview to draft**. Importing never publishes to GitHub.
 
 This is a game-format importer, not a TVmaze converter. Raw TVmaze episode/cast exports are not accepted and have not been loaded into the published catalogue.
 
@@ -36,7 +36,7 @@ Example game-format bundle (illustrative placeholders, not show data):
 
 ### What still needs filling
 
-**Check and download → Gaps to review** shows current era coverage, episodes without links, included characters without active appearances, characters without any category facts, excluded entries awaiting review, and categories with fewer than two matches. Review buttons jump to the relevant character or episode. **Download gap report** exports this list as `data-gaps.json`; this report is for review, not one of the three game files.
+**Check and download → Gaps to review** shows current era coverage, episodes without links, included characters without active appearances, characters without any category facts, excluded entries awaiting review, and categories with fewer than two matches. Review buttons jump to the relevant character or episode. **Download gap report** exports this list as `data-gaps.json`; this report is for review, not one of the four game files.
 
 The report cannot know a complete cast from a partial one. Nor does it treat an unrecorded fact as false. An episode with one link is not necessarily complete; a character with one fact may still need others. Enemy encounters and TARDIS entry must be supported by scenes, not inferred from appearing in the same episode.
 
@@ -48,11 +48,11 @@ Include named/speaking supporting characters, recognisable roles, and identifiab
 
 34 existing Series 1 entries have been restored, including Mr Redpath, Mrs Peace, the Platform One alien groups, Coffa, Lute, Algy, De Maggio, Cathy Salt and Davitch Pavale. Cards and other review sources are recorded on the character as `selectionSources`; card numbers, where checked, are in `battlesInTime`. The reference checklist is [The Millennium Effect](https://millenniumeffect.co.uk/index.php/battles-in-time/). Entries still excluded are explicitly marked as awaiting individual review, rather than asserted to be background characters.
 
-The editor starts with the three published game files. Each save also stores a draft in this browser. Use **Restore saved draft** when returning on the same device.
+The editor starts with the four published game files. Each save also stores a draft in this browser. Use **Restore saved draft** when returning on the same device.
 
-Download **characters.json**, **episodes.json** and **appearances.json**. You can test them in the game's **Load different data** section before publishing.
+Download **characters.json**, **episodes.json**, **appearances.json** and **categories.json**. You can test them in the game's **Load different data** section before publishing.
 
-To publish, open the repository root in GitHub, choose **Add file → Upload files**, upload all three files under their exact original names and commit. Wait for Pages to deploy, then refresh the game. The editor never writes to GitHub by itself.
+To publish, open the repository root in GitHub, choose **Add file → Upload files**, upload all four files under their exact original names and commit. Wait for Pages to deploy, then refresh the game. The editor never writes to GitHub by itself.
 
 The editor preserves additional fields it does not expose, such as performer metadata and creature type IDs. Validation checks unique IDs, duplicate appearances and missing character/episode references. It cannot verify the accuracy of a scene.
 
@@ -69,3 +69,22 @@ The game and editor support further-era entries but the shipped catalogue remain
 
 Alongside the existing categories, the forms and game recognise encounters with Cybermen, Weeping Angels, the Master, Ood, Sontarans and Judoon, plus time travel and visiting a parallel universe. A category enters the puzzle pool only when at least two playable characters have matching facts; the grid still needs valid intersections and nine distinct answers.
 
+
+
+
+## Manage categories
+
+The game and editor now share `categories.json`; no HTML edits are needed.
+
+1. Open **Categories → Edit a category**. Its saved character connections appear below the form.
+2. Change **Clue name** to rename it. Existing IDs are locked and connections stay attached.
+3. Untick **Enabled in new grids**, then **Save category**, to exclude it without deleting any facts. Disabled categories remain in the character fact dropdown. Tick it again to re-enable it.
+4. Use **New category** to add a clue name and definition. The editor creates an ID, which you can edit before the first save. Add matching characters and scene evidence under **Confirmed category facts**.
+5. Changing a definition with existing connections pauses that category in grids. Review the listed facts, tick **I have checked the definition against the saved connections**, and save to clear the review flag. Changing only the clue name does not trigger a review.
+6. To disable episode clues, select **Appears in {episode}** and untick Enabled. If renaming this template, retain `{episode}` so the game inserts each title.
+
+Download and upload `categories.json` to publish category-only edits. If you also change character evidence or other data, download and upload all four files. Draft saves remain local until uploaded to GitHub. **Load different data** in either game page now requires all four JSON files; when running a game HTML file locally, keep `category-config.js` alongside it.
+
+Older local drafts without categories inherit the currently loaded category definitions when restored. Legacy facts have been preserved in disabled categories marked for review, rather than silently deleted or re-enabled. Bulk imports can add categories and fill missing fields; as before, conflicts with existing values are preserved for manual editing.
+
+Turning off too many categories can leave no valid grid. The generator will explain this; it never silently re-enables a category. Every generated square still needs at least two answers and the whole grid needs nine distinct answers.

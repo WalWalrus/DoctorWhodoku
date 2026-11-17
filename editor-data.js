@@ -1,15 +1,16 @@
 /* Shared, side-effect-free data checks used by the editor and its tests. */
 (function(root){
   'use strict';
-  const keys=['characters','episodes','appearances'];
+  const keys=['characters','episodes','appearances','categories'];
+  const categoryConfig=typeof module!=='undefined'?require('./category-config.js'):root.CategoryConfig;
   const activeModes=['in-person','voice','broadcast'];
   const modes=[...activeModes,'still-image','archive','remains'];
   const object=x=>x!==null&&typeof x==='object'&&!Array.isArray(x);
   const nonempty=x=>typeof x==='string'&&x.trim().length>0;
   const copy=x=>JSON.parse(JSON.stringify(x));
   function validate(data){
-    if(!object(data)||!keys.every(k=>Array.isArray(data[k])))return ['All three data arrays are required.'];
-    const errors=[], chars=new Set(), eps=new Set(), pairs=new Set();
+    if(!object(data)||!keys.every(k=>Array.isArray(data[k])))return ['All four data arrays are required.'];
+    const errors=categoryConfig.validate(data.categories), chars=new Set(), eps=new Set(), pairs=new Set();
     for(const c of data.characters){
       if(!object(c)||!nonempty(c.id)||!nonempty(c.name)){errors.push('Every character needs a text ID and name.');continue;}
       if(chars.has(c.id))errors.push('Duplicate character ID: '+c.id);chars.add(c.id);
@@ -36,18 +37,19 @@
         if(object(f)&&f.source!==undefined&&typeof f.source!=='string')errors.push('Fact source must be text: '+c.id+' / '+trait);
       }
     }
+    for(const c of data.characters.filter(object))for(const id of Object.keys(c.storyTraits||{}))if(!data.categories.some(d=>d?.id===id))errors.push('Missing category definition: '+id);
     return [...new Set(errors)];
   }
   function readBatch(files){
-    const batch={characters:[],episodes:[],appearances:[]};
+    const batch={characters:[],episodes:[],appearances:[],categories:[]};
     for(const {name,value} of files){
       if(Array.isArray(value)){
         const key=name.toLowerCase().replace(/\.json$/,'');
-        if(!keys.includes(key))throw Error('Array files must be named characters.json, episodes.json or appearances.json. External formats need conversion to the documented game schema.');
+        if(!keys.includes(key))throw Error('Array files must be named characters.json, episodes.json, appearances.json or categories.json. External formats need conversion to the documented game schema.');
         batch[key].push(...value);
       }else if(object(value)&&keys.some(k=>Array.isArray(value[k]))){
         for(const key of keys)if(value[key]!==undefined){if(!Array.isArray(value[key]))throw Error(key+' must be an array.');batch[key].push(...value[key]);}
-      }else throw Error(name+': expected game data arrays or a bundle containing characters, episodes and/or appearances.');
+      }else throw Error(name+': expected game data arrays or a bundle containing characters, episodes, appearances and/or categories.');
     }
     return batch;
   }
@@ -70,7 +72,7 @@
       counts.added[key]=0;counts.updated[key]=0;counts.unchanged[key]=0;
       const id=x=>key==='appearances'?JSON.stringify([x.characterId,x.episodeId]):x.id;
       const seen=new Set();
-      for(const row of batch[key]){
+      for(const row of (batch[key]||[])){
         if(!object(row))throw Error(key+': every record must be an object.');
         const rowId=id(row);
         if(seen.has(rowId))throw Error('Duplicate incoming '+key+' record: '+rowId);seen.add(rowId);
@@ -98,10 +100,11 @@
       charactersWithoutActiveAppearances:data.characters.filter(c=>c.playable!==false&&!active.has(c.id)).map(c=>({id:c.id,name:c.name})),
       charactersWithoutCategoryFacts:noFacts.map(c=>({id:c.id,name:c.name})),
       excludedCharacters:data.characters.filter(c=>c.playable===false).map(c=>({id:c.id,name:c.name,reason:c.selectionNote||'Needs an individual inclusion review.'})),
-      categories:categoryDefs.map(([id,label])=>({id,label,confirmedMatches:playable.filter(c=>c.storyTraits?.[id]).length})),
+      categories:data.categories.filter(c=>c.kind==='story').map(c=>({id:c.id,label:c.label,enabled:c.enabled&&!c.needsReview,needsReview:Boolean(c.needsReview),confirmedMatches:playable.filter(p=>p.storyTraits?.[c.id]).length})),
       factsWithoutAppearance:data.characters.flatMap(c=>Object.entries(c.storyTraits||{}).filter(([,f])=>!data.appearances.some(a=>a.characterId===c.id&&a.episodeId===f.episodeId)).map(([category,f])=>({characterId:c.id,name:c.name,category,episodeId:f.episodeId})))
     };
   }
   root.EditorData={validate,readBatch,merge,gaps};
   if(typeof module!=='undefined')module.exports=root.EditorData;
 })(typeof globalThis!=='undefined'?globalThis:this);
+
