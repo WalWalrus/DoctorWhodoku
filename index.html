@@ -78,19 +78,21 @@
 <body>
 <main>
   <h1>Doctor Whodoku</h1>
-  <p>Series 1 only · Match both clues. Nine guesses. Use each answer once.</p>
+  <p>Match both clues. Nine guesses. Use each answer once.</p>
 
   <details id="import"><summary>Load different data</summary>
     <label for="files">Choose characters.json, episodes.json and appearances.json</label>
     <p><input id="files" type="file" accept=".json" multiple></p>
   </details>
 
+  <p><a href="data-editor.html" style="color:#85d9ff">Edit characters and episode data</a></p>
+  <p id="coverage"></p>
   <div class="toolbar">
     <button id="new" disabled>New grid</button>
     <button id="reveal" disabled>Reveal answers</button>
   </div>
 
-  <p id="status" role="status" aria-live="polite">Loading Series 1…</p>
+  <p id="status" role="status" aria-live="polite">Loading game data…</p>
   <div class="scroll"><table id="grid" aria-label="Doctor Who puzzle"></table></div>
   <section id="answers" aria-label="Possible answers"></section>
 </main>
@@ -163,7 +165,7 @@ function makeCategories(people, episodes, appearances) {
   [
     "tardis",
     "Has been inside the TARDIS",
-    "Physical entry during Series 1; seeing it from outside does not count."
+    "Physical entry within the loaded TV era; seeing it from outside does not count."
   ],
   [
     "dalek-encounter",
@@ -193,7 +195,7 @@ function makeCategories(people, episodes, appearances) {
   [
     "parent",
     "Is a parent",
-    "Parenthood established in Series 1, including the Doctor's reference to having been a dad."
+    "Parenthood established within the loaded TV era, including the Doctor's reference to having been a dad."
   ],
   [
     "enhanced",
@@ -208,42 +210,82 @@ function makeCategories(people, episodes, appearances) {
   [
     "companion",
     "Is a companion",
-    "Travels with the Doctor as a companion in Series 1: Rose, Adam or Jack. The Doctor himself does not count."
+    "Travels with the Doctor as a companion within the loaded TV era. The Doctor himself does not count."
   ],
   [
     "slitheen-encounter",
     "Has met the Slitheen",
-    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
   ],
   [
     "auton-encounter",
     "Has met the Autons",
-    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
   ],
   [
     "gelth-encounter",
     "Has met the Gelth",
-    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
   ],
   [
     "reaper-encounter",
     "Has met the Reapers",
-    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
   ],
   [
     "empty-child-encounter",
     "Has met the Empty Child",
-    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
   ],
   [
     "spider-encounter",
     "Has met the robot spiders",
-    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+    "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."
   ],
   [
     "human",
     "Is human",
     "Human characters, including humans with surgical or technological alterations. Excludes Time Lords and artificial duplicates."
+  ],
+  [
+    "cyberman-encounter",
+    "Has met the Cybermen",
+    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "weeping-angel-encounter",
+    "Has met the Weeping Angels",
+    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "master-encounter",
+    "Has met the Master",
+    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "ood-encounter",
+    "Has met the Ood",
+    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "sontaran-encounter",
+    "Has met the Sontarans",
+    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "judoon-encounter",
+    "Has met the Judoon",
+    "Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "time-travel",
+    "Has travelled through time",
+    "A journey to a different time, not simply being alive in a historical or future setting."
+  ],
+  [
+    "parallel-world",
+    "Has visited a parallel universe",
+    "Physically crosses into a parallel universe, rather than merely seeing or hearing about it."
   ]
 ];
   for (const [trait, label, description] of storyCategories) {
@@ -493,6 +535,7 @@ async function loadData(read) {
     characters = people.filter(c => c.playable !== false && active.has(c.id))
       .sort((a, b) => a.name.localeCompare(b.name));
     categories = makeCategories(characters, episodes, appearances);
+    el("coverage").textContent = `${characters.length} playable characters · ${episodes.length} episodes loaded. Unknown facts are not treated as confirmed matches.`;
     el("new").disabled = false;
     newGame();
 
@@ -570,7 +613,7 @@ if (location.protocol === "file:") {
 } else {
   loadData(async name => {
     const dataUrl = new URL(name, location.href);
-    dataUrl.searchParams.set("v", "encounter-mix-2");
+    dataUrl.searchParams.set("v", "manual-era-support-1");
     const response = await fetch(dataUrl, { cache: "no-cache" });
     if (!response.ok) throw new Error(name + " returned HTTP " + response.status);
     return response.json();
