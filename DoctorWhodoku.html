@@ -165,7 +165,7 @@ function makeCategories(people, episodes, appearances) {
   ],
   [
     "dalek-encounter",
-    "Has encountered a Dalek",
+    "Has met the Daleks",
     "Direct interaction, attack or live communication; simply sharing an episode does not count."
   ],
   [
@@ -202,6 +202,46 @@ function makeCategories(people, episodes, appearances) {
     "alien",
     "Is a non-human alien",
     "Alien life, including Time Lords; excludes humans, human-made robots and terrestrial animals."
+  ],
+  [
+    "companion",
+    "Is a companion",
+    "Travels with the Doctor as a companion in Series 1: Rose, Adam or Jack. The Doctor himself does not count."
+  ],
+  [
+    "slitheen-encounter",
+    "Has met the Slitheen",
+    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "auton-encounter",
+    "Has met the Autons",
+    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "gelth-encounter",
+    "Has met the Gelth",
+    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "reaper-encounter",
+    "Has met the Reapers",
+    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "empty-child-encounter",
+    "Has met the Empty Child",
+    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "spider-encounter",
+    "Has met the robot spiders",
+    "Direct interaction, an attack or a live conversation in Series 1. Sharing an episode or being that enemy does not count."
+  ],
+  [
+    "human",
+    "Is human",
+    "Human characters, including humans with surgical or technological alterations. Excludes Time Lords and artificial duplicates."
   ]
 ];
   for (const [trait, label, description] of storyCategories) {
@@ -238,43 +278,50 @@ function hasDistinctSolution(cells) {
   return cells.every((_, index) => place(index, new Set()));
 }
 
+const categoryUses = new Map();
+let lastGridSignature = "";
+let gridNumber = 0;
+
 function generatePuzzle() {
-  for (let attempt = 0; attempt < 10000; attempt++) {
-    const story = shuffle(categories.filter(c => c.family === "story"));
-    const episode = shuffle(categories.filter(c => c.family === "episode"));
-    const chosen = shuffle(episode.length && Math.random() < 0.35
-      ? [...story.slice(0, 5), episode[0]] : story.slice(0, 6));
+  const story = categories.filter(c => c.family === "story");
+  const episodes = categories.filter(c => c.family === "episode");
+  const wantsEpisode = gridNumber % 2 === 0;
+  let best = null, bestScore = -Infinity;
+  for (let attempt = 0; attempt < 60000; attempt++) {
+    const chosen = shuffle(Math.random() < 0.5 && episodes.length
+      ? [...shuffle(story).slice(0, 5), shuffle(episodes)[0]]
+      : shuffle(story).slice(0, 6));
     if (chosen.length < 6) return null;
-    if (chosen.filter(c => c.family === "episode").length > 1) continue;
-
-
-    const rows = chosen.slice(0, 3);
-    const columns = chosen.slice(3);
-
-    if (rows.filter(c => c.family === "episode").length > 1) continue;
-    if (columns.filter(c => c.family === "episode").length > 1) continue;
-
+    if (chosen.filter(c => ["captive", "enhanced"].includes(c.trait)).length > 1) continue;
+    if (gridNumber % 4 !== 0 && chosen.some(c => ["captive", "enhanced"].includes(c.trait))) continue;
+    const preferred = chosen.filter(c => c.trait === "tardis" ||
+      c.trait === "companion" || c.trait?.endsWith("-encounter"));
+    if (preferred.length < 3) continue;
+    const rows = chosen.slice(0, 3), columns = chosen.slice(3);
     const cells = rows.flatMap(row => columns.map(column =>
-      [...row.ids].filter(id => column.ids.has(id))
-    ));
-
+      [...row.ids].filter(id => column.ids.has(id))));
     if (cells.some(cell => cell.length < 2)) continue;
-    // Every square needs a choice beyond the regular TARDIS leads.
-    const leads = new Set(["ninth-doctor", "tenth-doctor", "rose-tyler", "captain-jack-harkness"]);
-    if (cells.some(cell => cell.filter(id => !leads.has(id)).length < 2)) continue;
-    if (!hasDistinctSolution(cells.map(cell => cell.filter(id => !leads.has(id))))) continue;
-    // A generic creature and one named member alone are not two distinct choices.
+    // Never offer a square whose only answers are the Doctor and Rose.
+    const defaults = new Set(["ninth-doctor", "tenth-doctor", "rose-tyler"]);
+    if (cells.some(cell => !cell.some(id => !defaults.has(id)))) continue;
     if (cells.some(cell => cell.length === 2 && characters.some(c =>
-      cell.includes(c.id) && (c.typeIds || []).some(type => cell.includes(type))
-    ))) continue;
-
-    const signatures = cells.map(cell => [...cell].sort().join("|"));
-    if (new Set(signatures).size !== 9) continue;
+      cell.includes(c.id) && (c.typeIds || []).some(type => cell.includes(type))))) continue;
+    if (new Set(cells.map(cell => [...cell].sort().join("|"))).size !== 9) continue;
     if (!hasDistinctSolution(cells)) continue;
-
-    return { rows, columns, cells };
+    const signature = chosen.map(c => c.key).sort().join(";");
+    if (signature === lastGridSignature) continue;
+    const includesEpisode = chosen.some(c => c.family === "episode");
+    const freshness = chosen.reduce((n,c) => n + 1 / (1 + (categoryUses.get(c.key) || 0)), 0);
+    const score = freshness * 10 + (includesEpisode === wantsEpisode ? 4 : 0) + Math.random();
+    if (score > bestScore) { best = {rows, columns, cells, signature}; bestScore = score; }
+    if (best && attempt >= 2500) break;
   }
-  return null;
+  if (!best) return null;
+  for (const category of [...best.rows, ...best.columns])
+    categoryUses.set(category.key, (categoryUses.get(category.key) || 0) + 1);
+  lastGridSignature = best.signature;
+  gridNumber++;
+  return best;
 }
 
 function cellLabel(index) {
