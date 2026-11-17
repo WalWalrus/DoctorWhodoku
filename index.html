@@ -507,7 +507,7 @@ async function loadData(read) {
   el("grid").replaceChildren();
   el("answers").replaceChildren();
   puzzle = null;
-  el("status").textContent = "Loading Series 1…";
+  el("status").textContent = "Loading game data…";
   try {
     const [people, episodes, appearances] = await Promise.all([
       read("characters.json"), read("episodes.json"), read("appearances.json")
@@ -613,7 +613,7 @@ if (location.protocol === "file:") {
 } else {
   loadData(async name => {
     const dataUrl = new URL(name, location.href);
-    dataUrl.searchParams.set("v", "manual-era-support-1");
+    dataUrl.searchParams.set("v", "connections-review-2");
     const response = await fetch(dataUrl, { cache: "no-cache" });
     if (!response.ok) throw new Error(name + " returned HTTP " + response.status);
     return response.json();
@@ -622,3 +622,4 @@ if (location.protocol === "file:") {
 </script>
 </body>
 </html>
+

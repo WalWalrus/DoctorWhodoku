@@ -1,0 +1,523 @@
+{
+  "note": "Unrecorded connections are unknown, not confirmed false. These checks cannot prove that an episode cast or character history is complete.",
+  "coverage": [
+    {
+      "series": 1,
+      "episodes": 13
+    },
+    {
+      "series": 2,
+      "episodes": 0
+    },
+    {
+      "series": 3,
+      "episodes": 0
+    },
+    {
+      "series": 4,
+      "episodes": 0
+    },
+    {
+      "series": "specials",
+      "episodes": 0
+    }
+  ],
+  "episodesWithoutAppearances": [],
+  "charactersWithoutActiveAppearances": [
+    {
+      "id": "oliver-charles",
+      "name": "Oliver Charles"
+    }
+  ],
+  "charactersWithoutCategoryFacts": [
+    {
+      "id": "adherents-of-the-repeated-meme",
+      "name": "Adherents of the Repeated Meme"
+    },
+    {
+      "id": "alf",
+      "name": "Alf"
+    },
+    {
+      "id": "algy",
+      "name": "Algy"
+    },
+    {
+      "id": "arthur-lloyd",
+      "name": "Mr Lloyd"
+    },
+    {
+      "id": "bywater",
+      "name": "Bywater"
+    },
+    {
+      "id": "cathy-salt",
+      "name": "Cathy Salt"
+    },
+    {
+      "id": "davitch-pavale",
+      "name": "Davitch Pavale"
+    },
+    {
+      "id": "ernie",
+      "name": "Ernie"
+    },
+    {
+      "id": "game-station-female-programmer",
+      "name": "Game Station female programmer"
+    },
+    {
+      "id": "general-asquith",
+      "name": "General Asquith"
+    },
+    {
+      "id": "idris-hopper",
+      "name": "Idris Hopper"
+    },
+    {
+      "id": "indra-ganesh",
+      "name": "Indra Ganesh"
+    },
+    {
+      "id": "jim",
+      "name": "Jim"
+    },
+    {
+      "id": "mr-cleaver",
+      "name": "Mr Cleaver"
+    },
+    {
+      "id": "mrs-lloyd",
+      "name": "Mrs Lloyd"
+    },
+    {
+      "id": "oliver-charles",
+      "name": "Oliver Charles"
+    },
+    {
+      "id": "polkowski",
+      "name": "Polkowski"
+    },
+    {
+      "id": "sarah-clark",
+      "name": "Sarah Clark"
+    },
+    {
+      "id": "sergeant-price",
+      "name": "Sergeant Price"
+    },
+    {
+      "id": "simmons",
+      "name": "Simmons"
+    },
+    {
+      "id": "sonny-hoskins",
+      "name": "Sonny Hoskins"
+    },
+    {
+      "id": "stuart-hoskins",
+      "name": "Stuart Hoskins"
+    },
+    {
+      "id": "vault-commander",
+      "name": "Vault commander"
+    }
+  ],
+  "excludedCharacters": [
+    {
+      "id": "agorax",
+      "name": "Agorax",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "alexander-graham-bell",
+      "name": "Alexander Graham Bell",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "andrew-marr",
+      "name": "Andrew Marr",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "asquith-slitheen",
+      "name": "Asquith Slitheen",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "bau",
+      "name": "Bau",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "bev",
+      "name": "Bev",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "broff",
+      "name": "Broff",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "cardiff-carriage-driver",
+      "name": "Cardiff carriage driver",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "caroline-finch",
+      "name": "Caroline Finch",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "chula-ship-computer",
+      "name": "Chula ship computer",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "clive-s-son",
+      "name": "Clive's Son",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "colleen",
+      "name": "Colleen",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "crosbie",
+      "name": "Crosbie",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "cyberman",
+      "name": "Cyberman",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "daniels-family",
+      "name": "Daniels family",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "downing-street-academic",
+      "name": "Downing Street academic",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "ewan-mcallister-slitheen",
+      "name": "Ewan McAllister Slitheen",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "fitch",
+      "name": "Fitch",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "game-station-floor-manager",
+      "name": "Game Station floor manager",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "game-station-security-guard",
+      "name": "Game Station security guard",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "london-nightclub-singer",
+      "name": "London nightclub singer",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "lyceum-stage-manager",
+      "name": "Lyceum stage manager",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "matt",
+      "name": "Matt",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "matt-baker",
+      "name": "Matt Baker",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "mickey-smith-s-mother",
+      "name": "Mickey Smith's mother",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "missing-british-prime-minister",
+      "name": "Missing British Prime Minister",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "mrs-harcourt",
+      "name": "Mrs Harcourt",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "noxwen-van-coofen",
+      "name": "Noxwen Van Coofen",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "platform-one-computer",
+      "name": "Platform One computer",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "powell-estate-graffiti-artist",
+      "name": "Powell Estate graffiti artist",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "powell-estate-policeman",
+      "name": "Powell Estate policeman",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "ru",
+      "name": "Ru",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "sandra-mitchell",
+      "name": "Sandra Mitchell",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "satellite-five-head-chef",
+      "name": "Satellite Five head chef",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "satellite-five-nurse",
+      "name": "Satellite Five nurse",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "sip-fel-fotch-passameer-day-slitheen",
+      "name": "Sip Fel-Fotch Passameer-Day Slitheen",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "st-christopher-s-vicar",
+      "name": "St Christopher's vicar",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "strood",
+      "name": "Strood",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "suzie",
+      "name": "Suzie",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "sylvia-dillane-slitheen",
+      "name": "Sylvia Dillane Slitheen",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "tennant-james-slitheen",
+      "name": "Tennant James Slitheen",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "timothy-lloyd",
+      "name": "Timothy Lloyd",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "tom-hitchinson",
+      "name": "Tom Hitchinson",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "trinity-wells",
+      "name": "Trinity Wells",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    },
+    {
+      "id": "tyler-wedding-registrar",
+      "name": "Tyler wedding registrar",
+      "reason": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude."
+    }
+  ],
+  "categories": [
+    {
+      "id": "tardis",
+      "label": "Has been inside the TARDIS",
+      "confirmedMatches": 8
+    },
+    {
+      "id": "dalek-encounter",
+      "label": "Has met the Daleks",
+      "confirmedMatches": 10
+    },
+    {
+      "id": "transformed",
+      "label": "Has had their body changed",
+      "confirmedMatches": 15
+    },
+    {
+      "id": "deception",
+      "label": "Uses a disguise or false identity",
+      "confirmedMatches": 11
+    },
+    {
+      "id": "leader",
+      "label": "Gives orders or runs an organisation",
+      "confirmedMatches": 14
+    },
+    {
+      "id": "captive",
+      "label": "Is captured, restrained or imprisoned",
+      "confirmedMatches": 12
+    },
+    {
+      "id": "parent",
+      "label": "Is a parent",
+      "confirmedMatches": 6
+    },
+    {
+      "id": "enhanced",
+      "label": "Has a technological body or implant",
+      "confirmedMatches": 15
+    },
+    {
+      "id": "alien",
+      "label": "Is a non-human alien",
+      "confirmedMatches": 25
+    },
+    {
+      "id": "companion",
+      "label": "Is a companion",
+      "confirmedMatches": 3
+    },
+    {
+      "id": "slitheen-encounter",
+      "label": "Has met the Slitheen",
+      "confirmedMatches": 6
+    },
+    {
+      "id": "auton-encounter",
+      "label": "Has met the Autons",
+      "confirmedMatches": 5
+    },
+    {
+      "id": "gelth-encounter",
+      "label": "Has met the Gelth",
+      "confirmedMatches": 6
+    },
+    {
+      "id": "reaper-encounter",
+      "label": "Has met the Reapers",
+      "confirmedMatches": 5
+    },
+    {
+      "id": "empty-child-encounter",
+      "label": "Has met the Empty Child",
+      "confirmedMatches": 5
+    },
+    {
+      "id": "spider-encounter",
+      "label": "Has met the robot spiders",
+      "confirmedMatches": 5
+    },
+    {
+      "id": "human",
+      "label": "Is human",
+      "confirmedMatches": 28
+    },
+    {
+      "id": "cyberman-encounter",
+      "label": "Has met the Cybermen",
+      "confirmedMatches": 0
+    },
+    {
+      "id": "weeping-angel-encounter",
+      "label": "Has met the Weeping Angels",
+      "confirmedMatches": 0
+    },
+    {
+      "id": "master-encounter",
+      "label": "Has met the Master",
+      "confirmedMatches": 0
+    },
+    {
+      "id": "ood-encounter",
+      "label": "Has met the Ood",
+      "confirmedMatches": 0
+    },
+    {
+      "id": "sontaran-encounter",
+      "label": "Has met the Sontarans",
+      "confirmedMatches": 0
+    },
+    {
+      "id": "judoon-encounter",
+      "label": "Has met the Judoon",
+      "confirmedMatches": 0
+    },
+    {
+      "id": "time-travel",
+      "label": "Has travelled through time",
+      "confirmedMatches": 0
+    },
+    {
+      "id": "parallel-world",
+      "label": "Has visited a parallel universe",
+      "confirmedMatches": 0
+    }
+  ],
+  "factsWithoutAppearance": [
+    {
+      "characterId": "dalek",
+      "name": "Dalek",
+      "category": "transformed",
+      "episodeId": "s01e06"
+    },
+    {
+      "characterId": "dalek",
+      "name": "Dalek",
+      "category": "kills",
+      "episodeId": "s01e06"
+    },
+    {
+      "characterId": "dalek",
+      "name": "Dalek",
+      "category": "captive",
+      "episodeId": "s01e06"
+    },
+    {
+      "characterId": "dalek",
+      "name": "Dalek",
+      "category": "enhanced",
+      "episodeId": "s01e06"
+    },
+    {
+      "characterId": "dalek",
+      "name": "Dalek",
+      "category": "healing",
+      "episodeId": "s01e06"
+    },
+    {
+      "characterId": "game-station-controller",
+      "name": "The Controller",
+      "category": "dalek-encounter",
+      "episodeId": "s01e13"
+    }
+  ]
+}

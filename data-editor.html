@@ -23,6 +23,12 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <p class="notice"><strong>This edits a draft on this device.</strong> Changes do not publish automatically. Download the three game JSON files below and upload them to the repository root to update the live game.</p>
 <p id="status" role="status" aria-live="polite">Loading existing game data…</p>
 <div class="actions"><button id="restore" disabled>Restore saved draft</button><button id="reload" disabled>Reload published data</button></div>
+<section><h2>Bulk import game data</h2>
+<p>Merge existing game-format JSON files or a bundle with <code>characters</code>, <code>episodes</code> and <code>appearances</code> arrays. Existing values and evidence are kept; conflicts are listed for review. External database exports need conversion first.</p>
+<label for="bulk-files">Game JSON files</label><input id="bulk-files" type="file" accept=".json,application/json" multiple data-ready disabled>
+<div class="actions"><button id="preview-import" data-ready disabled>Preview import</button><button id="apply-import" disabled>Add preview to draft</button></div>
+<p id="import-summary" role="status"></p><ul id="import-conflicts"></ul>
+<p><a href="https://github.com/WalWalrus/DoctorWhodoku/blob/main/EDITING-DATA.md">File format and editing guide</a></p></section>
 <section><h2>1. Characters</h2>
 <label for="character-select">Edit an existing character</label><select id="character-select" data-ready disabled></select>
 <button id="new-character" data-ready disabled type="button">New character</button>
@@ -34,6 +40,9 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <label for="kind">Entry type</label><select id="kind" data-ready disabled><option value="individual">Individual character</option><option value="type">Creature type</option><option value="group">Group</option><option value="role">Recognisable role</option></select>
 <label class="check"><input id="playable" type="checkbox" checked data-ready disabled>Include in the answer pool</label>
 <button type="submit" data-ready disabled>Save character</button></form>
+<p id="selection-note" class="hint"></p>
+<div id="connections" aria-live="polite"><h3>Existing connections</h3><p id="connection-summary">Choose a character to see their saved episodes and category facts.</p>
+<h4>Linked episodes</h4><ul id="character-episodes"></ul><h4>Confirmed facts</h4><ul id="character-facts"></ul></div>
 </section>
 <section><h2>2. Episodes</h2>
 <label for="episode-select">Edit an existing episode</label><select id="episode-select" data-ready disabled></select>
@@ -47,14 +56,14 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <label for="episode-source">Reference URL (optional)</label><input id="episode-source" type="url" data-ready disabled>
 <div class="actions"><button type="submit" data-ready disabled>Save episode</button></div></form>
 </section>
-<section><h2>3. Episode appearances</h2>
+<section id="appearance-section"><h2>3. Episode appearances</h2>
 <p class="hint">An appearance adds a character to that episode's answer list. It does not imply they met every other character there.</p>
 <form id="appearance-form"><div class="row"><div><label for="appearance-character">Character</label><select id="appearance-character" data-ready disabled required></select></div><div><label for="appearance-episode">Episode</label><select id="appearance-episode" data-ready disabled required></select></div></div>
 <label for="mode">Appearance mode</label><select id="mode" data-ready disabled><option value="in-person">In person</option><option value="voice">Voice / telephone</option><option value="broadcast">In-story broadcast</option><option value="still-image">Still image (not a playable appearance)</option><option value="archive">Archive footage (not a playable appearance)</option><option value="remains">Remains (not a playable appearance)</option></select>
 <div class="actions"><button type="submit" data-ready disabled>Save appearance</button></div></form>
 <ul id="appearance-list"></ul>
 </section>
-<section><h2>4. Confirmed category facts</h2>
+<section id="fact-section"><h2>4. Confirmed category facts</h2>
 <p class="hint">Leave unknown facts blank. For an enemy encounter, record direct interaction, an attack or live communication. For the TARDIS, record actual entry.</p>
 <form id="fact-form"><label for="fact-character">Character</label><select id="fact-character" required data-ready disabled></select>
 <label for="trait">Category</label><select id="trait" required data-ready disabled></select><p id="trait-help" class="hint"></p>
@@ -66,28 +75,92 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <ul id="fact-list"></ul></section>
 <section><h2>5. Check and download</h2>
 <p id="counts"></p><ul id="issues"></ul>
+<h3>Gaps to review</h3><p>Blank connections are unknown, not false. A populated episode may still have missing cast; this report checks recorded data, not canon completeness.</p>
+<p id="era-coverage"></p><div id="gap-report"></div>
+<button id="download-gaps" data-ready disabled>Download gap report</button>
 <div class="actions"><button id="download-characters" data-ready disabled>Download characters.json</button><button id="download-episodes" data-ready disabled>Download episodes.json</button><button id="download-appearances" data-ready disabled>Download appearances.json</button></div>
 <ol><li>Save your entries above, then download all three files.</li><li>On <a href="https://github.com/WalWalrus/DoctorWhodoku">GitHub</a>, choose <strong>Add file → Upload files</strong> in the repository root.</li><li>Upload the three files with their exact filenames and commit the changes.</li><li>Once Pages deploys, refresh the game. You can also test the files using <strong>Load different data</strong> on the game page before uploading.</li></ol>
 </section></main>
+<script src="editor-data.js"></script>
 <script>
 "use strict";
 const categories = [["tardis","Has been inside the TARDIS","Physical entry within the loaded TV era; seeing it from outside does not count."],["dalek-encounter","Has met the Daleks","Direct interaction, attack or live communication; simply sharing an episode does not count."],["transformed","Has had their body changed","A physical transformation, regeneration, implant or explicit bodily alteration; ordinary injury does not count."],["deception","Uses a disguise or false identity","An impersonation, invented identity or concealed allegiance used to deceive another character."],["leader","Gives orders or runs an organisation","Directs staff, followers, troops or a coordinated operation on screen."],["captive","Is captured, restrained or imprisoned","Physically detained or locked in against their will; ordinary confinement at work does not count."],["parent","Is a parent","Parenthood established within the loaded TV era, including the Doctor's reference to having been a dad."],["enhanced","Has a technological body or implant","Robots, cyborg casings, implanted interfaces or machinery that sustains the body."],["alien","Is a non-human alien","Alien life, including Time Lords; excludes humans, human-made robots and terrestrial animals."],["companion","Is a companion","Travels with the Doctor as a companion within the loaded TV era. The Doctor himself does not count."],["slitheen-encounter","Has met the Slitheen","Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."],["auton-encounter","Has met the Autons","Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."],["gelth-encounter","Has met the Gelth","Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."],["reaper-encounter","Has met the Reapers","Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."],["empty-child-encounter","Has met the Empty Child","Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."],["spider-encounter","Has met the robot spiders","Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count."],["human","Is human","Human characters, including humans with surgical or technological alterations. Excludes Time Lords and artificial duplicates."],["cyberman-encounter","Has met the Cybermen","Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."],["weeping-angel-encounter","Has met the Weeping Angels","Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."],["master-encounter","Has met the Master","Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."],["ood-encounter","Has met the Ood","Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."],["sontaran-encounter","Has met the Sontarans","Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."],["judoon-encounter","Has met the Judoon","Direct interaction, an attack or live communication within the loaded TV era. Sharing an episode or being that enemy does not count."],["time-travel","Has travelled through time","A journey to a different time, not simply being alive in a historical or future setting."],["parallel-world","Has visited a parallel universe","Physically crosses into a parallel universe, rather than merely seeing or hearing about it."]];
 const el=id=>document.getElementById(id);
 const draftKey="doctorwhodoku-data-editor-v1";
-let data=null, editingCharacter=null, editingEpisode=null, dirty=false;
+let data=null, editingCharacter=null, editingEpisode=null, dirty=false, pendingImport=null;
 const clone=value=>JSON.parse(JSON.stringify(value));
 function report(message,error=false){el("status").textContent=message;el("status").className=error?"error":"";}
 function slug(value){return value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
-function validate(value){
-  const errors=[];
-  if(!value||!["characters","episodes","appearances"].every(k=>Array.isArray(value[k])))return ["All three data arrays are required."];
-  const ids=new Set(),episodes=new Set(),pairs=new Set();
-  for(const c of value.characters){if(!c.id||!c.name||ids.has(c.id))errors.push("Character IDs and names must be present and IDs unique.");ids.add(c.id);}
-  for(const e of value.episodes){if(!e.id||!e.title||episodes.has(e.id))errors.push("Episode IDs and titles must be present and IDs unique.");episodes.add(e.id);}
-  for(const a of value.appearances){if(!ids.has(a.characterId)||!episodes.has(a.episodeId))errors.push("An appearance references a missing character or episode.");const key=a.characterId+"|"+a.episodeId;if(pairs.has(key))errors.push("Duplicate character/episode appearance: "+key);pairs.add(key);}
-  for(const c of value.characters)for(const f of Object.values(c.storyTraits||{})){if(!f.episodeId||!episodes.has(f.episodeId)||!f.evidence?.trim())errors.push("A fact needs an existing evidence episode and explanation: "+c.name);}
-  return [...new Set(errors)];
+function selectCharacter(id){el("character-select").value=id;el("character-select").onchange();}
+function listItem(list,text,action,label){
+  const li=document.createElement("li");li.textContent=text;
+  if(action){const button=document.createElement("button");button.type="button";button.textContent=label||"Review";button.onclick=action;li.append(" ",button);}
+  list.append(li);
 }
+function editFact(id,trait){
+  selectCharacter(id);
+  if(![...el("trait").options].some(o=>o.value===trait))option(el("trait"),trait,trait+" (legacy category)");
+  el("trait").value=trait;loadFact();el("fact-section").scrollIntoView({block:"start"});el("evidence").focus();
+}
+function showConnections(){
+  const c=data.characters.find(c=>c.id===el("character-select").value);
+  el("character-episodes").replaceChildren();el("character-facts").replaceChildren();
+  el("selection-note").textContent=c?.selectionNote||"";
+  if(!c){el("connection-summary").textContent="Choose a character to see their saved episodes and category facts.";return;}
+  const appearances=data.appearances.filter(a=>a.characterId===c.id),facts=Object.entries(c.storyTraits||{});
+  el("connection-summary").textContent=c.name+": "+appearances.length+" linked episodes · "+facts.length+" confirmed facts";
+  for(const a of appearances){
+    const e=data.episodes.find(e=>e.id===a.episodeId);
+    listItem(el("character-episodes"),(e?.title||a.episodeId)+" · "+a.mode,()=>{
+      el("appearance-episode").value=a.episodeId;loadAppearance();el("appearance-section").scrollIntoView({block:"start"});el("mode").focus();
+    },"Edit link");
+  }
+  if(!appearances.length)listItem(el("character-episodes"),"No episode connections recorded yet.");
+  for(const [trait,f] of facts)listItem(el("character-facts"),(categories.find(x=>x[0]===trait)?.[1]||trait)+" — "+f.evidence+" ("+(data.episodes.find(e=>e.id===f.episodeId)?.title||f.episodeId)+")",()=>editFact(c.id,trait),"Edit fact");
+  if(!facts.length)listItem(el("character-facts"),"No category facts recorded yet. This does not mean the character fails those categories.");
+}
+function showGaps(){
+  const gaps=EditorData.gaps(data,categories);el("gap-report").replaceChildren();
+  el("era-coverage").textContent=gaps.coverage.map(x=>(x.series==='specials'?'Specials':'Series '+x.series)+': '+x.episodes+' episodes').join(' · ');
+  function group(title,items,describe,action){
+    const details=document.createElement('details'),summary=document.createElement('summary'),list=document.createElement('ul');
+    summary.textContent=title+' ('+items.length+')';details.append(summary,list);
+    for(const item of items)listItem(list,describe(item),action?()=>action(item):null);
+    el('gap-report').append(details);
+  }
+  const character=c=>{selectCharacter(c.id);el('connections').scrollIntoView({block:'start'});};
+  group('Episodes without any linked characters',gaps.episodesWithoutAppearances,e=>e.title,e=>{el('episode-select').value=e.id;el('episode-select').onchange();el('episode-select').focus();});
+  group('Included characters without an active appearance',gaps.charactersWithoutActiveAppearances,c=>c.name,character);
+  group('Included characters without category facts',gaps.charactersWithoutCategoryFacts,c=>c.name,character);
+  group('Excluded characters — review individually',gaps.excludedCharacters,c=>c.name+' — '+c.reason,character);
+  group('Categories with fewer than two confirmed matches',gaps.categories.filter(c=>c.confirmedMatches<2),c=>c.label+' · '+c.confirmedMatches+' matches');
+  group('Facts whose evidence episode has no appearance link',gaps.factsWithoutAppearance,f=>f.name+' / '+f.category+' / '+f.episodeId,f=>editFact(f.characterId,f.category));
+}
+el('bulk-files').onchange=()=>{pendingImport=null;el('apply-import').disabled=true;el('import-summary').textContent='Files selected. Preview before adding them.';el('import-conflicts').replaceChildren();};
+el('preview-import').onclick=async()=>{
+  pendingImport=null;el('apply-import').disabled=true;el('import-conflicts').replaceChildren();
+  try{
+    const files=[...el('bulk-files').files];if(!files.length)throw Error('Choose at least one JSON file.');
+    const base=JSON.stringify(data);
+    const batch=EditorData.readBatch(await Promise.all(files.map(async f=>({name:f.name,value:JSON.parse(await f.text())}))));
+    if(base!==JSON.stringify(data))throw Error('The draft changed while reading files. Preview again.');
+    const result=EditorData.merge(data,batch);pendingImport={...result,base};
+    el('import-summary').textContent=['characters','episodes','appearances'].map(k=>k+': '+result.counts.added[k]+' new, '+result.counts.updated[k]+' supplemented, '+result.counts.unchanged[k]+' unchanged').join(' · ')+'. No changes applied yet.';
+    for(const conflict of result.conflicts)listItem(el('import-conflicts'),conflict);
+    el('apply-import').disabled=false;
+  }catch(error){el('import-summary').textContent='Import not applied: '+error.message;}
+};
+el('apply-import').onclick=()=>{
+  if(!pendingImport||pendingImport.base!==JSON.stringify(data))return report('Draft changed. Preview the import again.',true);
+  data=pendingImport.candidate;save('Bulk data added. Existing values were preserved.');loadFact();loadAppearance();
+  el('import-summary').textContent='Import applied to this local draft. Download the three game files to publish it. Any listed conflicts still need manual review.';
+};
+function downloadJson(filename,value){
+  const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)+'\n'],{type:'application/json'}));
+  const a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+el('download-gaps').onclick=()=>downloadJson('data-gaps.json',EditorData.gaps(data,categories));
+const validate=EditorData.validate;
 function option(select,value,label){const o=document.createElement("option");o.value=value;o.textContent=label;select.append(o);}
 function populate(id,items,label,placeholder){
   const select=el(id),previous=select.value;select.replaceChildren();option(select,"",placeholder);
@@ -103,10 +176,10 @@ function refresh(){
   const issues=validate(data);el("issues").replaceChildren();
   for(const message of issues){const li=document.createElement("li");li.textContent=message;el("issues").append(li);}
   if(!issues.length){const li=document.createElement("li");li.textContent="No broken references or duplicate IDs found. Scene accuracy still needs your review.";el("issues").append(li);}
-  showAppearances();showFacts();
+  showAppearances();showFacts();showConnections();showGaps();
 }
 function save(message){
-  dirty=true;refresh();
+  dirty=true;pendingImport=null;el("apply-import").disabled=true;refresh();
   try{localStorage.setItem(draftKey,JSON.stringify(data));el("restore").disabled=false;report(message+" Draft saved on this device.");}
   catch{report(message+" Browser storage is unavailable; download the files before leaving.",true);}
 }
@@ -120,10 +193,10 @@ async function loadPublished(){
     data=candidate;dirty=false;
     document.querySelectorAll("[data-ready]").forEach(e=>e.disabled=false);
     el("reload").disabled=false;
-    refresh();resetCharacter();resetEpisode();report("Published data loaded. Edits stay in your local draft until you upload the files.");
+    refresh();resetCharacter();resetEpisode();loadFact();report("Published data loaded. Edits stay in your local draft until you upload the files.");
   }catch(error){report(error.message,true);}
 }
-function resetCharacter(){editingCharacter=null;el("character-form").reset();el("character-id").readOnly=false;el("character-select").value="";}
+function resetCharacter(){editingCharacter=null;el("character-form").reset();el("character-id").readOnly=false;el("character-select").value="";el("appearance-character").value="";el("fact-character").value="";if(data){showAppearances();showFacts();showConnections();loadFact();loadAppearance();}}
 function resetEpisode(){editingEpisode=null;el("episode-form").reset();el("episode-id").readOnly=false;el("episode-select").value="";}
 el("new-character").onclick=resetCharacter;el("new-episode").onclick=resetEpisode;
 el("character-name").oninput=()=>{if(!editingCharacter)el("character-id").value=slug(el("character-name").value);};
@@ -131,6 +204,7 @@ el("character-select").onchange=()=>{
   const c=data.characters.find(c=>c.id===el("character-select").value);if(!c){resetCharacter();return;}
   editingCharacter=c.id;el("character-id").value=c.id;el("character-id").readOnly=true;el("character-name").value=c.name;
   el("aliases").value=(c.aliases||[]).join("\n");el("kind").value=c.kind||"individual";el("playable").checked=c.playable!==false;
+  el("appearance-character").value=c.id;el("fact-character").value=c.id;el("appearance-episode").value="";showAppearances();showFacts();showConnections();loadFact();loadAppearance();
 };
 el("character-form").onsubmit=event=>{
   event.preventDefault();const id=el("character-id").value.trim(),name=el("character-name").value.trim();
@@ -138,9 +212,10 @@ el("character-form").onsubmit=event=>{
   if(!editingCharacter&&data.characters.some(c=>c.id===id))return report("That character ID already exists. Select it above to edit it.",true);
   const old=data.characters.find(c=>c.id===editingCharacter);
   const c={...(old||{typeIds:[],storyTraits:{}}),id,name,aliases:[...new Set(el("aliases").value.split("\n").map(s=>s.trim()).filter(Boolean))],kind:el("kind").value,playable:el("playable").checked};
+  if(!old||old.playable!==c.playable)c.selectionNote=c.playable?'Included after manual review in the data editor.':'Excluded after manual review in the data editor.';
   if(old)data.characters[data.characters.indexOf(old)]=c;else data.characters.push(c);
   editingCharacter=id;el("character-id").readOnly=true;save("Character saved.");
-  el("character-select").value=id;el("appearance-character").value=id;el("fact-character").value=id;showAppearances();showFacts();loadFact();
+  el("character-select").value=id;el("appearance-character").value=id;el("fact-character").value=id;showAppearances();showFacts();showConnections();loadFact();loadAppearance();
 };
 el("episode-select").onchange=()=>{
   const e=data.episodes.find(e=>e.id===el("episode-select").value);if(!e){resetEpisode();return;}
@@ -160,9 +235,9 @@ el("episode-form").onsubmit=event=>{
 };
 function showAppearances(){
   const id=el("appearance-character").value;el("appearance-list").replaceChildren();
-  for(const a of data.appearances.filter(a=>a.characterId===id)){const li=document.createElement("li");li.textContent=(data.episodes.find(e=>e.id===a.episodeId)?.title||a.episodeId)+" — "+a.mode;el("appearance-list").append(li);}
+  for(const a of data.appearances.filter(a=>a.characterId===id)){const li=document.createElement("li");li.textContent=(data.episodes.find(e=>e.id===a.episodeId)?.title||a.episodeId)+" — "+a.mode;const edit=document.createElement("button");edit.type="button";edit.textContent="Edit appearance";edit.onclick=()=>{el("appearance-episode").value=a.episodeId;loadAppearance();el("mode").focus();};li.append(" ",edit);el("appearance-list").append(li);}
 }
-el("appearance-character").onchange=()=>{showAppearances();loadAppearance();};el("appearance-episode").onchange=loadAppearance;
+el("appearance-character").onchange=()=>selectCharacter(el("appearance-character").value);el("appearance-episode").onchange=loadAppearance;
 function loadAppearance(){const a=data.appearances.find(a=>a.characterId===el("appearance-character").value&&a.episodeId===el("appearance-episode").value);el("mode").value=a?.mode||"in-person";}
 el("appearance-form").onsubmit=event=>{
   event.preventDefault();const characterId=el("appearance-character").value,episodeId=el("appearance-episode").value;
@@ -181,7 +256,7 @@ function loadFact(){
   const c=data?.characters.find(c=>c.id===el("fact-character").value),f=c?.storyTraits?.[el("trait").value];
   el("fact-episode").value=f?.episodeId||"";el("evidence").value=f?.evidence||"";el("fact-source").value=f?.source||"";
 }
-el("fact-character").onchange=()=>{showFacts();loadFact();};el("trait").onchange=loadFact;
+el("fact-character").onchange=()=>selectCharacter(el("fact-character").value);el("trait").onchange=loadFact;
 el("fact-form").onsubmit=event=>{
   event.preventDefault();const c=data.characters.find(c=>c.id===el("fact-character").value),evidence=el("evidence").value.trim();
   if(!c||!evidence)return report("Choose a character and add scene evidence.",true);

@@ -56,9 +56,18 @@
     "kind": "group",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        122
+      ]
+    }
   },
   {
     "id": "agorax",
@@ -67,7 +76,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -77,7 +86,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -86,9 +95,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Credited child in Nancy’s group; identifiable supporting role.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://thedoctorwhosite.co.uk/doctorwho/the-empty-child/"
+    ]
   },
   {
     "id": "algy",
@@ -96,9 +108,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named speaking RAF officer.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://www.doctorwho.tv/stories/the-empty-child"
+    ]
   },
   {
     "id": "ambassadors-from-the-city-state-of-binding-light",
@@ -106,9 +121,25 @@
     "kind": "group",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "Alien delegates introduced at the Platform One reception.",
+        "source": "https://www.chakoteya.net/DoctorWho/27-2.htm"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        141,
+        152
+      ]
+    }
   },
   {
     "id": "andrew-marr",
@@ -117,7 +148,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -150,13 +181,18 @@
   },
   {
     "id": "arthur-lloyd",
-    "name": "Arthur Lloyd",
+    "name": "Mr Lloyd",
     "kind": "individual",
-    "aliases": [],
+    "aliases": [
+      "Arthur Lloyd"
+    ],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Recognisable speaking householder; use Mr Lloyd as the display name.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://thedoctorwhosite.co.uk/doctorwho/the-empty-child/"
+    ]
   },
   {
     "id": "asquith-slitheen",
@@ -172,7 +208,7 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -232,7 +268,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -242,7 +278,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -299,7 +335,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -308,9 +344,25 @@
     "kind": "group",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "Alien guests introduced at the Platform One reception.",
+        "source": "https://www.chakoteya.net/DoctorWho/27-2.htm"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        98,
+        109
+      ]
+    }
   },
   {
     "id": "bywater",
@@ -318,9 +370,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Identifiable speaking guard in the Dalek story.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://thedoctorwhosite.co.uk/doctorwho/dalek/"
+    ]
   },
   {
     "id": "cal-macnannovich",
@@ -330,9 +385,24 @@
       "Cal MacNannovitch"
     ],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "A non-human guest attending the Platform One reception.",
+        "source": "https://www.chakoteya.net/DoctorWho/27-2.htm"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        69
+      ]
+    }
   },
   {
     "id": "captain-jack-harkness",
@@ -416,7 +486,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -426,7 +496,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -485,9 +555,12 @@
       "Cathy"
     ],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Names herself on screen and has a speaking encounter with Margaret.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://tardis.guide/story/boom-town/transcript/"
+    ]
   },
   {
     "id": "charles-dickens",
@@ -532,7 +605,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -568,7 +641,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -577,9 +650,24 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "A tree from the Forest of Cheem, attending with Jabe.",
+        "source": "https://www.chakoteya.net/DoctorWho/27-2.htm"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        4
+      ]
+    }
   },
   {
     "id": "colleen",
@@ -588,7 +676,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -598,7 +686,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -610,7 +698,7 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -699,7 +787,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -729,9 +817,18 @@
       "Pavale"
     ],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        46
+      ]
+    }
   },
   {
     "id": "de-maggio",
@@ -739,9 +836,23 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named guard with a substantial role during the Dalek escape.",
+    "storyTraits": {
+      "human": {
+        "episodeId": "s01e06",
+        "evidence": "A human guard working in van Statten’s underground facility.",
+        "source": "https://doctorwhoworld.org.uk/ns1ep6"
+      },
+      "dalek-encounter": {
+        "episodeId": "s01e06",
+        "evidence": "Escorts Rose and Adam up the stairs while the escaped Dalek pursues them.",
+        "source": "https://doctorwhoworld.org.uk/ns1ep6"
+      }
+    },
+    "selectionSources": [
+      "https://www.doctorwho.tv/stories/dalek"
+    ]
   },
   {
     "id": "diana-goddard",
@@ -776,7 +887,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -824,9 +935,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named child in Nancy’s group with an on-screen role.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://www.chakoteya.net/DoctorWho/27-9.htm"
+    ]
   },
   {
     "id": "eva-saint-julienne",
@@ -878,7 +992,7 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -911,7 +1025,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -986,9 +1100,18 @@
     "kind": "role",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        58
+      ]
+    }
   },
   {
     "id": "game-station-floor-manager",
@@ -997,7 +1120,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1007,7 +1130,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1078,9 +1201,18 @@
       "R. Asquith"
     ],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        45
+      ]
+    }
   },
   {
     "id": "gwyneth",
@@ -1206,9 +1338,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named speaking aide to Margaret.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://thedoctorwhosite.co.uk/doctorwho/boom-town/"
+    ]
   },
   {
     "id": "indra-ganesh",
@@ -1216,9 +1351,18 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        118
+      ]
+    }
   },
   {
     "id": "jabe",
@@ -1339,7 +1483,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1348,9 +1492,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named speaking child in Nancy’s group.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://www.chakoteya.net/DoctorWho/27-9.htm"
+    ]
   },
   {
     "id": "jocrassa-fel-fotch-passameer-day-slitheen",
@@ -1445,7 +1592,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1454,9 +1601,24 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "A tree from the Forest of Cheem, attending with Jabe.",
+        "source": "https://www.chakoteya.net/DoctorWho/27-2.htm"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        63
+      ]
+    }
   },
   {
     "id": "lyceum-stage-manager",
@@ -1465,7 +1627,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1508,7 +1670,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1518,7 +1680,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1639,7 +1801,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1649,7 +1811,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1674,9 +1836,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named speaking official involved in the power station plot.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://thedoctorwhosite.co.uk/doctorwho/boom-town/"
+    ]
   },
   {
     "id": "mr-pakoo",
@@ -1684,9 +1849,24 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "A non-human guest attending the Platform One reception.",
+        "source": "https://www.chakoteya.net/DoctorWho/27-2.htm"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        11
+      ]
+    }
   },
   {
     "id": "mrs-harcourt",
@@ -1695,7 +1875,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1704,9 +1884,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Recognisable speaking householder.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://thedoctorwhosite.co.uk/doctorwho/the-empty-child/"
+    ]
   },
   {
     "id": "mrs-pakoo",
@@ -1714,9 +1897,24 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "A non-human guest attending the Platform One reception.",
+        "source": "https://www.chakoteya.net/DoctorWho/27-2.htm"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        65
+      ]
+    }
   },
   {
     "id": "mrs-peace",
@@ -1724,9 +1922,29 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "human": {
+        "episodeId": "s01e03",
+        "evidence": "A human whose dead body is subsequently animated by the Gelth.",
+        "source": "https://doctorwhoworlduk.com/mrs-peace"
+      },
+      "transformed": {
+        "episodeId": "s01e03",
+        "evidence": "The Gelth reanimate their corpse in Sneed’s funeral parlour.",
+        "source": "https://doctorwhoworlduk.com/mrs-peace"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        35
+      ]
+    }
   },
   {
     "id": "nancy",
@@ -1948,7 +2166,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -1957,9 +2175,18 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        25
+      ]
+    }
   },
   {
     "id": "pete-tyler",
@@ -2013,7 +2240,7 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2050,9 +2277,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named technician with direct involvement in the Dalek story.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://thedoctorwhosite.co.uk/doctorwho/dalek/"
+    ]
   },
   {
     "id": "powell-estate-graffiti-artist",
@@ -2061,7 +2291,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2071,7 +2301,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2120,13 +2350,40 @@
   },
   {
     "id": "redpath",
-    "name": "Redpath",
+    "name": "Mr Redpath",
     "kind": "individual",
-    "aliases": [],
+    "aliases": [
+      "Redpath"
+    ],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "human": {
+        "episodeId": "s01e03",
+        "evidence": "A human whose dead body is subsequently animated by the Gelth.",
+        "source": "https://doctorwhoworlduk.com/mrs-peace"
+      },
+      "transformed": {
+        "episodeId": "s01e03",
+        "evidence": "The Gelth reanimate their corpse in Sneed’s funeral parlour.",
+        "source": "https://doctorwhoworlduk.com/mrs-peace"
+      },
+      "gelth-encounter": {
+        "episodeId": "s01e03",
+        "evidence": "Attacked and killed by the Gelth-possessed Mrs Peace.",
+        "source": "https://doctorwhoworlduk.com/mrs-peace"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        129
+      ]
+    }
   },
   {
     "id": "robot-spider",
@@ -2283,7 +2540,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2295,7 +2552,7 @@
     ],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2306,9 +2563,12 @@
       "Sarah Clarke"
     ],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named bride with dialogue and an identifiable story role.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://doctorwhoworlduk.com/ns1ep8"
+    ]
   },
   {
     "id": "satellite-five-head-chef",
@@ -2317,7 +2577,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2327,18 +2587,37 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
     "id": "scholars-of-the-university-of-rago-rago-56-rago",
     "name": "Scholars of the University of Rago Rago 56 Rago",
     "kind": "group",
-    "aliases": [],
+    "aliases": [
+      "Scholars",
+      "Rago Rago Scholars"
+    ],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {
+      "alien": {
+        "episodeId": "s01e02",
+        "evidence": "Non-human scholars attending the Platform One reception.",
+        "source": "https://www.chakoteya.net/DoctorWho/27-2.htm"
+      }
+    },
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        22,
+        104
+      ]
+    }
   },
   {
     "id": "sergeant-price",
@@ -2346,9 +2625,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named speaking soldier involved in the Slitheen story.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://doctorwhoworlduk.com/ns1ep5"
+    ]
   },
   {
     "id": "simmons",
@@ -2356,9 +2638,18 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://millenniumeffect.co.uk/index.php/battles-in-time/"
+    ],
+    "battlesInTime": {
+      "set": "Exterminator",
+      "cards": [
+        34
+      ]
+    }
   },
   {
     "id": "sip-fel-fotch-passameer-day-slitheen",
@@ -2373,7 +2664,7 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2410,9 +2701,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Identifiable speaking father of the groom.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://downloads.bbc.co.uk/writersroom/scripts/doctor-who-s1-ep8-fathers-day.pdf"
+    ]
   },
   {
     "id": "space-pig",
@@ -2439,7 +2733,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2449,7 +2743,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2458,9 +2752,12 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Named groom with dialogue and an identifiable story role.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://www.doctorwho.tv/stories/fathers-day"
+    ]
   },
   {
     "id": "suzie",
@@ -2469,7 +2766,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2483,7 +2780,7 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2497,7 +2794,7 @@
       "slitheen"
     ],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2599,7 +2896,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2609,7 +2906,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2654,7 +2951,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2664,7 +2961,7 @@
     "aliases": [],
     "typeIds": [],
     "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
+    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
     "storyTraits": {}
   },
   {
@@ -2673,9 +2970,12 @@
     "kind": "role",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Excluded from the starter pool: background, cameo or niche entry; retained for later review.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included: Credited speaking commander; a recognisable role rather than an anonymous extra.",
+    "storyTraits": {},
+    "selectionSources": [
+      "https://thedoctorwhosite.co.uk/doctorwho/dalek/"
+    ]
   },
   {
     "id": "zu-zana",
