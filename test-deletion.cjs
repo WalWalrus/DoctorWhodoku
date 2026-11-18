@@ -10,7 +10,7 @@ const episodesOnly=D.removeRecord(seed,'category','episode-appearance');assert.d
 const elements=new Map();function element(){return {value:'',checked:false,options:[],children:[],append(...xs){this.children.push(...xs);this.options.push(...xs.filter(x=>x?.tag==='option'));},replaceChildren(){this.children=[];this.options=[];},reset(){},focus(){},scrollIntoView(){}};}
 const document={getElementById(id){if(!elements.has(id))elements.set(id,element());return elements.get(id);},createElement(tag){return {...element(),tag};},querySelectorAll(){return []}};
 let allow=false,confirmation='';const context=vm.createContext({document,CategoryConfig:C,EditorData:D,localStorage:{setItem(){},getItem(){}},console,seed:structuredClone(seed),confirm:s=>{confirmation=s;return allow;}});
-const script=fs.readFileSync(__dirname+'/data-editor.html','utf8').match(/<script>([\s\S]*?)<\/script>/)[1].replace('loadFact();loadPublished();','');vm.runInContext(script,context);const run=s=>vm.runInContext(s,context);run('data=seed;refresh();');
+const script=fs.readFileSync(__dirname+'/data-editor.html','utf8').match(/<script>([\s\S]*?)<\/script>/)[1].replace('loadFact();loadPublished(true);','');vm.runInContext(script,context);const run=s=>vm.runInContext(s,context);run('data=seed;refresh();');
 run('el("category-select").value="tardis";el("category-select").onchange();');assert.equal(document.getElementById('delete-category').disabled,false);
 run('deleteSelected("category")');assert.equal(run('JSON.stringify(data)'),before);assert(confirmation.includes('saved character facts'));
 allow=true;run('deleteSelected("category")');assert.equal(run('data.categories.some(c=>c.id==="tardis")'),false);assert.equal(document.getElementById('delete-category').disabled,true);assert.equal(document.getElementById('undo-delete').disabled,false);
@@ -39,3 +39,23 @@ assert.deepEqual(D.validate(after),[]);
 assert.equal(document.getElementById('undo-delete').disabled,false);
 run('el("undo-delete").onclick()');assert.equal(run('JSON.stringify(data)'),before);
 console.log('PASS: rendered appearance remove button, named confirmation, cancel, single-link deletion, retained facts and undo.');
+
+
+(async()=>{
+  let saved=null,fetches=0;
+  context.localStorage={setItem(k,v){saved=v},getItem(){return saved}};
+  context.fetch=async url=>{fetches++;return {ok:true,json:async()=>structuredClone(seed[url.replace('.json','')])}};
+  run('data=JSON.parse('+JSON.stringify(before)+');selectCharacter("rose-tyler");');
+  run('el("appearance-episode").value='+JSON.stringify(target.episodeId)+';el("mode").value="broadcast";el("appearance-form").onsubmit({preventDefault(){}});');
+  assert(saved);const expected=saved;
+  run('data=null;');await run('loadPublished(true)');
+  assert.equal(run('JSON.stringify(data)'),expected);assert.equal(fetches,0);
+  assert(document.getElementById('status').textContent.includes('Saved draft restored'));
+  await run('loadPublished()');assert.equal(run('JSON.stringify(data)'),before);assert.equal(saved,expected);
+  saved='{broken';await run('loadPublished(true)');assert.equal(run('JSON.stringify(data)'),before);assert.equal(saved,'{broken');
+  assert(document.getElementById('status').textContent.includes('could not be restored'));
+  const legacy=JSON.parse(expected);delete legacy.categories;saved=JSON.stringify(legacy);
+  run('data=null;');await run('loadPublished(true)');assert.equal(run('JSON.stringify(data)'),expected);
+  saved=null;await run('loadPublished(true)');assert.equal(run('JSON.stringify(data)'),before);
+  console.log('PASS: Save appearance survives refresh, explicit published reload, invalid-draft preservation, legacy draft migration and first load.');
+})().catch(e=>{console.error(e);process.exitCode=1;});

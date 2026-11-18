@@ -20,7 +20,7 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <body><main>
 <a href="index.html">← Back to the game</a>
 <h1>Data editor</h1><p>Add Series 1–4 characters, episodes and specials. Start with a character and an episode, link their appearance, then add confirmed facts.</p>
-<p class="notice"><strong>This edits a draft on this device.</strong> Changes do not publish automatically. Download the four game JSON files below and upload them to the repository root to update the live game.</p>
+<p class="notice"><strong>This edits a draft on this device.</strong> Saved drafts restore automatically when you refresh. Changes do not publish automatically. Download the four game JSON files below and upload them to the repository root to update the live game.</p>
 <p id="status" role="status" aria-live="polite">Loading existing game data…</p>
 <div class="actions"><button id="restore" disabled>Restore saved draft</button><button id="reload" disabled>Reload published data</button><button id="undo-delete" disabled>Undo last deletion</button></div>
 <section><h2>Bulk import game data</h2>
@@ -285,7 +285,14 @@ function save(message){
   try{localStorage.setItem(draftKey,JSON.stringify(data));el("restore").disabled=false;report(message+" Draft saved on this device.");}
   catch{report(message+" Browser storage is unavailable; download the files before leaving.",true);}
 }
-async function loadPublished(){
+async function loadPublished(restoreOnStart=false){
+  let startupDraftError='';
+  if(restoreOnStart){
+    try{
+      const saved=localStorage.getItem(draftKey);
+      if(saved&&JSON.parse(saved)?.categories){restoreSavedDraft();return;}
+    }catch(error){startupDraftError=' Saved draft could not be restored: '+error.message+'. It has been kept in browser storage.';}
+  }
   report("Loading published data…");
   try{
     const names=["characters","episodes","appearances","categories"];
@@ -296,6 +303,11 @@ async function loadPublished(){
     document.querySelectorAll("[data-ready]").forEach(e=>e.disabled=false);
     el("reload").disabled=false;
     refresh();resetCategory();resetCharacter();resetEpisode();loadFact();report("Published data loaded. Edits stay in your local draft until you upload the files.");
+    if(restoreOnStart&&!startupDraftError){
+      try{if(localStorage.getItem(draftKey))restoreSavedDraft();}
+      catch(error){startupDraftError=' Saved draft could not be restored: '+error.message+'. It has been kept in browser storage.';}
+    }
+    if(startupDraftError)report('Published data loaded.'+startupDraftError,true);
   }catch(error){report(error.message,true);}
 }
 function resetCharacter(){editingCharacter=null;el("character-form").reset();el("character-id").readOnly=false;el("character-select").value="";el("appearance-character").value="";el("fact-character").value="";updateDeleteButtons();if(data){showAppearances();showFacts();showConnections();loadFact();loadAppearance();}}
@@ -370,13 +382,18 @@ el("remove-fact").onclick=()=>{
   if(!confirm("Clear this category fact from the local draft?"))return;
   delete c.storyTraits[el("trait").value];save("Fact cleared.");loadFact();
 };
-el("restore").onclick=()=>{
-  try{if(dirty&&!confirm("Replace the current draft with the last saved copy?"))return;
-    const candidate=JSON.parse(localStorage.getItem(draftKey));
-    if(!candidate.categories){if(!data?.categories)throw Error("Load published categories before restoring an older draft.");candidate.categories=clone(data.categories);}
-    const issues=validate(candidate);if(issues.length)throw Error(issues.join(" "));
-    data=clone(candidate);clearDeletionUndo();document.querySelectorAll("[data-ready]").forEach(e=>e.disabled=false);el("reload").disabled=false;dirty=true;refresh();resetCategory();resetCharacter();resetEpisode();loadFact();report("Saved draft restored. Nothing has been published.");
-  }catch(error){report("Could not restore draft: "+error.message,true);}
+function restoreSavedDraft(){
+  const candidate=JSON.parse(localStorage.getItem(draftKey));
+  if(!candidate||typeof candidate!=='object')throw Error('No saved draft is available.');
+  if(!candidate.categories){if(!data?.categories)throw Error('Load published categories before restoring an older draft.');candidate.categories=clone(data.categories);}
+  const issues=validate(candidate);if(issues.length)throw Error(issues.join(' '));
+  data=clone(candidate);clearDeletionUndo();document.querySelectorAll('[data-ready]').forEach(e=>e.disabled=false);
+  el('reload').disabled=false;el('restore').disabled=false;dirty=true;refresh();resetCategory();resetCharacter();resetEpisode();loadFact();
+  report("Saved draft restored from this device. Saves survive refresh. Download and upload the four files to publish; use Reload published data to view GitHub's version.");
+}
+el('restore').onclick=()=>{
+  try{if(dirty&&!confirm('Replace the current draft with the last saved copy?'))return;restoreSavedDraft();}
+  catch(error){report('Could not restore draft: '+error.message,true);}
 };
 el("reload").onclick=()=>{if(!dirty||confirm("Discard current edits and reload published data? Your saved draft remains available."))loadPublished();};
 function download(name){
@@ -387,9 +404,10 @@ function download(name){
 }
 for(const name of ["characters","episodes","appearances","categories"])el("download-"+name).onclick=()=>download(name);
 try{el("restore").disabled=!localStorage.getItem(draftKey);}catch{}
-loadFact();loadPublished();
+loadFact();loadPublished(true);
 </script><p>Imported episode and cast data: <a href="https://www.tvmaze.com/shows/210/doctor-who">TVmaze</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>. <a href="GUEST-CAST-IMPORT.md">Import coverage and review notes</a>.</p>
 </body></html>
+
 
 
 
