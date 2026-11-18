@@ -1,0 +1,15 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),E=require('./editor-data.js');
+const empty={characters:[],episodes:[],appearances:[],categories:[]};
+const episode={id:1,name:'Example',season:2,number:1,airdate:'2006-01-01',type:'regular',_embedded:{guestcast:[{character:{id:2,name:'Named guest'},voice:true},{character:{id:3,name:'Security Guard'}},{character:{id:4,name:'Dalek Operator'}}]}};
+const files=[{name:'anything.json',value:[episode]}];
+const batch=E.readBatch(files,empty),r=E.merge(empty,batch).candidate;
+assert.equal(r.characters.length,2);assert.equal(r.appearances.length,2);
+assert.equal(r.characters.find(c=>c.name==='Security Guard').playable,false);
+assert.equal(r.appearances[0].mode,'unreviewed');assert.equal(r.appearances[0].sourceVoice,true);
+assert.equal(E.gaps(r).unreviewedAppearances.length,2);
+assert.deepEqual(E.merge(r,E.readBatch(files,r)).candidate,r);
+r.appearances[0].mode='voice';
+assert.deepEqual(E.merge(r,E.readBatch(files,r)).candidate,r);
+assert.equal(E.gaps(r).unreviewedAppearances.length,1);
+assert.throws(()=>E.readBatch([{name:'broken.json',value:[{...episode,_embedded:{guestcast:{}}}]}],empty),/guestcast must be an array/);
+console.log('PASS: embedded cast conversion, excluded operator/background credits, pending review, repeat imports and preserved approved modes.');

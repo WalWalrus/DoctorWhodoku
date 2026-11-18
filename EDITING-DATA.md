@@ -106,3 +106,10 @@ Select an existing entry, then use **Delete category** or **Delete character** b
 
 Deletion edits the local draft only. **Download and upload all four JSON files** to publish removals consistently. Do not use the additive bulk importer to publish deletions: it deliberately preserves existing records. GitHub's commit history retains previous published versions.
 
+
+
+## Embedded episode guest casts
+
+TVmaze season-episode exports with `?embed=guestcast` now import supporting characters and their episode associations together. These links start as **Unreviewed cast credit** and do not count in the game until you choose an appearance mode. Use **Check and download → Unreviewed guest-cast appearances** to jump directly to each link. Existing confirmed links and facts are preserved. Generic background credits start disabled; operator credits are omitted. Ambiguous identities are listed in the preview. Show-level cast exports alone still cannot supply episode links.
+
+See [GUEST-CAST-IMPORT.md](GUEST-CAST-IMPORT.md) for the published Series 2–4/Tennant-specials batch, skipped identities and remaining gaps.

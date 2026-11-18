@@ -24,7 +24,7 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <p id="status" role="status" aria-live="polite">Loading existing game data…</p>
 <div class="actions"><button id="restore" disabled>Restore saved draft</button><button id="reload" disabled>Reload published data</button><button id="undo-delete" disabled>Undo last deletion</button></div>
 <section><h2>Bulk import game data</h2>
-<p>Merge existing game-format JSON files or a bundle with <code>characters</code>, <code>episodes</code>, <code>appearances</code> and <code>categories</code> arrays. Existing values and evidence are kept; conflicts are listed for review. TVmaze episode and cast JSON exports are recognised and converted automatically, with any filename. New records need episode appearances and trivia facts added separately. All supplied series are imported; ambiguous identities are skipped and listed for review.</p>
+<p>Merge existing game-format JSON files or a bundle with <code>characters</code>, <code>episodes</code>, <code>appearances</code> and <code>categories</code> arrays. Existing values and evidence are kept; conflicts are listed for review. TVmaze episode and cast JSON exports are recognised and converted automatically, with any filename. Embedded TVmaze guest casts create Unreviewed episode links. Check each scene and select its appearance mode to make the link count; trivia facts still need adding separately. All supplied series are imported; ambiguous identities are skipped and listed for review.</p>
 <label for="bulk-files">Game or TVmaze JSON files</label><input id="bulk-files" type="file" accept=".json,application/json" multiple data-ready disabled>
 <div class="actions"><button id="preview-import" data-ready disabled>Preview import</button><button id="apply-import" disabled>Add preview to draft</button></div>
 <p id="import-summary" role="status"></p><ul id="import-conflicts"></ul>
@@ -73,7 +73,7 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <section id="appearance-section"><h2>3. Episode appearances</h2>
 <p class="hint">An appearance adds a character to that episode's answer list. It does not imply they met every other character there.</p>
 <form id="appearance-form"><div class="row"><div><label for="appearance-character">Character</label><select id="appearance-character" data-ready disabled required></select></div><div><label for="appearance-episode">Episode</label><select id="appearance-episode" data-ready disabled required></select></div></div>
-<label for="mode">Appearance mode</label><select id="mode" data-ready disabled><option value="in-person">In person</option><option value="voice">Voice / telephone</option><option value="broadcast">In-story broadcast</option><option value="still-image">Still image (not a playable appearance)</option><option value="archive">Archive footage (not a playable appearance)</option><option value="remains">Remains (not a playable appearance)</option></select>
+<label for="mode">Appearance mode</label><select id="mode" data-ready disabled><option value="in-person">In person</option><option value="voice">Voice / telephone</option><option value="broadcast">In-story broadcast</option><option value="still-image">Still image (not a playable appearance)</option><option value="archive">Archive footage (not a playable appearance)</option><option value="remains">Remains (not a playable appearance)</option><option value="unreviewed">Unreviewed cast credit (not yet playable)</option></select>
 <div class="actions"><button type="submit" data-ready disabled>Save appearance</button></div></form>
 <ul id="appearance-list"></ul>
 </section>
@@ -96,7 +96,7 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <ol><li>Save your entries above, then download all four files.</li><li>On <a href="https://github.com/WalWalrus/DoctorWhodoku">GitHub</a>, choose <strong>Add file → Upload files</strong> in the repository root.</li><li>Upload the four files with their exact filenames and commit the changes.</li><li>Once Pages deploys, refresh the game. You can also test the files using <strong>Load different data</strong> on the game page before uploading.</li></ol>
 </section></main>
 <script src="category-config.js"></script>
-<script src="editor-data.js?v=tvmaze-1"></script>
+<script src="editor-data.js?v=guestcast-1"></script>
 <script>
 "use strict";
 let categories = [];
@@ -212,6 +212,7 @@ function showGaps(){
     el('gap-report').append(details);
   }
   const character=c=>{selectCharacter(c.id);el('connections').scrollIntoView({block:'start'});};
+  group('Unreviewed guest-cast appearances',gaps.unreviewedAppearances,a=>a.name+' — '+a.title,a=>{selectCharacter(a.characterId);el('appearance-episode').value=a.episodeId;loadAppearance();el('appearance-form').scrollIntoView({block:'start'});});
   group('Episodes without any linked characters',gaps.episodesWithoutAppearances,e=>e.title,e=>{el('episode-select').value=e.id;el('episode-select').onchange();el('episode-select').focus();});
   group('Included characters without an active appearance',gaps.charactersWithoutActiveAppearances,c=>c.name,character);
   group('Included characters without category facts',gaps.charactersWithoutCategoryFacts,c=>c.name,character);
@@ -372,7 +373,9 @@ function download(name){
 for(const name of ["characters","episodes","appearances","categories"])el("download-"+name).onclick=()=>download(name);
 try{el("restore").disabled=!localStorage.getItem(draftKey);}catch{}
 loadFact();loadPublished();
-</script></body></html>
+</script><p>Imported episode and cast data: <a href="https://www.tvmaze.com/shows/210/doctor-who">TVmaze</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>. <a href="GUEST-CAST-IMPORT.md">Import coverage and review notes</a>.</p>
+</body></html>
+
 
 
 

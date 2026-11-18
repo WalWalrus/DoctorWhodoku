@@ -4,7 +4,7 @@
   const keys=['characters','episodes','appearances','categories'];
   const categoryConfig=typeof module!=='undefined'?require('./category-config.js'):root.CategoryConfig;
   const activeModes=['in-person','voice','broadcast'];
-  const modes=[...activeModes,'still-image','archive','remains'];
+  const modes=[...activeModes,'still-image','archive','remains','unreviewed'];
   const object=x=>x!==null&&typeof x==='object'&&!Array.isArray(x);
   const nonempty=x=>typeof x==='string'&&x.trim().length>0;
   const copy=x=>JSON.parse(JSON.stringify(x));
@@ -42,11 +42,24 @@
   }
   function readBatch(files,base={characters:[],episodes:[]}){
     const batch={characters:[],episodes:[],appearances:[],categories:[]};
-    const external={characters:[],episodes:[]};
+    const external={characters:[],episodes:[]}, guestCredits=[];
     for(const {name,value} of files){
       if(Array.isArray(value)){
         if(value.some(x=>object(x)&&object(x.character))){external.characters.push(...value);continue;}
-        if(value.some(x=>object(x)&&typeof x.id==='number'&&'airdate' in x&&'season' in x)){external.episodes.push(...value);continue;}
+        if(value.some(x=>object(x)&&typeof x.id==='number'&&'airdate' in x&&'season' in x)){
+          external.episodes.push(...value);
+          for(const episode of value){
+            const cast=episode?._embedded?.guestcast;
+            if(cast===undefined)continue;
+            if(!Array.isArray(cast))throw Error('TVmaze embedded guestcast must be an array.');
+            for(const credit of cast){
+              // Operator credits identify performers, not additional characters.
+              if(/\boperator\b/i.test(credit?.character?.name||''))continue;
+              external.characters.push(credit);guestCredits.push({episode,credit});
+            }
+          }
+          continue;
+        }
         const key=name.toLowerCase().replace(/\.json$/,'');
         if(!keys.includes(key))throw Error('Array files must be named characters.json, episodes.json, appearances.json or categories.json. External formats need conversion to the documented game schema.');
         batch[key].push(...value);
@@ -57,6 +70,18 @@
     const converted=convertTVmaze(external,base);
     batch.characters.push(...converted.characters);batch.episodes.push(...converted.episodes);
     batch.importNotes=converted.notes;
+    const lookup=(kind,id)=>converted[kind].find(x=>String(x.externalIds?.tvmaze)===String(id))||base[kind]?.find(x=>String(x.externalIds?.tvmaze)===String(id));
+    const pairs=new Set((base.appearances||[]).map(a=>JSON.stringify([a.characterId,a.episodeId])));
+    for(const {episode,credit} of guestCredits){
+      const character=lookup('characters',credit.character.id), ep=lookup('episodes',episode.id);
+      if(!character||!ep)continue;
+      const pair=JSON.stringify([character.id,ep.id]);if(pairs.has(pair))continue;pairs.add(pair);
+      batch.appearances.push({characterId:character.id,episodeId:ep.id,mode:'unreviewed',
+        source:'https://api.tvmaze.com/episodes/'+episode.id+'/guestcast',
+        creditedName:credit.character.name,sourceVoice:Boolean(credit.voice),
+        reviewNote:'Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game.'});
+    }
+    if(guestCredits.length)batch.importNotes.push(batch.appearances.length+' new guest-cast episode links staged as Unreviewed. Existing appearance modes are preserved. Operator credits are omitted; generic background roles are retained but excluded from play.');
     return batch;
   }
   function convertTVmaze(input,base){
@@ -99,7 +124,10 @@
           converted.tvmazeSeason=row.season;if(nonempty(row.type))converted.tvmazeType=row.type;
           if(row.number!==null)converted.episodeNumber=row.number;
           if(row.airdate)converted.ukAirDate=row.airdate;
-        }else if(!old){Object.assign(converted,{kind:'individual',aliases:[],typeIds:[],playable:true,storyTraits:{}});}
+        }else if(!old){
+          const background=/^(?:(?:young|old|male|female|scared|drunk|japanese|indian|french|german|liberian|chinese|pale|sinister|mysterious|wiry|tall|little)\s+)*(?:man|woman|girl|boy|child|lad|teenager|worker|soldier|guard|security guard|policeman|police officer|newsreader|reporter|driver|taxi driver|bus driver|patient|neighbour|servant|steward|businessman|pharmacist|engineer|kitchen hand|docker|urchin|doorman|vicar|alien voice|alien voices)(?:\s*#?\d+|\s+in\s+.*)?$/i.test(row.name);
+          Object.assign(converted,{kind:'individual',aliases:[],typeIds:[],playable:!background,storyTraits:{},selectionNote:background?'Generic background credit imported from TVmaze; review individually before enabling.':'Imported TVmaze character; episode links and category facts need review.'});
+        }
         result[kind].push(converted);
       }
     }
@@ -150,6 +178,7 @@
     return {
       note:'Unrecorded connections are unknown, not confirmed false. These checks cannot prove that an episode cast or character history is complete.',
       coverage:[1,2,3,4,'specials'].map(series=>({series,episodes:data.episodes.filter(e=>String(e.series)===String(series)).length})),
+      unreviewedAppearances:data.appearances.filter(a=>a.mode==='unreviewed').map(a=>({...a,name:data.characters.find(c=>c.id===a.characterId)?.name,title:data.episodes.find(e=>e.id===a.episodeId)?.title})),
       episodesWithoutAppearances:data.episodes.filter(e=>!episodeIds.has(e.id)).map(e=>({id:e.id,title:e.title})),
       charactersWithoutActiveAppearances:data.characters.filter(c=>c.playable!==false&&!active.has(c.id)).map(c=>({id:c.id,name:c.name})),
       charactersWithoutCategoryFacts:noFacts.map(c=>({id:c.id,name:c.name})),
@@ -184,6 +213,7 @@
   root.EditorData={validate,readBatch,merge,gaps,deletionImpact,removeRecord};
   if(typeof module!=='undefined')module.exports=root.EditorData;
 })(typeof globalThis!=='undefined'?globalThis:this);
+
 
 
 

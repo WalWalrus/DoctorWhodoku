@@ -702,7 +702,10 @@
     "typeIds": [],
     "playable": false,
     "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
-    "storyTraits": {}
+    "storyTraits": {},
+    "externalIds": {
+      "tvmaze": 1472934
+    }
   },
   {
     "id": "dalek",
@@ -1019,6 +1022,9 @@
         "evidence": "Depicted or identified as non-human alien life in this story.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
+    },
+    "externalIds": {
+      "tvmaze": 161220
     }
   },
   {
@@ -1302,6 +1308,9 @@
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
         "source": "https://tardis.guide/story/aliens-of-london/transcript/"
       }
+    },
+    "externalIds": {
+      "tvmaze": 134580
     }
   },
   {
@@ -1449,6 +1458,9 @@
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
         "source": "https://tardis.guide/story/rose/transcript/"
       }
+    },
+    "externalIds": {
+      "tvmaze": 69663
     }
   },
   {
@@ -1586,6 +1598,9 @@
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
+    },
+    "externalIds": {
+      "tvmaze": 134560
     }
   },
   {
@@ -1674,7 +1689,10 @@
     "typeIds": [],
     "playable": false,
     "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
-    "storyTraits": {}
+    "storyTraits": {},
+    "externalIds": {
+      "tvmaze": 161180
+    }
   },
   {
     "id": "matt-baker",
@@ -1795,6 +1813,9 @@
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
         "source": "https://tardis.guide/story/rose/transcript/"
       }
+    },
+    "externalIds": {
+      "tvmaze": 69664
     }
   },
   {
@@ -2964,7 +2985,10 @@
     "typeIds": [],
     "playable": false,
     "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
-    "storyTraits": {}
+    "storyTraits": {},
+    "externalIds": {
+      "tvmaze": 161403
+    }
   },
   {
     "id": "tyler-wedding-registrar",
@@ -3400,5 +3424,5218 @@
     "typeIds": [],
     "playable": true,
     "storyTraits": {}
+  },
+  {
+    "id": "tvmaze-character-445538",
+    "name": "Sycorax Leader",
+    "externalIds": {
+      "tvmaze": 445538
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-445540",
+    "name": "Sally",
+    "externalIds": {
+      "tvmaze": 445540
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-445545",
+    "name": "Newsreader 1",
+    "externalIds": {
+      "tvmaze": 445545
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-445542",
+    "name": "Jason",
+    "externalIds": {
+      "tvmaze": 445542
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-445537",
+    "name": "Alex",
+    "externalIds": {
+      "tvmaze": 445537
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-445546",
+    "name": "Newsreader 2",
+    "externalIds": {
+      "tvmaze": 445546
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-445539",
+    "name": "Major Blake",
+    "externalIds": {
+      "tvmaze": 445539
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-445543",
+    "name": "Mum",
+    "externalIds": {
+      "tvmaze": 445543
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-445536",
+    "name": "Danny Llewelyn",
+    "externalIds": {
+      "tvmaze": 445536
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-445544",
+    "name": "Policeman",
+    "externalIds": {
+      "tvmaze": 445544
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-445541",
+    "name": "Sandra",
+    "externalIds": {
+      "tvmaze": 445541
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161089",
+    "name": "Novice Hame",
+    "externalIds": {
+      "tvmaze": 161089
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161088",
+    "name": "Sister Jatt",
+    "externalIds": {
+      "tvmaze": 161088
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161095",
+    "name": "Patient",
+    "externalIds": {
+      "tvmaze": 161095
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161094",
+    "name": "Frau Clovis",
+    "externalIds": {
+      "tvmaze": 161094
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161093",
+    "name": "Duke of Manhattan",
+    "externalIds": {
+      "tvmaze": 161093
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161091",
+    "name": "Chip",
+    "externalIds": {
+      "tvmaze": 161091
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161092",
+    "name": "Matron Casp",
+    "externalIds": {
+      "tvmaze": 161092
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161100",
+    "name": "Captain Reynolds",
+    "externalIds": {
+      "tvmaze": 161100
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161099",
+    "name": "Sir Robert",
+    "externalIds": {
+      "tvmaze": 161099
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161097",
+    "name": "Father Angelo",
+    "externalIds": {
+      "tvmaze": 161097
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161101",
+    "name": "Steward",
+    "externalIds": {
+      "tvmaze": 161101
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161096",
+    "name": "Queen Victoria",
+    "externalIds": {
+      "tvmaze": 161096
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161098",
+    "name": "Lady Isobel",
+    "externalIds": {
+      "tvmaze": 161098
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161103",
+    "name": "Flora",
+    "externalIds": {
+      "tvmaze": 161103
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161105",
+    "name": "K9",
+    "externalIds": {
+      "tvmaze": 161105
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161106",
+    "name": "Mr. Finch",
+    "externalIds": {
+      "tvmaze": 161106
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161112",
+    "name": "Melissa",
+    "externalIds": {
+      "tvmaze": 161112
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161113",
+    "name": "Nina",
+    "externalIds": {
+      "tvmaze": 161113
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161110",
+    "name": "Luke",
+    "externalIds": {
+      "tvmaze": 161110
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161109",
+    "name": "Kenny",
+    "externalIds": {
+      "tvmaze": 161109
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161107",
+    "name": "Mr. Parsons",
+    "externalIds": {
+      "tvmaze": 161107
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161108",
+    "name": "Mr. Wagner",
+    "externalIds": {
+      "tvmaze": 161108
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161114",
+    "name": "Dinner Lady",
+    "externalIds": {
+      "tvmaze": 161114
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161117",
+    "name": "Reinette",
+    "externalIds": {
+      "tvmaze": 161117
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161120",
+    "name": "Katherine",
+    "externalIds": {
+      "tvmaze": 161120
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161118",
+    "name": "King Louis XV",
+    "externalIds": {
+      "tvmaze": 161118
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161116",
+    "name": "Clockwork Woman",
+    "externalIds": {
+      "tvmaze": 161116
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161119",
+    "name": "Young Reinette",
+    "externalIds": {
+      "tvmaze": 161119
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161121",
+    "name": "Manservant",
+    "externalIds": {
+      "tvmaze": 161121
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-661353",
+    "name": "Pete Tyler (Parallel Universe)",
+    "externalIds": {
+      "tvmaze": 661353
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161125",
+    "name": "Jake Simmonds",
+    "externalIds": {
+      "tvmaze": 161125
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-661354",
+    "name": "Jackie Tyler (Parallel Universe)",
+    "externalIds": {
+      "tvmaze": 661354
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-447669",
+    "name": "Ricky",
+    "externalIds": {
+      "tvmaze": 447669
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161126",
+    "name": "John Lumic",
+    "externalIds": {
+      "tvmaze": 161126
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161129",
+    "name": "Mr. Crane",
+    "externalIds": {
+      "tvmaze": 161129
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161128",
+    "name": "Mrs Moore",
+    "externalIds": {
+      "tvmaze": 161128
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161132",
+    "name": "The President",
+    "externalIds": {
+      "tvmaze": 161132
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161133",
+    "name": "Dr Kendrick",
+    "externalIds": {
+      "tvmaze": 161133
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161127",
+    "name": "Rita-Anne",
+    "externalIds": {
+      "tvmaze": 161127
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161134",
+    "name": "Morris",
+    "externalIds": {
+      "tvmaze": 161134
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-1472981",
+    "name": "Cyber-Leader",
+    "externalIds": {
+      "tvmaze": 1472981
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161138",
+    "name": "Magpie",
+    "externalIds": {
+      "tvmaze": 161138
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161137",
+    "name": "The Wire",
+    "externalIds": {
+      "tvmaze": 161137
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161140",
+    "name": "Rita Connolly",
+    "externalIds": {
+      "tvmaze": 161140
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161143",
+    "name": "Detective Inspector Bishop",
+    "externalIds": {
+      "tvmaze": 161143
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161141",
+    "name": "Tommy Connolly",
+    "externalIds": {
+      "tvmaze": 161141
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161142",
+    "name": "Grandma Connolly",
+    "externalIds": {
+      "tvmaze": 161142
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161145",
+    "name": "Aunty Betty",
+    "externalIds": {
+      "tvmaze": 161145
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161146",
+    "name": "Security Guard",
+    "externalIds": {
+      "tvmaze": 161146
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161139",
+    "name": "Eddie Connolly",
+    "externalIds": {
+      "tvmaze": 161139
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161144",
+    "name": "Crabtree",
+    "externalIds": {
+      "tvmaze": 161144
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161147",
+    "name": "Mrs. Gallagher",
+    "externalIds": {
+      "tvmaze": 161147
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161154",
+    "name": "The Ood",
+    "externalIds": {
+      "tvmaze": 161154
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161156",
+    "name": "Mr. Jefferson",
+    "externalIds": {
+      "tvmaze": 161156
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161155",
+    "name": "Zachary Cross Flane",
+    "externalIds": {
+      "tvmaze": 161155
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161148",
+    "name": "Ida Scott",
+    "externalIds": {
+      "tvmaze": 161148
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161150",
+    "name": "Danny Bartock",
+    "externalIds": {
+      "tvmaze": 161150
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161153",
+    "name": "The Beast",
+    "externalIds": {
+      "tvmaze": 161153
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161149",
+    "name": "Toby Zed",
+    "externalIds": {
+      "tvmaze": 161149
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161151",
+    "name": "Scooti Manista",
+    "externalIds": {
+      "tvmaze": 161151
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161158",
+    "name": "Elton Pope",
+    "externalIds": {
+      "tvmaze": 161158
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161164",
+    "name": "Victor Kennedy",
+    "externalIds": {
+      "tvmaze": 161164
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161159",
+    "name": "Ursula Blake",
+    "externalIds": {
+      "tvmaze": 161159
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161162",
+    "name": "Bliss",
+    "externalIds": {
+      "tvmaze": 161162
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161160",
+    "name": "Mr. Skinner",
+    "externalIds": {
+      "tvmaze": 161160
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161161",
+    "name": "Bridget",
+    "externalIds": {
+      "tvmaze": 161161
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161163",
+    "name": "Mrs. Croot",
+    "externalIds": {
+      "tvmaze": 161163
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161157",
+    "name": "The Hoix",
+    "externalIds": {
+      "tvmaze": 161157
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161165",
+    "name": "Trish",
+    "externalIds": {
+      "tvmaze": 161165
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161167",
+    "name": "Maeve",
+    "externalIds": {
+      "tvmaze": 161167
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161169",
+    "name": "Kel",
+    "externalIds": {
+      "tvmaze": 161169
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161166",
+    "name": "Chloe",
+    "externalIds": {
+      "tvmaze": 161166
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161173",
+    "name": "Commentator",
+    "externalIds": {
+      "tvmaze": 161173
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161168",
+    "name": "Tom's Dad",
+    "externalIds": {
+      "tvmaze": 161168
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161170",
+    "name": "Driver",
+    "externalIds": {
+      "tvmaze": 161170
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161172",
+    "name": "Police Officer",
+    "externalIds": {
+      "tvmaze": 161172
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-126413",
+    "name": "Dalek Voice",
+    "externalIds": {
+      "tvmaze": 126413
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161174",
+    "name": "Yvonne Hartman",
+    "externalIds": {
+      "tvmaze": 161174
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161175",
+    "name": "Dr. Rajesh Singh",
+    "externalIds": {
+      "tvmaze": 161175
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161190",
+    "name": "Alistair Appleton",
+    "externalIds": {
+      "tvmaze": 161190
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161176",
+    "name": "Adeola Oshodi",
+    "externalIds": {
+      "tvmaze": 161176
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161181",
+    "name": "Peggy Mitchell",
+    "externalIds": {
+      "tvmaze": 161181
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161191",
+    "name": "Trisha Goddard",
+    "externalIds": {
+      "tvmaze": 161191
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161185",
+    "name": "Police Commissioner",
+    "externalIds": {
+      "tvmaze": 161185
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161179",
+    "name": "Gareth Evans",
+    "externalIds": {
+      "tvmaze": 161179
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161189",
+    "name": "Derek Acorah",
+    "externalIds": {
+      "tvmaze": 161189
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161188",
+    "name": "Housewife",
+    "externalIds": {
+      "tvmaze": 161188
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161187",
+    "name": "Japanese Girl",
+    "externalIds": {
+      "tvmaze": 161187
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161186",
+    "name": "Eileen",
+    "externalIds": {
+      "tvmaze": 161186
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161184",
+    "name": "Japanese Newsreader",
+    "externalIds": {
+      "tvmaze": 161184
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161182",
+    "name": "Indian Newsreader",
+    "externalIds": {
+      "tvmaze": 161182
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161192",
+    "name": "Weatherman",
+    "externalIds": {
+      "tvmaze": 161192
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161183",
+    "name": "French Newsreader",
+    "externalIds": {
+      "tvmaze": 161183
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161317",
+    "name": "Sylvia Noble",
+    "externalIds": {
+      "tvmaze": 161317
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-447685",
+    "name": "Nerys",
+    "externalIds": {
+      "tvmaze": 447685
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-447680",
+    "name": "Empress",
+    "externalIds": {
+      "tvmaze": 447680
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-447681",
+    "name": "Lance Bennett",
+    "externalIds": {
+      "tvmaze": 447681
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-447686",
+    "name": "Rhodri",
+    "externalIds": {
+      "tvmaze": 447686
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-447688",
+    "name": "Robot Santa",
+    "externalIds": {
+      "tvmaze": 447688
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-447682",
+    "name": "Geoff Noble",
+    "externalIds": {
+      "tvmaze": 447682
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-447687",
+    "name": "Little Girl",
+    "externalIds": {
+      "tvmaze": 447687
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161196",
+    "name": "Francine Jones",
+    "externalIds": {
+      "tvmaze": 161196
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161198",
+    "name": "Letitia \"Tish\" Jones",
+    "externalIds": {
+      "tvmaze": 161198
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161199",
+    "name": "Judoon",
+    "externalIds": {
+      "tvmaze": 161199
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161201",
+    "name": "Leo Jones",
+    "externalIds": {
+      "tvmaze": 161201
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161202",
+    "name": "Clive Jones",
+    "externalIds": {
+      "tvmaze": 161202
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161197",
+    "name": "Oliver Morgenstern",
+    "externalIds": {
+      "tvmaze": 161197
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161203",
+    "name": "Florence Finnegan",
+    "externalIds": {
+      "tvmaze": 161203
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161205",
+    "name": "Mr. Stoker",
+    "externalIds": {
+      "tvmaze": 161205
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161200",
+    "name": "Judoon Captain",
+    "externalIds": {
+      "tvmaze": 161200
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161204",
+    "name": "Annalise",
+    "externalIds": {
+      "tvmaze": 161204
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161206",
+    "name": "Julia Swales",
+    "externalIds": {
+      "tvmaze": 161206
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161208",
+    "name": "Lilith",
+    "externalIds": {
+      "tvmaze": 161208
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161207",
+    "name": "William Shakespeare",
+    "externalIds": {
+      "tvmaze": 161207
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161215",
+    "name": "Lynley",
+    "externalIds": {
+      "tvmaze": 161215
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161210",
+    "name": "Doomfinger",
+    "externalIds": {
+      "tvmaze": 161210
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161213",
+    "name": "Kempe",
+    "externalIds": {
+      "tvmaze": 161213
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161216",
+    "name": "Jailer",
+    "externalIds": {
+      "tvmaze": 161216
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161217",
+    "name": "Peter Streete",
+    "externalIds": {
+      "tvmaze": 161217
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161212",
+    "name": "Dick",
+    "externalIds": {
+      "tvmaze": 161212
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161214",
+    "name": "Dolly Bailey",
+    "externalIds": {
+      "tvmaze": 161214
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161209",
+    "name": "Wiggins",
+    "externalIds": {
+      "tvmaze": 161209
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161218",
+    "name": "Preacher",
+    "externalIds": {
+      "tvmaze": 161218
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161219",
+    "name": "Queen Elizabeth I",
+    "externalIds": {
+      "tvmaze": 161219
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161211",
+    "name": "Bloodtide",
+    "externalIds": {
+      "tvmaze": 161211
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161223",
+    "name": "Cheen",
+    "externalIds": {
+      "tvmaze": 161223
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161224",
+    "name": "Valerie",
+    "externalIds": {
+      "tvmaze": 161224
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161228",
+    "name": "Javit",
+    "externalIds": {
+      "tvmaze": 161228
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161221",
+    "name": "Thomas Kincade Brannigan",
+    "externalIds": {
+      "tvmaze": 161221
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161229",
+    "name": "Businessman",
+    "externalIds": {
+      "tvmaze": 161229
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161231",
+    "name": "Ma",
+    "externalIds": {
+      "tvmaze": 161231
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161230",
+    "name": "Sally Calypso",
+    "externalIds": {
+      "tvmaze": 161230
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161232",
+    "name": "Pa",
+    "externalIds": {
+      "tvmaze": 161232
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161233",
+    "name": "Pale Woman",
+    "externalIds": {
+      "tvmaze": 161233
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161235",
+    "name": "Pharmacist #3",
+    "externalIds": {
+      "tvmaze": 161235
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161225",
+    "name": "Alice Cassini",
+    "externalIds": {
+      "tvmaze": 161225
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161227",
+    "name": "Whitey",
+    "externalIds": {
+      "tvmaze": 161227
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161226",
+    "name": "May Cassini",
+    "externalIds": {
+      "tvmaze": 161226
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161234",
+    "name": "Pharmacist #1",
+    "externalIds": {
+      "tvmaze": 161234
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161236",
+    "name": "Pharmacist #2",
+    "externalIds": {
+      "tvmaze": 161236
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161237",
+    "name": "Tallulah",
+    "externalIds": {
+      "tvmaze": 161237
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161240",
+    "name": "Frank",
+    "externalIds": {
+      "tvmaze": 161240
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161239",
+    "name": "Solomon",
+    "externalIds": {
+      "tvmaze": 161239
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161238",
+    "name": "Laszlo",
+    "externalIds": {
+      "tvmaze": 161238
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161245",
+    "name": "Man #2",
+    "externalIds": {
+      "tvmaze": 161245
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161243",
+    "name": "Lois",
+    "externalIds": {
+      "tvmaze": 161243
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161244",
+    "name": "Man #1",
+    "externalIds": {
+      "tvmaze": 161244
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161248",
+    "name": "Hero Pig",
+    "externalIds": {
+      "tvmaze": 161248
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161242",
+    "name": "Myrna",
+    "externalIds": {
+      "tvmaze": 161242
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161246",
+    "name": "Foreman",
+    "externalIds": {
+      "tvmaze": 161246
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161249",
+    "name": "Worker #2",
+    "externalIds": {
+      "tvmaze": 161249
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161250",
+    "name": "Dock Worker",
+    "externalIds": {
+      "tvmaze": 161250
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161241",
+    "name": "Mr. Diagoras",
+    "externalIds": {
+      "tvmaze": 161241
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161247",
+    "name": "Worker #1",
+    "externalIds": {
+      "tvmaze": 161247
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161252",
+    "name": "Hybrid",
+    "externalIds": {
+      "tvmaze": 161252
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161251",
+    "name": "Dalek Sec",
+    "externalIds": {
+      "tvmaze": 161251
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161256",
+    "name": "Mysterious Man",
+    "externalIds": {
+      "tvmaze": 161256
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161253",
+    "name": "Professor Richard Lazarus",
+    "externalIds": {
+      "tvmaze": 161253
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161254",
+    "name": "Lady Thaw",
+    "externalIds": {
+      "tvmaze": 161254
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161255",
+    "name": "Olive Woman",
+    "externalIds": {
+      "tvmaze": 161255
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161257",
+    "name": "Sinister Woman",
+    "externalIds": {
+      "tvmaze": 161257
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161264",
+    "name": "Abi Lerner",
+    "externalIds": {
+      "tvmaze": 161264
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161265",
+    "name": "Riley Vashtee",
+    "externalIds": {
+      "tvmaze": 161265
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161262",
+    "name": "Kath McDonnell",
+    "externalIds": {
+      "tvmaze": 161262
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161261",
+    "name": "Hal Korwin",
+    "externalIds": {
+      "tvmaze": 161261
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161259",
+    "name": "Dev Ashton",
+    "externalIds": {
+      "tvmaze": 161259
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161258",
+    "name": "Orin Scannell",
+    "externalIds": {
+      "tvmaze": 161258
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161263",
+    "name": "Erina Lessak",
+    "externalIds": {
+      "tvmaze": 161263
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161260",
+    "name": "Computer Countdown Voice",
+    "externalIds": {
+      "tvmaze": 161260
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-449744",
+    "name": "Jeremy Baines",
+    "externalIds": {
+      "tvmaze": 449744
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161269",
+    "name": "Headmaster Rocastle",
+    "externalIds": {
+      "tvmaze": 161269
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161266",
+    "name": "Nurse Joan Redfern",
+    "externalIds": {
+      "tvmaze": 161266
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161267",
+    "name": "Tim Latimer",
+    "externalIds": {
+      "tvmaze": 161267
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161271",
+    "name": "Mr. Clark",
+    "externalIds": {
+      "tvmaze": 161271
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161268",
+    "name": "Hutchinson",
+    "externalIds": {
+      "tvmaze": 161268
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161272",
+    "name": "Lucy Cartwright",
+    "externalIds": {
+      "tvmaze": 161272
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161273",
+    "name": "Phillips",
+    "externalIds": {
+      "tvmaze": 161273
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161275",
+    "name": "Mr. Chambers",
+    "externalIds": {
+      "tvmaze": 161275
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161274",
+    "name": "Doorman",
+    "externalIds": {
+      "tvmaze": 161274
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161277",
+    "name": "Sally Sparrow",
+    "externalIds": {
+      "tvmaze": 161277
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161280",
+    "name": "Malcolm Wainwright",
+    "externalIds": {
+      "tvmaze": 161280
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161281",
+    "name": "Old Billy",
+    "externalIds": {
+      "tvmaze": 161281
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161282",
+    "name": "DI Billy Shipton",
+    "externalIds": {
+      "tvmaze": 161282
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161278",
+    "name": "Kathy Nightingale",
+    "externalIds": {
+      "tvmaze": 161278
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161279",
+    "name": "Lawrence \"Larry\" Nightingale",
+    "externalIds": {
+      "tvmaze": 161279
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161283",
+    "name": "Ben Wainwright",
+    "externalIds": {
+      "tvmaze": 161283
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161285",
+    "name": "Desk Sergeant",
+    "externalIds": {
+      "tvmaze": 161285
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161284",
+    "name": "Banto",
+    "externalIds": {
+      "tvmaze": 161284
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161287",
+    "name": "The Master",
+    "externalIds": {
+      "tvmaze": 161287
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161286",
+    "name": "Chantho",
+    "externalIds": {
+      "tvmaze": 161286
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161292",
+    "name": "Creet",
+    "externalIds": {
+      "tvmaze": 161292
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161288",
+    "name": "Professor Yana",
+    "externalIds": {
+      "tvmaze": 161288
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161294",
+    "name": "Wiry Woman",
+    "externalIds": {
+      "tvmaze": 161294
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161289",
+    "name": "Padra",
+    "externalIds": {
+      "tvmaze": 161289
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161295",
+    "name": "Chieftain",
+    "externalIds": {
+      "tvmaze": 161295
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161290",
+    "name": "Lieutenant Atillo",
+    "externalIds": {
+      "tvmaze": 161290
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161291",
+    "name": "Guard",
+    "externalIds": {
+      "tvmaze": 161291
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161293",
+    "name": "Kistane Shafe Cane",
+    "externalIds": {
+      "tvmaze": 161293
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161296",
+    "name": "Lucy Saxon",
+    "externalIds": {
+      "tvmaze": 161296
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161305",
+    "name": "Sharon Osbourne",
+    "externalIds": {
+      "tvmaze": 161305
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161303",
+    "name": "President Arthur Winters",
+    "externalIds": {
+      "tvmaze": 161303
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161301",
+    "name": "Vivien Rook",
+    "externalIds": {
+      "tvmaze": 161301
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161307",
+    "name": "Ann Widdecombe",
+    "externalIds": {
+      "tvmaze": 161307
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161302",
+    "name": "Albert Dumfries",
+    "externalIds": {
+      "tvmaze": 161302
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161304",
+    "name": "Chinese Newsreader",
+    "externalIds": {
+      "tvmaze": 161304
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161306",
+    "name": "McFly",
+    "externalIds": {
+      "tvmaze": 161306
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161309",
+    "name": "Tom Milligan",
+    "externalIds": {
+      "tvmaze": 161309
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161312",
+    "name": "Professor Docherty",
+    "externalIds": {
+      "tvmaze": 161312
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161314",
+    "name": "Woman",
+    "externalIds": {
+      "tvmaze": 161314
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-335515",
+    "name": "Midshipman Alonso Frame",
+    "externalIds": {
+      "tvmaze": 335515
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-335513",
+    "name": "Captain Hardaker",
+    "externalIds": {
+      "tvmaze": 335513
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448466",
+    "name": "Chief Steward",
+    "externalIds": {
+      "tvmaze": 448466
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-335516",
+    "name": "Max Capricorn",
+    "externalIds": {
+      "tvmaze": 335516
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448470",
+    "name": "Mr. Copper",
+    "externalIds": {
+      "tvmaze": 448470
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448476",
+    "name": "The Queen",
+    "externalIds": {
+      "tvmaze": 448476
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-335517",
+    "name": "Rickston Slade",
+    "externalIds": {
+      "tvmaze": 335517
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448468",
+    "name": "Foon Van Hoff",
+    "externalIds": {
+      "tvmaze": 448468
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448469",
+    "name": "Morvin Van Hoff",
+    "externalIds": {
+      "tvmaze": 448469
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448471",
+    "name": "Bannakaffalatta",
+    "externalIds": {
+      "tvmaze": 448471
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448467",
+    "name": "Engineer",
+    "externalIds": {
+      "tvmaze": 448467
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-448472",
+    "name": "Nicholas Witchell",
+    "externalIds": {
+      "tvmaze": 448472
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448474",
+    "name": "Kitchen Hand",
+    "externalIds": {
+      "tvmaze": 448474
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161318",
+    "name": "Miss Foster",
+    "externalIds": {
+      "tvmaze": 161318
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161320",
+    "name": "Stacey Harris",
+    "externalIds": {
+      "tvmaze": 161320
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161321",
+    "name": "Roger Davey",
+    "externalIds": {
+      "tvmaze": 161321
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161324",
+    "name": "Suzette Chambers",
+    "externalIds": {
+      "tvmaze": 161324
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161322",
+    "name": "Craig Staniland",
+    "externalIds": {
+      "tvmaze": 161322
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161319",
+    "name": "Penny Carter",
+    "externalIds": {
+      "tvmaze": 161319
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161323",
+    "name": "Clare Pope",
+    "externalIds": {
+      "tvmaze": 161323
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161326",
+    "name": "Soothsayer",
+    "externalIds": {
+      "tvmaze": 161326
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161327",
+    "name": "Lobus Caecilius",
+    "externalIds": {
+      "tvmaze": 161327
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161335",
+    "name": "Lucius Dextrus",
+    "externalIds": {
+      "tvmaze": 161335
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161330",
+    "name": "Thalina",
+    "externalIds": {
+      "tvmaze": 161330
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161328",
+    "name": "Stallholder",
+    "externalIds": {
+      "tvmaze": 161328
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161329",
+    "name": "Spurrina",
+    "externalIds": {
+      "tvmaze": 161329
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161332",
+    "name": "Evelina",
+    "externalIds": {
+      "tvmaze": 161332
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161331",
+    "name": "Metella",
+    "externalIds": {
+      "tvmaze": 161331
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161334",
+    "name": "High Priestess",
+    "externalIds": {
+      "tvmaze": 161334
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161333",
+    "name": "Quintus",
+    "externalIds": {
+      "tvmaze": 161333
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161336",
+    "name": "Major Domo",
+    "externalIds": {
+      "tvmaze": 161336
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161337",
+    "name": "Ood Sigma",
+    "externalIds": {
+      "tvmaze": 161337
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161338",
+    "name": "Mr. Halpen",
+    "externalIds": {
+      "tvmaze": 161338
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161339",
+    "name": "Solana Mercurio",
+    "externalIds": {
+      "tvmaze": 161339
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161340",
+    "name": "Dr. Ryder",
+    "externalIds": {
+      "tvmaze": 161340
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161343",
+    "name": "Rep",
+    "externalIds": {
+      "tvmaze": 161343
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161342",
+    "name": "Mr. Bartle",
+    "externalIds": {
+      "tvmaze": 161342
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161341",
+    "name": "Commander Kess",
+    "externalIds": {
+      "tvmaze": 161341
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161347",
+    "name": "Private Harris",
+    "externalIds": {
+      "tvmaze": 161347
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161349",
+    "name": "Ross Jenkins",
+    "externalIds": {
+      "tvmaze": 161349
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161346",
+    "name": "Commander Skorr",
+    "externalIds": {
+      "tvmaze": 161346
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-143200",
+    "name": "Luke Rattigan",
+    "externalIds": {
+      "tvmaze": 143200
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161345",
+    "name": "General Staal",
+    "externalIds": {
+      "tvmaze": 161345
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161348",
+    "name": "Private Gray",
+    "externalIds": {
+      "tvmaze": 161348
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161344",
+    "name": "Colonel Mace",
+    "externalIds": {
+      "tvmaze": 161344
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161350",
+    "name": "Atmos Voice",
+    "externalIds": {
+      "tvmaze": 161350
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161351",
+    "name": "Jo Nakashima",
+    "externalIds": {
+      "tvmaze": 161351
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161352",
+    "name": "Worker",
+    "externalIds": {
+      "tvmaze": 161352
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-666652",
+    "name": "Martha Clone",
+    "externalIds": {
+      "tvmaze": 666652
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161355",
+    "name": "Captain Marion Price",
+    "externalIds": {
+      "tvmaze": 161355
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161356",
+    "name": "Kirsty Wark",
+    "externalIds": {
+      "tvmaze": 161356
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161354",
+    "name": "Male Student",
+    "externalIds": {
+      "tvmaze": 161354
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161353",
+    "name": "Female Student",
+    "externalIds": {
+      "tvmaze": 161353
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161361",
+    "name": "Cline",
+    "externalIds": {
+      "tvmaze": 161361
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161362",
+    "name": "Carter",
+    "externalIds": {
+      "tvmaze": 161362
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161357",
+    "name": "Hath Peck",
+    "externalIds": {
+      "tvmaze": 161357
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161360",
+    "name": "Cobb",
+    "externalIds": {
+      "tvmaze": 161360
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161358",
+    "name": "Hath Gable",
+    "externalIds": {
+      "tvmaze": 161358
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161368",
+    "name": "Robina Redmond",
+    "externalIds": {
+      "tvmaze": 161368
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161366",
+    "name": "Reverend Arnold Golightly",
+    "externalIds": {
+      "tvmaze": 161366
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161369",
+    "name": "Roger Curbishley",
+    "externalIds": {
+      "tvmaze": 161369
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161365",
+    "name": "Lady Clemency Eddison",
+    "externalIds": {
+      "tvmaze": 161365
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161364",
+    "name": "Agatha Christie",
+    "externalIds": {
+      "tvmaze": 161364
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161367",
+    "name": "Colonel Hugh Curbishly",
+    "externalIds": {
+      "tvmaze": 161367
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161371",
+    "name": "Professor Peach",
+    "externalIds": {
+      "tvmaze": 161371
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161370",
+    "name": "Greeves",
+    "externalIds": {
+      "tvmaze": 161370
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161372",
+    "name": "Miss Chandrakala",
+    "externalIds": {
+      "tvmaze": 161372
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161373",
+    "name": "Mrs. Hart",
+    "externalIds": {
+      "tvmaze": 161373
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161374",
+    "name": "Davenport",
+    "externalIds": {
+      "tvmaze": 161374
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161379",
+    "name": "Strackman Lux",
+    "externalIds": {
+      "tvmaze": 161379
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161380",
+    "name": "Miss Evangelista",
+    "externalIds": {
+      "tvmaze": 161380
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161381",
+    "name": "Other Dave",
+    "externalIds": {
+      "tvmaze": 161381
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161376",
+    "name": "Dr. Moon",
+    "externalIds": {
+      "tvmaze": 161376
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161378",
+    "name": "Dad",
+    "externalIds": {
+      "tvmaze": 161378
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161377",
+    "name": "The Girl",
+    "externalIds": {
+      "tvmaze": 161377
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161382",
+    "name": "Proper Dave",
+    "externalIds": {
+      "tvmaze": 161382
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161385",
+    "name": "Anita",
+    "externalIds": {
+      "tvmaze": 161385
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161384",
+    "name": "Node 2",
+    "externalIds": {
+      "tvmaze": 161384
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161383",
+    "name": "Node 1",
+    "externalIds": {
+      "tvmaze": 161383
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161387",
+    "name": "Ella",
+    "externalIds": {
+      "tvmaze": 161387
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161386",
+    "name": "Lee",
+    "externalIds": {
+      "tvmaze": 161386
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161388",
+    "name": "Joshua",
+    "externalIds": {
+      "tvmaze": 161388
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161389",
+    "name": "Man",
+    "externalIds": {
+      "tvmaze": 161389
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161396",
+    "name": "Jethro Cane",
+    "externalIds": {
+      "tvmaze": 161396
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161390",
+    "name": "Sky Silvestry",
+    "externalIds": {
+      "tvmaze": 161390
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161391",
+    "name": "Hostess",
+    "externalIds": {
+      "tvmaze": 161391
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161398",
+    "name": "Mechanic Claude",
+    "externalIds": {
+      "tvmaze": 161398
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161395",
+    "name": "Biff Cane",
+    "externalIds": {
+      "tvmaze": 161395
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161394",
+    "name": "Val Cane",
+    "externalIds": {
+      "tvmaze": 161394
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161393",
+    "name": "Dee Dee Blasco",
+    "externalIds": {
+      "tvmaze": 161393
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161392",
+    "name": "Professor Winfold Hobbes",
+    "externalIds": {
+      "tvmaze": 161392
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161397",
+    "name": "Driver Joe",
+    "externalIds": {
+      "tvmaze": 161397
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161399",
+    "name": "Captain Erisa Magambo",
+    "externalIds": {
+      "tvmaze": 161399
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161402",
+    "name": "Studio News Reader",
+    "externalIds": {
+      "tvmaze": 161402
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161400",
+    "name": "Fortune Teller",
+    "externalIds": {
+      "tvmaze": 161400
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161404",
+    "name": "Rocco Colasanto",
+    "externalIds": {
+      "tvmaze": 161404
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161407",
+    "name": "Alice Coltrane",
+    "externalIds": {
+      "tvmaze": 161407
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161414",
+    "name": "Woman in Doorway",
+    "externalIds": {
+      "tvmaze": 161414
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161409",
+    "name": "Jival Chowdry",
+    "externalIds": {
+      "tvmaze": 161409
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161415",
+    "name": "Soldier 2",
+    "externalIds": {
+      "tvmaze": 161415
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161413",
+    "name": "Soldier 1",
+    "externalIds": {
+      "tvmaze": 161413
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161410",
+    "name": "Female Reporter",
+    "externalIds": {
+      "tvmaze": 161410
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161408",
+    "name": "Man in Pub",
+    "externalIds": {
+      "tvmaze": 161408
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161405",
+    "name": "Mooky Kahari",
+    "externalIds": {
+      "tvmaze": 161405
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161411",
+    "name": "Spanish Maid",
+    "externalIds": {
+      "tvmaze": 161411
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161406",
+    "name": "Veena Brady",
+    "externalIds": {
+      "tvmaze": 161406
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161412",
+    "name": "Housing Officer",
+    "externalIds": {
+      "tvmaze": 161412
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161427",
+    "name": "Luke Smith",
+    "externalIds": {
+      "tvmaze": 161427
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161422",
+    "name": "Davros",
+    "externalIds": {
+      "tvmaze": 161422
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161419",
+    "name": "Gwen Cooper",
+    "externalIds": {
+      "tvmaze": 161419
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161416",
+    "name": "Mr. Smith",
+    "externalIds": {
+      "tvmaze": 161416
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161420",
+    "name": "Ianto Jones",
+    "externalIds": {
+      "tvmaze": 161420
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161423",
+    "name": "Shadow Architect",
+    "externalIds": {
+      "tvmaze": 161423
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161425",
+    "name": "Paul O'Grady",
+    "externalIds": {
+      "tvmaze": 161425
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161426",
+    "name": "Richard Dawkins",
+    "externalIds": {
+      "tvmaze": 161426
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161424",
+    "name": "General Sanchez",
+    "externalIds": {
+      "tvmaze": 161424
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161428",
+    "name": "Albino Servant",
+    "externalIds": {
+      "tvmaze": 161428
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161421",
+    "name": "Scared Man",
+    "externalIds": {
+      "tvmaze": 161421
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161417",
+    "name": "Suzanne",
+    "externalIds": {
+      "tvmaze": 161417
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161429",
+    "name": "Drunk Man",
+    "externalIds": {
+      "tvmaze": 161429
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161434",
+    "name": "Anna Zhou",
+    "externalIds": {
+      "tvmaze": 161434
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-161435",
+    "name": "Liberian Man",
+    "externalIds": {
+      "tvmaze": 161435
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161433",
+    "name": "Scared Woman",
+    "externalIds": {
+      "tvmaze": 161433
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-161432",
+    "name": "German Woman",
+    "externalIds": {
+      "tvmaze": 161432
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-448478",
+    "name": "Mercy Hartigan",
+    "externalIds": {
+      "tvmaze": 448478
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448484",
+    "name": "Jed",
+    "externalIds": {
+      "tvmaze": 448484
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448479",
+    "name": "Rosita",
+    "externalIds": {
+      "tvmaze": 448479
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448481",
+    "name": "Mr. Scoones",
+    "externalIds": {
+      "tvmaze": 448481
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448482",
+    "name": "Mr. Cole",
+    "externalIds": {
+      "tvmaze": 448482
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448480",
+    "name": "Cybershade",
+    "externalIds": {
+      "tvmaze": 448480
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448486",
+    "name": "Frederic",
+    "externalIds": {
+      "tvmaze": 448486
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448487",
+    "name": "Urchin",
+    "externalIds": {
+      "tvmaze": 448487
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-448488",
+    "name": "Docker",
+    "externalIds": {
+      "tvmaze": 448488
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-448494",
+    "name": "Barclay",
+    "externalIds": {
+      "tvmaze": 448494
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-243657",
+    "name": "Malcolm",
+    "externalIds": {
+      "tvmaze": 243657
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-243658",
+    "name": "DI McMillan",
+    "externalIds": {
+      "tvmaze": 243658
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448492",
+    "name": "Carmen",
+    "externalIds": {
+      "tvmaze": 448492
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448493",
+    "name": "Lou",
+    "externalIds": {
+      "tvmaze": 448493
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448490",
+    "name": "Angela",
+    "externalIds": {
+      "tvmaze": 448490
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448491",
+    "name": "Nathan",
+    "externalIds": {
+      "tvmaze": 448491
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-243659",
+    "name": "Sgt. Dennison",
+    "externalIds": {
+      "tvmaze": 243659
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448497",
+    "name": "Sorvin",
+    "externalIds": {
+      "tvmaze": 448497
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448498",
+    "name": "Praygat",
+    "externalIds": {
+      "tvmaze": 448498
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448495",
+    "name": "Bus Driver",
+    "externalIds": {
+      "tvmaze": 448495
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-448496",
+    "name": "Sgt. Ian Jenner",
+    "externalIds": {
+      "tvmaze": 448496
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361795",
+    "name": "Mia Bennett",
+    "externalIds": {
+      "tvmaze": 361795
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361793",
+    "name": "Edward \"Ed\" Gold",
+    "externalIds": {
+      "tvmaze": 361793
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361799",
+    "name": "Steffi Ehrlich",
+    "externalIds": {
+      "tvmaze": 361799
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361796",
+    "name": "Maggie Cain",
+    "externalIds": {
+      "tvmaze": 361796
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361797",
+    "name": "Tarak Ital",
+    "externalIds": {
+      "tvmaze": 361797
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361805",
+    "name": "Ulrika Ehrlich",
+    "externalIds": {
+      "tvmaze": 361805
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361794",
+    "name": "Yuri Kerenski",
+    "externalIds": {
+      "tvmaze": 361794
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361798",
+    "name": "Andy Stone",
+    "externalIds": {
+      "tvmaze": 361798
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361800",
+    "name": "Roman Groom",
+    "externalIds": {
+      "tvmaze": 361800
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361803",
+    "name": "Adelaide's Father",
+    "externalIds": {
+      "tvmaze": 361803
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361802",
+    "name": "Mikhail",
+    "externalIds": {
+      "tvmaze": 361802
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361801",
+    "name": "Emily",
+    "externalIds": {
+      "tvmaze": 361801
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361804",
+    "name": "Young Adelaide",
+    "externalIds": {
+      "tvmaze": 361804
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-361806",
+    "name": "Lisette Ehrlich",
+    "externalIds": {
+      "tvmaze": 361806
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448523",
+    "name": "Elder Ood",
+    "externalIds": {
+      "tvmaze": 448523
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448510",
+    "name": "Joshua Naismith",
+    "externalIds": {
+      "tvmaze": 448510
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448525",
+    "name": "Lord President",
+    "externalIds": {
+      "tvmaze": 448525
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448514",
+    "name": "Shaun Temple",
+    "externalIds": {
+      "tvmaze": 448514
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448511",
+    "name": "Abigail Naismith",
+    "externalIds": {
+      "tvmaze": 448511
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448509",
+    "name": "Minnie Hooper",
+    "externalIds": {
+      "tvmaze": 448509
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448512",
+    "name": "Addams",
+    "externalIds": {
+      "tvmaze": 448512
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448508",
+    "name": "The Woman",
+    "externalIds": {
+      "tvmaze": 448508
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448513",
+    "name": "Rossiter",
+    "externalIds": {
+      "tvmaze": 448513
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448520",
+    "name": "Tommo",
+    "externalIds": {
+      "tvmaze": 448520
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448515",
+    "name": "Governor",
+    "externalIds": {
+      "tvmaze": 448515
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448518",
+    "name": "Mr. Danes",
+    "externalIds": {
+      "tvmaze": 448518
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448516",
+    "name": "Oliver Barnes",
+    "externalIds": {
+      "tvmaze": 448516
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448522",
+    "name": "Serving Woman",
+    "externalIds": {
+      "tvmaze": 448522
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448521",
+    "name": "Ginger",
+    "externalIds": {
+      "tvmaze": 448521
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448517",
+    "name": "Winston Katusi",
+    "externalIds": {
+      "tvmaze": 448517
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448519",
+    "name": "Miss Trefusis",
+    "externalIds": {
+      "tvmaze": 448519
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448524",
+    "name": "Teenager",
+    "externalIds": {
+      "tvmaze": 448524
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": false,
+    "storyTraits": {},
+    "selectionNote": "Generic background credit imported from TVmaze; review individually before enabling."
+  },
+  {
+    "id": "tvmaze-character-448526",
+    "name": "Verity Newman",
+    "externalIds": {
+      "tvmaze": 448526
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448527",
+    "name": "The Chancellor",
+    "externalIds": {
+      "tvmaze": 448527
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448528",
+    "name": "The Partisan",
+    "externalIds": {
+      "tvmaze": 448528
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
+  },
+  {
+    "id": "tvmaze-character-448529",
+    "name": "The Visionary",
+    "externalIds": {
+      "tvmaze": 448529
+    },
+    "kind": "individual",
+    "aliases": [],
+    "typeIds": [],
+    "playable": true,
+    "storyTraits": {},
+    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   }
 ]
