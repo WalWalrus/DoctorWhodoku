@@ -175,10 +175,22 @@ el('category-form').onsubmit=event=>{
 function report(message,error=false){el("status").textContent=message;el("status").className=error?"error":"";}
 function slug(value){return value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
 function selectCharacter(id){el("character-select").value=id;el("character-select").onchange();}
+function removeAppearance(characterId,episodeId){
+  const character=data.characters.find(c=>c.id===characterId),episode=data.episodes.find(e=>e.id===episodeId);
+  if(!character||!episode||!data.appearances.some(a=>a.characterId===characterId&&a.episodeId===episodeId))return;
+  const facts=Object.values(character.storyTraits||{}).filter(f=>f.episodeId===episodeId).length;
+  const warning=facts?'\n\n'+facts+' category fact(s) still use this episode as evidence. They will be kept; review them separately if needed.':'';
+  if(!confirm('Remove '+character.name+' from '+episode.title+'?\n\nThis removes only their appearance link. The character and episode are kept.'+warning+'\n\nYou can undo immediately. Upload the updated game files to publish this change.'))return;
+  const before=clone(data);
+  data.appearances=data.appearances.filter(a=>a.characterId!==characterId||a.episodeId!==episodeId);
+  save('Removed '+character.name+' from '+episode.title+'. Download and upload the game files to publish the change.');
+  deletionUndo=before;el('undo-delete').disabled=false;loadAppearance();
+}
 function listItem(list,text,action,label){
   const li=document.createElement("li");li.textContent=text;
   if(action){const button=document.createElement("button");button.type="button";button.textContent=label||"Review";button.onclick=action;li.append(" ",button);}
   list.append(li);
+  return li;
 }
 function editFact(id,trait){
   selectCharacter(id);
@@ -194,9 +206,12 @@ function showConnections(){
   el("connection-summary").textContent=c.name+": "+appearances.length+" linked episodes · "+facts.length+" confirmed facts";
   for(const a of appearances){
     const e=data.episodes.find(e=>e.id===a.episodeId);
-    listItem(el("character-episodes"),(e?.title||a.episodeId)+" · "+a.mode,()=>{
+    const li=listItem(el("character-episodes"),(e?.title||a.episodeId)+" · "+a.mode,()=>{
       el("appearance-episode").value=a.episodeId;loadAppearance();el("appearance-section").scrollIntoView({block:"start"});el("mode").focus();
     },"Edit link");
+    const remove=document.createElement('button');remove.type='button';remove.className='danger';remove.textContent='×';
+    remove.ariaLabel='Remove '+c.name+' from '+(e?.title||a.episodeId);remove.title=remove.ariaLabel;
+    remove.onclick=()=>removeAppearance(c.id,a.episodeId);li.append(' ',remove);
   }
   if(!appearances.length)listItem(el("character-episodes"),"No episode connections recorded yet.");
   for(const [trait,f] of facts)listItem(el("character-facts"),(categories.find(x=>x[0]===trait)?.[1]||trait)+" — "+f.evidence+" ("+(data.episodes.find(e=>e.id===f.episodeId)?.title||f.episodeId)+")",()=>editFact(c.id,trait),"Edit fact");
@@ -375,6 +390,7 @@ try{el("restore").disabled=!localStorage.getItem(draftKey);}catch{}
 loadFact();loadPublished();
 </script><p>Imported episode and cast data: <a href="https://www.tvmaze.com/shows/210/doctor-who">TVmaze</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>. <a href="GUEST-CAST-IMPORT.md">Import coverage and review notes</a>.</p>
 </body></html>
+
 
 
 

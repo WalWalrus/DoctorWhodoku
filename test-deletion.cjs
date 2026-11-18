@@ -18,3 +18,24 @@ run('el("undo-delete").onclick()');assert.equal(run('JSON.stringify(data)'),befo
 run('selectCharacter("rose-tyler");deleteSelected("character")');assert.equal(run('data.appearances.some(a=>a.characterId==="rose-tyler")'),false);assert.equal(document.getElementById('delete-character').disabled,true);run('el("undo-delete").onclick()');assert.equal(run('JSON.stringify(data)'),before);
 run('selectCharacter("rose-tyler");deleteSelected("character");save("Next edit")');assert.equal(document.getElementById('undo-delete').disabled,true);
 console.log('PASS: deletion cleanup, episode-template deletion, invalid selection, cancel, undo, button states, and unchanged unrelated records.');
+
+
+
+
+run('data=JSON.parse('+JSON.stringify(before)+');selectCharacter("rose-tyler");');
+const row=document.getElementById('character-episodes').children.find(x=>x.tag==='li');
+const removeButton=row.children.find(x=>x.tag==='button'&&x.textContent==='×');
+assert(removeButton);assert(removeButton.ariaLabel.includes('Rose Tyler'));
+const target=seed.appearances.find(a=>a.characterId==='rose-tyler');
+allow=false;removeButton.onclick();assert.equal(run('JSON.stringify(data)'),before);
+assert(confirmation.includes(seed.episodes.find(e=>e.id===target.episodeId).title));
+allow=true;removeButton.onclick();
+const after=JSON.parse(run('JSON.stringify(data)'));
+assert.equal(after.appearances.length,seed.appearances.length-1);
+assert(!after.appearances.some(a=>a.characterId===target.characterId&&a.episodeId===target.episodeId));
+assert.deepEqual(after.characters,seed.characters);assert.deepEqual(after.episodes,seed.episodes);
+assert.deepEqual(after.appearances,seed.appearances.filter(a=>a.characterId!==target.characterId||a.episodeId!==target.episodeId));
+assert.deepEqual(D.validate(after),[]);
+assert.equal(document.getElementById('undo-delete').disabled,false);
+run('el("undo-delete").onclick()');assert.equal(run('JSON.stringify(data)'),before);
+console.log('PASS: rendered appearance remove button, named confirmation, cancel, single-link deletion, retained facts and undo.');
