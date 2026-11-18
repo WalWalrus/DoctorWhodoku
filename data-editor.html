@@ -24,8 +24,8 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <p id="status" role="status" aria-live="polite">Loading existing game data…</p>
 <div class="actions"><button id="restore" disabled>Restore saved draft</button><button id="reload" disabled>Reload published data</button><button id="undo-delete" disabled>Undo last deletion</button></div>
 <section><h2>Bulk import game data</h2>
-<p>Merge existing game-format JSON files or a bundle with <code>characters</code>, <code>episodes</code>, <code>appearances</code> and <code>categories</code> arrays. Existing values and evidence are kept; conflicts are listed for review. External database exports need conversion first.</p>
-<label for="bulk-files">Game JSON files</label><input id="bulk-files" type="file" accept=".json,application/json" multiple data-ready disabled>
+<p>Merge existing game-format JSON files or a bundle with <code>characters</code>, <code>episodes</code>, <code>appearances</code> and <code>categories</code> arrays. Existing values and evidence are kept; conflicts are listed for review. TVmaze episode and cast JSON exports are recognised and converted automatically, with any filename. New records need episode appearances and trivia facts added separately. All supplied series are imported; ambiguous identities are skipped and listed for review.</p>
+<label for="bulk-files">Game or TVmaze JSON files</label><input id="bulk-files" type="file" accept=".json,application/json" multiple data-ready disabled>
 <div class="actions"><button id="preview-import" data-ready disabled>Preview import</button><button id="apply-import" disabled>Add preview to draft</button></div>
 <p id="import-summary" role="status"></p><ul id="import-conflicts"></ul>
 <p><a href="https://github.com/WalWalrus/DoctorWhodoku/blob/main/EDITING-DATA.md">File format and editing guide</a></p></section>
@@ -96,7 +96,7 @@ ul{padding-left:22px}li{margin-bottom:8px}code{color:#85d9ff}.error{color:#ffbca
 <ol><li>Save your entries above, then download all four files.</li><li>On <a href="https://github.com/WalWalrus/DoctorWhodoku">GitHub</a>, choose <strong>Add file → Upload files</strong> in the repository root.</li><li>Upload the four files with their exact filenames and commit the changes.</li><li>Once Pages deploys, refresh the game. You can also test the files using <strong>Load different data</strong> on the game page before uploading.</li></ol>
 </section></main>
 <script src="category-config.js"></script>
-<script src="editor-data.js?v=deletion-1"></script>
+<script src="editor-data.js?v=tvmaze-1"></script>
 <script>
 "use strict";
 let categories = [];
@@ -225,11 +225,11 @@ el('preview-import').onclick=async()=>{
   try{
     const files=[...el('bulk-files').files];if(!files.length)throw Error('Choose at least one JSON file.');
     const base=JSON.stringify(data);
-    const batch=EditorData.readBatch(await Promise.all(files.map(async f=>({name:f.name,value:JSON.parse(await f.text())}))));
+    const batch=EditorData.readBatch(await Promise.all(files.map(async f=>({name:f.name,value:JSON.parse(await f.text())}))),data);
     if(base!==JSON.stringify(data))throw Error('The draft changed while reading files. Preview again.');
     const result=EditorData.merge(data,batch);pendingImport={...result,base};
     el('import-summary').textContent=['characters','episodes','appearances','categories'].map(k=>k+': '+result.counts.added[k]+' new, '+result.counts.updated[k]+' supplemented, '+result.counts.unchanged[k]+' unchanged').join(' · ')+'. No changes applied yet.';
-    for(const conflict of result.conflicts)listItem(el('import-conflicts'),conflict);
+    for(const conflict of [...(batch.importNotes||[]),...result.conflicts])listItem(el('import-conflicts'),conflict);
     el('apply-import').disabled=false;
   }catch(error){el('import-summary').textContent='Import not applied: '+error.message;}
 };
@@ -373,5 +373,6 @@ for(const name of ["characters","episodes","appearances","categories"])el("downl
 try{el("restore").disabled=!localStorage.getItem(draftKey);}catch{}
 loadFact();loadPublished();
 </script></body></html>
+
 
 

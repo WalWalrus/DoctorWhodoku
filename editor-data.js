@@ -40,10 +40,13 @@
     for(const c of data.characters.filter(object))for(const id of Object.keys(c.storyTraits||{}))if(!data.categories.some(d=>d?.id===id))errors.push('Missing category definition: '+id);
     return [...new Set(errors)];
   }
-  function readBatch(files){
+  function readBatch(files,base={characters:[],episodes:[]}){
     const batch={characters:[],episodes:[],appearances:[],categories:[]};
+    const external={characters:[],episodes:[]};
     for(const {name,value} of files){
       if(Array.isArray(value)){
+        if(value.some(x=>object(x)&&object(x.character))){external.characters.push(...value);continue;}
+        if(value.some(x=>object(x)&&typeof x.id==='number'&&'airdate' in x&&'season' in x)){external.episodes.push(...value);continue;}
         const key=name.toLowerCase().replace(/\.json$/,'');
         if(!keys.includes(key))throw Error('Array files must be named characters.json, episodes.json, appearances.json or categories.json. External formats need conversion to the documented game schema.');
         batch[key].push(...value);
@@ -51,7 +54,57 @@
         for(const key of keys)if(value[key]!==undefined){if(!Array.isArray(value[key]))throw Error(key+' must be an array.');batch[key].push(...value[key]);}
       }else throw Error(name+': expected game data arrays or a bundle containing characters, episodes, appearances and/or categories.');
     }
+    const converted=convertTVmaze(external,base);
+    batch.characters.push(...converted.characters);batch.episodes.push(...converted.episodes);
+    batch.importNotes=converted.notes;
     return batch;
+  }
+  function convertTVmaze(input,base){
+    const result={characters:[],episodes:[],notes:[]};
+    const normal=x=>String(x||'').normalize('NFKC').trim().toLowerCase().replace(/\s+/g,' ');
+    const names=c=>[c.name,...(c.aliases||[])].map(normal);
+    const positive=x=>Number.isSafeInteger(x)&&x>0;
+    for(const kind of ['episodes','characters']){
+      const unique=new Map();
+      for(const raw of input[kind]){
+        const row=kind==='characters'?raw?.character:raw;
+        if(!object(row)||!positive(row.id)||!nonempty(row.name))throw Error('Invalid TVmaze '+kind+' row: each record needs a numeric ID and name.');
+        if(kind==='episodes'&&(!Number.isInteger(row.season)||row.season<0||!(row.number===null||positive(row.number))||typeof row.airdate!=='string'))throw Error('Invalid TVmaze episode: '+row.name+' (check season, number and airdate).');
+        if(unique.has(row.id)&&JSON.stringify(unique.get(row.id))!==JSON.stringify(row))throw Error('Conflicting TVmaze records for '+row.name+' ('+row.id+').');
+        unique.set(row.id,row);
+      }
+      const claimed=new Set();
+      for(const row of unique.values()){
+        const existing=base[kind]||[], field=kind==='episodes'?'title':'name';
+        let matches=existing.filter(x=>String(x.externalIds?.tvmaze)===String(row.id));
+        if(!matches.length){
+          const target=normal(row.name);
+          // A generic Doctor label must never select one incarnation by alias.
+          const ambiguous=kind==='characters'&&(['the doctor','doctor'].includes(target)||[...unique.values()].filter(x=>normal(x.name)===target).length>1);
+          if(ambiguous){result.notes.push('Skipped '+row.name+' (TVmaze '+row.id+'): identity needs manual review.');continue;}
+          matches=existing.filter(x=>kind==='characters'?names(x).includes(target):normal(x.title)===target&&(!x.ukAirDate||!row.airdate||x.ukAirDate===row.airdate));
+          // Handle the optional article in named Doctor incarnations only.
+          if(!matches.length&&kind==='characters'&&/^the \w+ doctor$/i.test(row.name))matches=existing.filter(x=>names(x).includes(target.slice(4)));
+        }
+        if(matches.length>1){result.notes.push('Skipped '+row.name+': multiple existing records match.');continue;}
+        const old=matches[0];
+        if(old?.externalIds?.tvmaze&&String(old.externalIds.tvmaze)!==String(row.id)){result.notes.push('Skipped '+row.name+': existing record has a different TVmaze ID.');continue;}
+        const id=old?.id||'tvmaze-'+(kind==='characters'?'character-':'episode-')+row.id;
+        if(claimed.has(id)||(!old&&existing.some(x=>x.id===id||normal(x[field])===normal(row.name)))){result.notes.push('Skipped '+row.name+': possible duplicate; review manually.');continue;}
+        claimed.add(id);
+        const converted={id,[field]:old?.[field]||row.name,externalIds:{tvmaze:row.id}};
+        if(kind==='episodes'){
+          // Specials retain their source season separately, with no invented episode number.
+          converted.series=row.type==='regular'?row.season:'specials';
+          converted.tvmazeSeason=row.season;if(nonempty(row.type))converted.tvmazeType=row.type;
+          if(row.number!==null)converted.episodeNumber=row.number;
+          if(row.airdate)converted.ukAirDate=row.airdate;
+        }else if(!old){Object.assign(converted,{kind:'individual',aliases:[],typeIds:[],playable:true,storyTraits:{}});}
+        result[kind].push(converted);
+      }
+    }
+    if(input.episodes.length||input.characters.length)result.notes.unshift('TVmaze converted automatically. Existing connections are retained. New records have no episode appearances or trivia facts; add those in the editor. All episodes supplied are imported, including later series and specials.');
+    return result;
   }
   function merge(base,batch){
     const candidate=copy(base), conflicts=[],counts={added:{},updated:{},unchanged:{}};
@@ -74,6 +127,7 @@
       const seen=new Set();
       for(const row of (batch[key]||[])){
         if(!object(row))throw Error(key+': every record must be an object.');
+        if(key!=='appearances'&&!nonempty(row.id))throw Error(key+': each record needs a non-empty text ID. For TVmaze cast exports, keep the original character wrapper.');
         const rowId=id(row);
         if(seen.has(rowId))throw Error('Duplicate incoming '+key+' record: '+rowId);seen.add(rowId);
         const old=candidate[key].find(x=>id(x)===rowId);
@@ -130,5 +184,6 @@
   root.EditorData={validate,readBatch,merge,gaps,deletionImpact,removeRecord};
   if(typeof module!=='undefined')module.exports=root.EditorData;
 })(typeof globalThis!=='undefined'?globalThis:this);
+
 
 

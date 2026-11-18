@@ -20,7 +20,13 @@ One supporting scene per category is enough. The editor can revise or clear a fa
 
 Use **Bulk import game data** to merge existing game-schema JSON into the current draft. Select one or more of `characters.json`, `episodes.json`, `appearances.json`, `categories.json`, or a single JSON object containing any of those arrays. Click **Preview import**, review counts and conflicts, then **Add preview to draft**. Importing never publishes to GitHub.
 
-This is a game-format importer, not a TVmaze converter. Raw TVmaze episode/cast exports are not accepted and have not been loaded into the published catalogue.
+The importer also accepts raw TVmaze episode and show-cast JSON exports, with any filename. Choose both files together, click **Preview import**, inspect the counts and skipped-record messages, then **Add preview to draft**. Restore your saved draft first if it contains unpublished edits you want to retain.
+
+TVmaze IDs are saved in `externalIds.tvmaze`. Matches retain the game's existing IDs, appearances and trivia facts. New records receive stable `tvmaze-episode-…` or `tvmaze-character-…` IDs. Re-importing the same data does not create duplicates. Episode names, dates, series and numbers are converted; specials use `series: "specials"`, retain their TVmaze season separately, and do not receive an invented number when the source number is null.
+
+All episodes in the selected file are imported, including later series and specials; this does not automatically limit imports to Series 1–4. Identical character names with different TVmaze IDs and generic Doctor identities are skipped for manual review rather than combined. The preview lists these records. The show-cast export is not a complete episode cast list: it creates character records, but no episode appearances, encounter facts or other trivia links. Add those in the editor afterwards; the gaps report identifies records still needing connections. New characters only become game answers once they have qualifying appearance links.
+
+Existing values take priority. Review any conflicting metadata reported by the preview. Download all four game JSON files after editing and upload them to GitHub to publish. Do not replace the published game files directly with raw TVmaze exports. Source: [TVmaze](https://www.tvmaze.com/).
 
 Records match by stable ID; appearances match by character ID plus episode ID. New records and missing fields are added; aliases are combined. Existing non-empty values and complete category facts are preserved when they conflict. Conflicts appear in the preview for manual review. Re-importing the same batch does not duplicate records. A possible duplicate display name with a different ID stops the import so you can reconcile the IDs first. Invalid references stop the entire import without changing the draft.
 
@@ -99,3 +105,4 @@ Select an existing entry, then use **Delete category** or **Delete character** b
 - **Undo last deletion** restores the draft immediately before the most recent deletion. It is available until another save, import, restore, reload or deletion replaces that state; it does not persist across page refreshes.
 
 Deletion edits the local draft only. **Download and upload all four JSON files** to publish removals consistently. Do not use the additive bulk importer to publish deletions: it deliberately preserves existing records. GitHub's commit history retains previous published versions.
+
