@@ -194,7 +194,15 @@
   {
     "id": "is-a-robot-android",
     "label": "Is a robot/android",
-    "description": "An artificial mechanical being, whether autonomous or remotely controlled. Includes robots and androids with artificial intelligence or apparent emotions. Excludes beings containing a living biological organism, such as Cybermen and Daleks, and vehicles or ordinary machinery.",
+    "description": "An artificially created, non-biological being, whether autonomous or controlled by another entity. Includes robots, androids and animated constructs such as Autons. Excludes biological beings enhanced or enclosed by technology, such as Cybermen and Daleks, as well as ordinary machinery and vehicles.",
+    "kind": "story",
+    "enabled": true,
+    "needsReview": false
+  },
+  {
+    "id": "has-travelled-through-space",
+    "label": "Has travelled through space",
+    "description": "Has been transported between locations by teleportation, a portal, a wormhole or the TARDIS dematerialising and rematerialising. Includes travel within the same planet. Excludes conventional journeys by spacecraft or other vehicles, and simply entering or standing inside the TARDIS.",
     "kind": "story",
     "enabled": true,
     "needsReview": false

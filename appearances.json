@@ -348,15 +348,6 @@
   },
   {
     "episodeId": "s01e04",
-    "characterId": "andrew-marr",
-    "mode": "broadcast",
-    "performers": [
-      "Andrew Marr"
-    ],
-    "note": "Appears as himself reporting on the emergency."
-  },
-  {
-    "episodeId": "s01e04",
     "characterId": "asquith-slitheen",
     "mode": "in-person",
     "performers": [
@@ -551,14 +542,6 @@
     "mode": "broadcast",
     "performers": [
       "Lachele Carl"
-    ]
-  },
-  {
-    "episodeId": "s01e05",
-    "characterId": "andrew-marr",
-    "mode": "broadcast",
-    "performers": [
-      "Andrew Marr"
     ]
   },
   {
@@ -1029,14 +1012,6 @@
     "mode": "in-person",
     "performers": [
       "Robert Barton"
-    ]
-  },
-  {
-    "episodeId": "s01e09",
-    "characterId": "alf",
-    "mode": "in-person",
-    "performers": [
-      "Brandon Miller"
     ]
   },
   {
@@ -2781,15 +2756,6 @@
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
   },
   {
-    "characterId": "tvmaze-character-161190",
-    "episodeId": "tvmaze-episode-13881",
-    "mode": "unreviewed",
-    "source": "https://api.tvmaze.com/episodes/13881/guestcast",
-    "creditedName": "Alistair Appleton",
-    "sourceVoice": false,
-    "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
-  },
-  {
     "characterId": "tvmaze-character-161176",
     "episodeId": "tvmaze-episode-13881",
     "mode": "in-person",
@@ -3422,7 +3388,7 @@
   {
     "characterId": "tvmaze-character-161225",
     "episodeId": "tvmaze-episode-13885",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13885/guestcast",
     "creditedName": "Alice Cassini",
     "sourceVoice": false,
@@ -4302,15 +4268,6 @@
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
   },
   {
-    "characterId": "tvmaze-character-161307",
-    "episodeId": "tvmaze-episode-13894",
-    "mode": "unreviewed",
-    "source": "https://api.tvmaze.com/episodes/13894/guestcast",
-    "creditedName": "Ann Widdecombe",
-    "sourceVoice": false,
-    "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
-  },
-  {
     "characterId": "tvmaze-character-161302",
     "episodeId": "tvmaze-episode-13894",
     "mode": "in-person",
@@ -4878,15 +4835,6 @@
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
   },
   {
-    "characterId": "tvmaze-character-161350",
-    "episodeId": "tvmaze-episode-13899",
-    "mode": "unreviewed",
-    "source": "https://api.tvmaze.com/episodes/13899/guestcast",
-    "creditedName": "Atmos Voice",
-    "sourceVoice": true,
-    "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
-  },
-  {
     "characterId": "tvmaze-character-161351",
     "episodeId": "tvmaze-episode-13899",
     "mode": "unreviewed",
@@ -5267,7 +5215,7 @@
   {
     "characterId": "tvmaze-character-161385",
     "episodeId": "tvmaze-episode-13903",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13903/guestcast",
     "creditedName": "Anita",
     "sourceVoice": false,
@@ -5366,7 +5314,7 @@
   {
     "characterId": "tvmaze-character-161385",
     "episodeId": "tvmaze-episode-13904",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13904/guestcast",
     "creditedName": "Anita",
     "sourceVoice": false,
@@ -5567,15 +5515,6 @@
     "mode": "unreviewed",
     "source": "https://api.tvmaze.com/episodes/13906/guestcast",
     "creditedName": "Rocco Colasanto",
-    "sourceVoice": false,
-    "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
-  },
-  {
-    "characterId": "tvmaze-character-161407",
-    "episodeId": "tvmaze-episode-13906",
-    "mode": "unreviewed",
-    "source": "https://api.tvmaze.com/episodes/13906/guestcast",
-    "creditedName": "Alice Coltrane",
     "sourceVoice": false,
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
   },
@@ -5969,7 +5908,7 @@
   {
     "characterId": "tvmaze-character-161434",
     "episodeId": "tvmaze-episode-13908",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13908/guestcast",
     "creditedName": "Anna Zhou",
     "sourceVoice": false,
@@ -6158,7 +6097,7 @@
   {
     "characterId": "tvmaze-character-448490",
     "episodeId": "tvmaze-episode-13970",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13970/guestcast",
     "creditedName": "Angela",
     "sourceVoice": false,
@@ -6293,7 +6232,7 @@
   {
     "characterId": "tvmaze-character-361798",
     "episodeId": "tvmaze-episode-13971",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13971/guestcast",
     "creditedName": "Andy Stone",
     "sourceVoice": false,

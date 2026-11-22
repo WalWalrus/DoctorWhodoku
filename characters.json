@@ -32,6 +32,11 @@
         "episodeId": "s01e06",
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
         "source": "https://tardis.guide/story/dalek/transcript/"
+      },
+      "has-travelled-through-space": {
+        "episodeId": "s01e07",
+        "evidence": "Visited Satellite Five via the TARDIS.",
+        "source": ""
       }
     }
   },
@@ -66,32 +71,38 @@
     "kind": "individual",
     "aliases": [],
     "typeIds": [],
-    "playable": false,
-    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
-    "storyTraits": {}
-  },
-  {
-    "id": "alf",
-    "name": "Alf",
-    "kind": "individual",
-    "aliases": [],
-    "typeIds": [],
     "playable": true,
-    "selectionNote": "Included: Credited child in Nancy’s group; identifiable supporting role.",
-    "storyTraits": {},
-    "selectionSources": [
-      "https://thedoctorwhosite.co.uk/doctorwho/the-empty-child/"
-    ]
+    "selectionNote": "Included after manual review in the data editor.",
+    "storyTraits": {
+      "human": {
+        "episodeId": "s01e08",
+        "evidence": "Real historical figure.",
+        "source": ""
+      }
+    }
   },
   {
     "id": "algy",
-    "name": "Algy",
+    "name": "Algy (Army Officer)",
     "kind": "individual",
-    "aliases": [],
+    "aliases": [
+      "Army officer"
+    ],
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included: Named speaking RAF officer.",
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "s01e09",
+        "evidence": "British Army officer.",
+        "source": ""
+      },
+      "transformed": {
+        "episodeId": "s01e10",
+        "evidence": "Turns into a gas-mask zombie.",
+        "source": ""
+      }
+    },
     "selectionSources": [
       "https://www.doctorwho.tv/stories/the-empty-child"
     ]
@@ -123,16 +134,6 @@
     }
   },
   {
-    "id": "andrew-marr",
-    "name": "Andrew Marr",
-    "kind": "individual",
-    "aliases": [],
-    "typeIds": [],
-    "playable": false,
-    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
-    "storyTraits": {}
-  },
-  {
     "id": "anne-droid",
     "name": "Anne Droid",
     "kind": "individual",
@@ -147,6 +148,11 @@
         "episodeId": "s01e13",
         "evidence": "Directly attacked by Daleks.",
         "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
+      },
+      "is-a-robot-android": {
+        "episodeId": "s01e12",
+        "evidence": "Robot that runs The Weakest Link.",
+        "source": ""
       }
     }
   },
@@ -167,7 +173,7 @@
   },
   {
     "id": "asquith-slitheen",
-    "name": "Asquith Slitheen",
+    "name": "Styles Fel-Fotch Passameer-Day Slitheen",
     "kind": "individual",
     "aliases": [
       "General Asquith (Slitheen)",
@@ -178,9 +184,25 @@
     "typeIds": [
       "slitheen"
     ],
-    "playable": false,
-    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
-    "storyTraits": {}
+    "playable": true,
+    "selectionNote": "Included after manual review in the data editor.",
+    "storyTraits": {
+      "has-died": {
+        "episodeId": "s01e05",
+        "evidence": "Killed with the other Slitheen in the missile attack on Downing Street.",
+        "source": ""
+      },
+      "alien": {
+        "episodeId": "s01e04",
+        "evidence": "Member of the Slitheen family - Raxacoricofallapatorian.",
+        "source": ""
+      },
+      "deception": {
+        "episodeId": "s01e04",
+        "evidence": "Uses a skin suit of Oliver Charles and R. Asquith to disguise himself.",
+        "source": ""
+      }
+    }
   },
   {
     "id": "auton",
@@ -192,7 +214,13 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
-    "storyTraits": {}
+    "storyTraits": {
+      "is-a-robot-android": {
+        "episodeId": "s01e01",
+        "evidence": "Artificially created, non-biological being",
+        "source": ""
+      }
+    }
   },
   {
     "id": "auton-mickey",
@@ -213,6 +241,26 @@
         "episodeId": "s01e01",
         "evidence": "Impersonates Mickey.",
         "source": "https://tardis.guide/story/rose/transcript/"
+      },
+      "tardis": {
+        "episodeId": "s01e01",
+        "evidence": "His head was brought into the TARDIS by the Doctor to help locate the Nestene lair.",
+        "source": ""
+      },
+      "transformed": {
+        "episodeId": "s01e01",
+        "evidence": "Head and body melts as confirmed by the Doctor.",
+        "source": ""
+      },
+      "captive": {
+        "episodeId": "s01e01",
+        "evidence": "Head is stolen and detained in the TARDIS.",
+        "source": ""
+      },
+      "is-a-robot-android": {
+        "episodeId": "s01e01",
+        "evidence": "Is an Auton, an artificially created, non-biological being.",
+        "source": ""
       }
     }
   },
@@ -2896,7 +2944,23 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {}
+    "storyTraits": {
+      "has-travelled-through-space": {
+        "episodeId": "tvmaze-episode-13966",
+        "evidence": "Teleports to Earth as part of group Red 67.",
+        "source": ""
+      },
+      "alien": {
+        "episodeId": "tvmaze-episode-13966",
+        "evidence": "From the planet Sto.",
+        "source": ""
+      },
+      "companion": {
+        "episodeId": "tvmaze-episode-13966",
+        "evidence": "Guest companion during Voyage of the Damned.",
+        "source": ""
+      }
+    }
   },
   {
     "id": "tvmaze-character-1042832",
@@ -3096,6 +3160,11 @@
       "human": {
         "episodeId": "tvmaze-episode-13961",
         "evidence": "UNIT Employee and Senior Aide to Harriet Jones",
+        "source": ""
+      },
+      "has-travelled-through-space": {
+        "episodeId": "tvmaze-episode-13961",
+        "evidence": "Teleported by the Sycorax into the Sycorax ship.",
         "source": ""
       }
     },
@@ -3800,7 +3869,13 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13876",
+        "evidence": "Tommy Connolly's aunt",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -4198,19 +4273,6 @@
     "name": "Dr. Rajesh Singh",
     "externalIds": {
       "tvmaze": 161175
-    },
-    "kind": "individual",
-    "aliases": [],
-    "typeIds": [],
-    "playable": true,
-    "storyTraits": {},
-    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
-  },
-  {
-    "id": "tvmaze-character-161190",
-    "name": "Alistair Appleton",
-    "externalIds": {
-      "tvmaze": 161190
     },
     "kind": "individual",
     "aliases": [],
@@ -4640,7 +4702,13 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13883",
+        "evidence": "Clive Jones' girlfriend.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -4962,10 +5030,19 @@
       "tvmaze": 161225
     },
     "kind": "individual",
-    "aliases": [],
+    "aliases": [
+      "Cassini Sister",
+      "Sister"
+    ],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13885",
+        "evidence": "A New Earth citizen.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -5652,7 +5729,13 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13892",
+        "evidence": "Owner of Banto's DVD store",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -5829,19 +5912,6 @@
     "name": "Vivien Rook",
     "externalIds": {
       "tvmaze": 161301
-    },
-    "kind": "individual",
-    "aliases": [],
-    "typeIds": [],
-    "playable": true,
-    "storyTraits": {},
-    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
-  },
-  {
-    "id": "tvmaze-character-161307",
-    "name": "Ann Widdecombe",
-    "externalIds": {
-      "tvmaze": 161307
     },
     "kind": "individual",
     "aliases": [],
@@ -6078,7 +6148,33 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "transformed": {
+        "episodeId": "tvmaze-episode-13966",
+        "evidence": "Cyborg with technological modifications",
+        "source": ""
+      },
+      "deception": {
+        "episodeId": "tvmaze-episode-13966",
+        "evidence": "Conceals his cyborg body from the group",
+        "source": ""
+      },
+      "alien": {
+        "episodeId": "tvmaze-episode-13966",
+        "evidence": "Confirmed to be the species Zocci.",
+        "source": ""
+      },
+      "has-died": {
+        "episodeId": "tvmaze-episode-13966",
+        "evidence": "Drains his power destroying the host. Has his core taken by the group.",
+        "source": ""
+      },
+      "has-travelled-through-space": {
+        "episodeId": "tvmaze-episode-13966",
+        "evidence": "Teleports to Earth as part of group Red 67.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -6537,19 +6633,6 @@
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
-    "id": "tvmaze-character-161350",
-    "name": "Atmos Voice",
-    "externalIds": {
-      "tvmaze": 161350
-    },
-    "kind": "individual",
-    "aliases": [],
-    "typeIds": [],
-    "playable": true,
-    "storyTraits": {},
-    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
-  },
-  {
     "id": "tvmaze-character-161351",
     "name": "Jo Nakashima",
     "externalIds": {
@@ -6952,7 +7035,7 @@
   },
   {
     "id": "tvmaze-character-161385",
-    "name": "Anita",
+    "name": "Anita (Silence in the Library)",
     "externalIds": {
       "tvmaze": 161385
     },
@@ -6960,7 +7043,18 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13903",
+        "evidence": "Archaeological crew from the 51st century.",
+        "source": ""
+      },
+      "has-died": {
+        "episodeId": "tvmaze-episode-13904",
+        "evidence": "Eaten by the Vashta Nerada.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -7202,19 +7296,6 @@
     "name": "Rocco Colasanto",
     "externalIds": {
       "tvmaze": 161404
-    },
-    "kind": "individual",
-    "aliases": [],
-    "typeIds": [],
-    "playable": true,
-    "storyTraits": {},
-    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
-  },
-  {
-    "id": "tvmaze-character-161407",
-    "name": "Alice Coltrane",
-    "externalIds": {
-      "tvmaze": 161407
     },
     "kind": "individual",
     "aliases": [],
@@ -7540,10 +7621,21 @@
       "tvmaze": 161434
     },
     "kind": "individual",
-    "aliases": [],
+    "aliases": [
+      "China",
+      "Chinese",
+      "UNIT",
+      "Osterhagen"
+    ],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13908",
+        "evidence": "UNIT Employee",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -7712,7 +7804,18 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13970",
+        "evidence": "Passenger on Bus 200",
+        "source": ""
+      },
+      "has-travelled-through-space": {
+        "episodeId": "tvmaze-episode-13970",
+        "evidence": "Travelled through the wormhole from Earth to San Helios",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -7769,7 +7872,7 @@
   },
   {
     "id": "tvmaze-character-448490",
-    "name": "Angela",
+    "name": "Angela Whittaker",
     "externalIds": {
       "tvmaze": 448490
     },
@@ -7777,7 +7880,23 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13970",
+        "evidence": "Passenger on Bus 200.",
+        "source": ""
+      },
+      "parent": {
+        "episodeId": "tvmaze-episode-13970",
+        "evidence": "Mentions her daughter, Suzanne, by name.",
+        "source": ""
+      },
+      "has-travelled-through-space": {
+        "episodeId": "tvmaze-episode-13970",
+        "evidence": "Teleported via wormhole from Earth to San Helios.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -7956,10 +8075,30 @@
       "tvmaze": 361798
     },
     "kind": "individual",
-    "aliases": [],
+    "aliases": [
+      "Bowie Base One",
+      "Astronaut",
+      "Farmer"
+    ],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13971",
+        "evidence": "Astronaut from Earth",
+        "source": ""
+      },
+      "has-died": {
+        "episodeId": "tvmaze-episode-13971",
+        "evidence": "Killed in the nuclear explosion when Bowie Base One is destroyed.",
+        "source": ""
+      },
+      "transformed": {
+        "episodeId": "tvmaze-episode-13971",
+        "evidence": "Transformed into a Flood creature",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -8137,6 +8276,11 @@
       "deception": {
         "episodeId": "tvmaze-episode-1201842",
         "evidence": "Disguises herself as human with a shimmer to work in the Naismith mansion.",
+        "source": ""
+      },
+      "has-travelled-through-space": {
+        "episodeId": "tvmaze-episode-1201842",
+        "evidence": "Travelled to the Vinvocci ship via teleport.",
         "source": ""
       }
     },
