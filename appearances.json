@@ -1368,14 +1368,6 @@
   },
   {
     "episodeId": "s01e12",
-    "characterId": "agorax",
-    "mode": "in-person",
-    "performers": [
-      "Dominic Burgess"
-    ]
-  },
-  {
-    "episodeId": "s01e12",
     "characterId": "anne-droid",
     "mode": "in-person",
     "performers": [
@@ -1747,7 +1739,7 @@
   {
     "characterId": "tvmaze-character-445537",
     "episodeId": "tvmaze-episode-13961",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13961/guestcast",
     "creditedName": "Alex",
     "sourceVoice": false,
@@ -2800,7 +2792,7 @@
   {
     "characterId": "tvmaze-character-161176",
     "episodeId": "tvmaze-episode-13881",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13881/guestcast",
     "creditedName": "Adeola Oshodi",
     "sourceVoice": false,
@@ -3799,7 +3791,7 @@
   {
     "characterId": "tvmaze-character-161264",
     "episodeId": "tvmaze-episode-13889",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13889/guestcast",
     "creditedName": "Abi Lerner",
     "sourceVoice": false,
@@ -4321,7 +4313,7 @@
   {
     "characterId": "tvmaze-character-161302",
     "episodeId": "tvmaze-episode-13894",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13894/guestcast",
     "creditedName": "Albert Dumfries",
     "sourceVoice": false,
@@ -6317,15 +6309,6 @@
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
   },
   {
-    "characterId": "tvmaze-character-361803",
-    "episodeId": "tvmaze-episode-13971",
-    "mode": "unreviewed",
-    "source": "https://api.tvmaze.com/episodes/13971/guestcast",
-    "creditedName": "Adelaide's Father",
-    "sourceVoice": false,
-    "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
-  },
-  {
     "characterId": "tvmaze-character-361802",
     "episodeId": "tvmaze-episode-13971",
     "mode": "unreviewed",
@@ -6445,7 +6428,7 @@
   {
     "characterId": "tvmaze-character-448511",
     "episodeId": "tvmaze-episode-1201842",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/1201842/guestcast",
     "creditedName": "Abigail Naismith",
     "sourceVoice": false,
@@ -6463,7 +6446,7 @@
   {
     "characterId": "tvmaze-character-448512",
     "episodeId": "tvmaze-episode-1201842",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/1201842/guestcast",
     "creditedName": "Addams",
     "sourceVoice": false,
@@ -6715,7 +6698,7 @@
   {
     "characterId": "tvmaze-character-448511",
     "episodeId": "tvmaze-episode-1201843",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/1201843/guestcast",
     "creditedName": "Abigail Naismith",
     "sourceVoice": false,
@@ -6742,7 +6725,7 @@
   {
     "characterId": "tvmaze-character-448512",
     "episodeId": "tvmaze-episode-1201843",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/1201843/guestcast",
     "creditedName": "Addams",
     "sourceVoice": false,

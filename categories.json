@@ -18,7 +18,7 @@
   {
     "id": "transformed",
     "label": "Has had their body changed",
-    "description": "A physical transformation, regeneration, implant or explicit bodily alteration; ordinary injury does not count.",
+    "description": "A physical transformation, regeneration, implant or explicit bodily alteration; ordinary injury does not count. Devices that cloak identity such as perception filters do not count.",
     "enabled": true,
     "kind": "story",
     "needsReview": false
@@ -51,14 +51,6 @@
     "id": "parent",
     "label": "Is a parent",
     "description": "Parenthood established within the loaded TV era, including the Doctor's reference to having been a dad.",
-    "enabled": true,
-    "kind": "story",
-    "needsReview": false
-  },
-  {
-    "id": "enhanced",
-    "label": "Has a technological body or implant",
-    "description": "Robots, cyborg casings, implanted interfaces or machinery that sustains the body.",
     "enabled": true,
     "kind": "story",
     "needsReview": false
@@ -114,14 +106,6 @@
   {
     "id": "empty-child-encounter",
     "label": "Has met the Empty Child",
-    "description": "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count.",
-    "enabled": true,
-    "kind": "story",
-    "needsReview": false
-  },
-  {
-    "id": "spider-encounter",
-    "label": "Has met the robot spiders",
     "description": "Direct interaction, an attack or a live conversation within the loaded TV era. Sharing an episode or being that enemy does not count.",
     "enabled": true,
     "kind": "story",
@@ -200,59 +184,19 @@
     "needsReview": false
   },
   {
-    "id": "rescued",
-    "label": "Rescued",
-    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
-    "enabled": false,
+    "id": "has-died",
+    "label": "Has died",
+    "description": "The character is shown or explicitly confirmed to have died. Includes deaths later reversed or erased by changes to the timeline, and fatal injuries that force a Time Lord to regenerate. Apparent deaths, mistaken reports and voluntary regenerations do not count. A parallel-universe counterpart’s death applies only to that counterpart. Destruction or deactivation of wholly artificial beings does not count - cybernetically modified living beings such as cyborgs do count.",
     "kind": "story",
-    "needsReview": true
-  },
-  {
-    "id": "mind",
-    "label": "Mind",
-    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
-    "enabled": false,
-    "kind": "story",
-    "needsReview": true
-  },
-  {
-    "id": "kills",
-    "label": "Kills",
-    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
-    "enabled": false,
-    "kind": "story",
-    "needsReview": true
-  },
-  {
-    "id": "rescuer",
-    "label": "Rescuer",
-    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
-    "enabled": false,
-    "kind": "story",
-    "needsReview": true
-  },
-  {
-    "id": "sacrifice",
-    "label": "Sacrifice",
-    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
-    "enabled": false,
-    "kind": "story",
-    "needsReview": true
-  },
-  {
-    "id": "healing",
-    "label": "Healing",
-    "description": "Legacy category retained with its saved facts. Review its meaning before enabling.",
-    "enabled": false,
-    "kind": "story",
-    "needsReview": true
-  },
-  {
-    "id": "episode-appearance",
-    "label": "Appears in {episode}",
-    "description": "An active appearance in the named episode.",
     "enabled": true,
-    "kind": "episode",
+    "needsReview": false
+  },
+  {
+    "id": "is-a-robot-android",
+    "label": "Is a robot/android",
+    "description": "An artificial mechanical being, whether autonomous or remotely controlled. Includes robots and androids with artificial intelligence or apparent emotions. Excludes beings containing a living biological organism, such as Cybermen and Daleks, and vehicles or ordinary machinery.",
+    "kind": "story",
+    "enabled": true,
     "needsReview": false
   }
 ]

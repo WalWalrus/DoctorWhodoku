@@ -23,21 +23,6 @@
         "evidence": "Has a surgically installed head interface.",
         "source": "https://tardis.guide/story/the-long-game/transcript/"
       },
-      "rescued": {
-        "episodeId": "s01e06",
-        "evidence": "Escapes the pursuing Dalek through the closing barrier.",
-        "source": "https://tardis.guide/story/dalek/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e07",
-        "evidence": "A head interface connects them to the station.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
-      "mind": {
-        "episodeId": "s01e07",
-        "evidence": "Uses a head interface to connect with the station.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
       "companion": {
         "episodeId": "s01e07",
         "evidence": "Travels with the Doctor as a companion.",
@@ -58,7 +43,13 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included: identifiable on-screen character or guest, supported by Battles in Time. Card recognition is used for inclusion, not as evidence of encounters.",
-    "storyTraits": {},
+    "storyTraits": {
+      "is-a-robot-android": {
+        "episodeId": "s01e02",
+        "evidence": "Confirmed to be entirely robotic by the Doctor.",
+        "source": ""
+      }
+    },
     "selectionSources": [
       "https://millenniumeffect.co.uk/index.php/battles-in-time/"
     ],
@@ -68,16 +59,6 @@
         122
       ]
     }
-  },
-  {
-    "id": "agorax",
-    "name": "Agorax",
-    "kind": "individual",
-    "aliases": [],
-    "typeIds": [],
-    "playable": false,
-    "selectionNote": "Not yet individually reviewed: retained outside the answer pool for now. Check for an identifiable on-screen role or Battles in Time recognition; a short wiki page alone is not a reason to exclude.",
-    "storyTraits": {}
   },
   {
     "id": "alexander-graham-bell",
@@ -166,16 +147,6 @@
         "episodeId": "s01e13",
         "evidence": "Directly attacked by Daleks.",
         "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e13",
-        "evidence": "Destroys attacking Daleks.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e12",
-        "evidence": "Android body or direct bodily connection to station technology.",
-        "source": "https://tardis.guide/story/bad-wolf/transcript/"
       }
     }
   },
@@ -221,18 +192,7 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
-    "storyTraits": {
-      "kills": {
-        "episodeId": "s01e01",
-        "evidence": "Participates in the lethal Auton attack.",
-        "source": "https://tardis.guide/story/rose/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e01",
-        "evidence": "Artificial plastic bodies animated by the Nestene.",
-        "source": "https://tardis.guide/story/rose/transcript/"
-      }
-    }
+    "storyTraits": {}
   },
   {
     "id": "auton-mickey",
@@ -252,11 +212,6 @@
       "deception": {
         "episodeId": "s01e01",
         "evidence": "Impersonates Mickey.",
-        "source": "https://tardis.guide/story/rose/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e01",
-        "evidence": "Artificial plastic bodies animated by the Nestene.",
         "source": "https://tardis.guide/story/rose/transcript/"
       }
     }
@@ -437,25 +392,10 @@
         "evidence": "Commands forces during the battle.",
         "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
       },
-      "rescuer": {
-        "episodeId": "s01e09",
-        "evidence": "Catches Rose before she falls.",
-        "source": "https://tardis.guide/story/the-empty-child/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e10",
-        "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      },
       "captive": {
         "episodeId": "s01e12",
         "evidence": "Forced to participate in Game Station programmes.",
         "source": "https://tardis.guide/story/bad-wolf/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e10",
-        "evidence": "Jack removes the bomb; Nancy approaches the infectious child.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
       },
       "companion": {
         "episodeId": "s01e10",
@@ -518,31 +458,6 @@
         "evidence": "Has a surgically installed head interface.",
         "source": "https://tardis.guide/story/the-long-game/transcript/"
       },
-      "rescuer": {
-        "episodeId": "s01e07",
-        "evidence": "Overrides the station systems to stop the Jagrafess.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e07",
-        "evidence": "The rulers kill Suki; Cathica brings down their lethal regime.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e07",
-        "evidence": "Returns to Floor 500 and fights its controllers.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e07",
-        "evidence": "A head interface connects them to the station.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
-      "mind": {
-        "episodeId": "s01e07",
-        "evidence": "Uses a head interface to connect with the station.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
       "human": {
         "episodeId": "s01e07",
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
@@ -574,21 +489,6 @@
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
     "storyTraits": {
-      "rescuer": {
-        "episodeId": "s01e03",
-        "evidence": "Helps stop the Gelth and free the trapped visitors.",
-        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e03",
-        "evidence": "Escapes the Gelth with the others.",
-        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e03",
-        "evidence": "Stays to stop the Gelth or returns to the threatened house.",
-        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
-      },
       "gelth-encounter": {
         "episodeId": "s01e03",
         "evidence": "Directly interacts with the Gelth or their possessed bodies.",
@@ -723,24 +623,9 @@
         "evidence": "The captive Dalek changes after absorbing Rose's DNA.",
         "source": "https://tardis.guide/story/dalek/transcript/"
       },
-      "kills": {
-        "episodeId": "s01e06",
-        "evidence": "Kills Vault personnel.",
-        "source": "https://tardis.guide/story/dalek/transcript/"
-      },
       "captive": {
         "episodeId": "s01e06",
         "evidence": "Rose is held in the Vault; the Dalek is restrained and tortured.",
-        "source": "https://tardis.guide/story/dalek/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e06",
-        "evidence": "A mutant housed in a mechanical casing.",
-        "source": "https://tardis.guide/story/dalek/transcript/"
-      },
-      "healing": {
-        "episodeId": "s01e06",
-        "evidence": "Rebuilds itself using Rose's DNA and electrical power.",
         "source": "https://tardis.guide/story/dalek/transcript/"
       },
       "alien": {
@@ -767,16 +652,6 @@
       "leader": {
         "episodeId": "s01e13",
         "evidence": "Commands forces during the battle.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e13",
-        "evidence": "Orders the Dalek assault.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e13",
-        "evidence": "A mutant housed in a mechanical casing.",
         "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
       },
       "alien": {
@@ -806,13 +681,7 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
-    "storyTraits": {
-      "enhanced": {
-        "episodeId": "s01e12",
-        "evidence": "Android body or direct bodily connection to station technology.",
-        "source": "https://tardis.guide/story/bad-wolf/transcript/"
-      }
-    }
+    "storyTraits": {}
   },
   {
     "id": "davitch-pavale",
@@ -913,16 +782,6 @@
         "evidence": "Body is altered and restored by nanogenes.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
       },
-      "rescued": {
-        "episodeId": "s01e10",
-        "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      },
-      "healing": {
-        "episodeId": "s01e10",
-        "evidence": "Repairs bodies or provides medical treatment.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      },
       "empty-child-encounter": {
         "episodeId": "s01e09",
         "evidence": "Treats the injured child brought to his hospital.",
@@ -970,16 +829,6 @@
         "evidence": "Detained on Floor 500.",
         "source": "https://tardis.guide/story/the-long-game/transcript/"
       },
-      "enhanced": {
-        "episodeId": "s01e07",
-        "evidence": "A head interface connects them to the station.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
-      "mind": {
-        "episodeId": "s01e07",
-        "evidence": "Uses a head interface to connect with the station.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
       "human": {
         "episodeId": "s01e07",
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
@@ -1012,11 +861,6 @@
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
     "storyTraits": {
-      "rescued": {
-        "episodeId": "s01e02",
-        "evidence": "Survives the station sabotage through the shields being restored; Cassandra escapes by teleport.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
       "alien": {
         "episodeId": "s01e02",
         "evidence": "Depicted or identified as non-human alien life in this story.",
@@ -1086,16 +930,6 @@
         "evidence": "Connected to the station and forced to serve the Daleks.",
         "source": "https://tardis.guide/story/bad-wolf/transcript/"
       },
-      "enhanced": {
-        "episodeId": "s01e12",
-        "evidence": "Android body or direct bodily connection to station technology.",
-        "source": "https://tardis.guide/story/bad-wolf/transcript/"
-      },
-      "mind": {
-        "episodeId": "s01e12",
-        "evidence": "Her brain is connected to the station.",
-        "source": "https://tardis.guide/story/bad-wolf/transcript/"
-      },
       "human": {
         "episodeId": "s01e12",
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
@@ -1159,11 +993,6 @@
         "evidence": "Body is altered and restored by nanogenes.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
       },
-      "rescued": {
-        "episodeId": "s01e10",
-        "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      },
       "human": {
         "episodeId": "s01e09",
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
@@ -1183,16 +1012,6 @@
       "deception": {
         "episodeId": "s01e03",
         "evidence": "Misrepresents its intentions to secure access through the Rift.",
-        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e03",
-        "evidence": "The Gelth kill Sneed; Gwyneth destroys the invaders.",
-        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
-      },
-      "mind": {
-        "episodeId": "s01e03",
-        "evidence": "Gwyneth reads thoughts; the Gelth take control of corpses.",
         "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
       },
       "alien": {
@@ -1232,26 +1051,6 @@
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
     "storyTraits": {
-      "rescuer": {
-        "episodeId": "s01e03",
-        "evidence": "Helps stop the Gelth and free the trapped visitors.",
-        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e03",
-        "evidence": "The Gelth kill Sneed; Gwyneth destroys the invaders.",
-        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e03",
-        "evidence": "Stays to stop the Gelth or returns to the threatened house.",
-        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
-      },
-      "mind": {
-        "episodeId": "s01e03",
-        "evidence": "Gwyneth reads thoughts; the Gelth take control of corpses.",
-        "source": "https://tardis.guide/story/the-unquiet-dead/transcript/"
-      },
       "gelth-encounter": {
         "episodeId": "s01e03",
         "evidence": "Directly interacts with the Gelth or their possessed bodies.",
@@ -1276,26 +1075,6 @@
       "leader": {
         "episodeId": "s01e05",
         "evidence": "Directs the government response or authorises the missile strike.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
-      },
-      "rescuer": {
-        "episodeId": "s01e05",
-        "evidence": "Helps stop the Slitheen attack.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e05",
-        "evidence": "Survives the Slitheen threat through the joint rescue.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e05",
-        "evidence": "Slitheen kill their victims; Mickey and Harriet arrange the lethal counterattack.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e05",
-        "evidence": "Confronts the Slitheen threat despite mortal danger.",
         "source": "https://tardis.guide/story/world-war-three/transcript/"
       },
       "slitheen-encounter": {
@@ -1330,11 +1109,6 @@
       "leader": {
         "episodeId": "s01e06",
         "evidence": "Gives orders to Vault staff.",
-        "source": "https://tardis.guide/story/dalek/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e06",
-        "evidence": "Rose stops the Dalek killing him.",
         "source": "https://tardis.guide/story/dalek/transcript/"
       },
       "human": {
@@ -1385,24 +1159,9 @@
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
     "storyTraits": {
-      "rescuer": {
-        "episodeId": "s01e02",
-        "evidence": "Holds the fan control so the Doctor can restore the shields.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e02",
-        "evidence": "Braves the heat and fan system to save the station.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
       "alien": {
         "episodeId": "s01e02",
         "evidence": "Depicted or identified as non-human alien life in this story.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
-      "spider-encounter": {
-        "episodeId": "s01e02",
-        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
     }
@@ -1422,16 +1181,6 @@
         "episodeId": "s01e13",
         "evidence": "Seen inside the console room.",
         "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
-      "rescuer": {
-        "episodeId": "s01e13",
-        "evidence": "Brings the truck needed to open the TARDIS console and enable Rose's rescue.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e05",
-        "evidence": "Survives the Slitheen threat through the joint rescue.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
       },
       "parent": {
         "episodeId": "s01e01",
@@ -1477,11 +1226,6 @@
       "transformed": {
         "episodeId": "s01e10",
         "evidence": "Body is altered and restored by nanogenes.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e10",
-        "evidence": "Jack is rescued from the bomb; the patients are restored by nanogenes.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
       },
       "human": {
@@ -1538,11 +1282,6 @@
         "evidence": "Directs the government response or authorises the missile strike.",
         "source": "https://tardis.guide/story/world-war-three/transcript/"
       },
-      "kills": {
-        "episodeId": "s01e05",
-        "evidence": "Slitheen kill their victims; Mickey and Harriet arrange the lethal counterattack.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
-      },
       "alien": {
         "episodeId": "s01e04",
         "evidence": "Depicted or identified as non-human alien life in this story.",
@@ -1576,21 +1315,6 @@
       "leader": {
         "episodeId": "s01e02",
         "evidence": "Directs staff or attendants.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e02",
-        "evidence": "Causes lethal station sabotage.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e02",
-        "evidence": "Cassandra relies on a support frame; the spiders are machines.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
-      "spider-encounter": {
-        "episodeId": "s01e02",
-        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       },
       "human": {
@@ -1669,11 +1393,6 @@
         "evidence": "Forced to participate in Game Station programmes.",
         "source": "https://tardis.guide/story/bad-wolf/transcript/"
       },
-      "sacrifice": {
-        "episodeId": "s01e13",
-        "evidence": "Rose returns to the Daleks; Lynda volunteers to help defend the station.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
       "human": {
         "episodeId": "s01e12",
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
@@ -1724,24 +1443,9 @@
         "evidence": "The captive Dalek changes after absorbing Rose's DNA.",
         "source": "https://tardis.guide/story/dalek/transcript/"
       },
-      "kills": {
-        "episodeId": "s01e06",
-        "evidence": "Kills Vault personnel.",
-        "source": "https://tardis.guide/story/dalek/transcript/"
-      },
       "captive": {
         "episodeId": "s01e06",
         "evidence": "Rose is held in the Vault; the Dalek is restrained and tortured.",
-        "source": "https://tardis.guide/story/dalek/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e06",
-        "evidence": "A mutant housed in a mechanical casing.",
-        "source": "https://tardis.guide/story/dalek/transcript/"
-      },
-      "healing": {
-        "episodeId": "s01e06",
-        "evidence": "Rebuilds itself using Rose's DNA and electrical power.",
         "source": "https://tardis.guide/story/dalek/transcript/"
       },
       "alien": {
@@ -1768,30 +1472,10 @@
         "evidence": "Escapes in the TARDIS.",
         "source": "https://tardis.guide/story/rose/transcript/"
       },
-      "rescuer": {
-        "episodeId": "s01e05",
-        "evidence": "Helps stop the Slitheen attack.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e01",
-        "evidence": "Escapes the Nestene chamber with Rose and the Doctor.",
-        "source": "https://tardis.guide/story/rose/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e05",
-        "evidence": "Slitheen kill their victims; Mickey and Harriet arrange the lethal counterattack.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
-      },
       "captive": {
         "episodeId": "s01e01",
         "evidence": "Held in the Nestene chamber.",
         "source": "https://tardis.guide/story/rose/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e05",
-        "evidence": "Confronts the Slitheen threat despite mortal danger.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
       },
       "slitheen-encounter": {
         "episodeId": "s01e05",
@@ -1989,19 +1673,9 @@
         "evidence": "Organises the children and their food raids.",
         "source": "https://tardis.guide/story/the-empty-child/transcript/"
       },
-      "rescuer": {
-        "episodeId": "s01e10",
-        "evidence": "Helps restore Jamie and the infected patients.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      },
       "captive": {
         "episodeId": "s01e10",
         "evidence": "Handcuffed at the bomb site.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e10",
-        "evidence": "Jack removes the bomb; Nancy approaches the infectious child.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
       },
       "parent": {
@@ -2031,18 +1705,7 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
-    "storyTraits": {
-      "rescuer": {
-        "episodeId": "s01e10",
-        "evidence": "Helps restore Jamie and the infected patients.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      },
-      "healing": {
-        "episodeId": "s01e10",
-        "evidence": "Repairs bodies or provides medical treatment.",
-        "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      }
-    }
+    "storyTraits": {}
   },
   {
     "id": "nestene-consciousness",
@@ -2058,16 +1721,6 @@
       "leader": {
         "episodeId": "s01e01",
         "evidence": "Controls the Autons.",
-        "source": "https://tardis.guide/story/rose/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e01",
-        "evidence": "Participates in the lethal Auton attack.",
-        "source": "https://tardis.guide/story/rose/transcript/"
-      },
-      "mind": {
-        "episodeId": "s01e01",
-        "evidence": "Controls plastic bodies through its consciousness.",
         "source": "https://tardis.guide/story/rose/transcript/"
       },
       "alien": {
@@ -2111,40 +1764,15 @@
         "evidence": "Bluffs the Slitheen with a claimed alcohol vulnerability.",
         "source": "https://tardis.guide/story/world-war-three/transcript/"
       },
-      "rescuer": {
-        "episodeId": "s01e01",
-        "evidence": "Stops the Nestene attack and escapes with Mickey.",
-        "source": "https://tardis.guide/story/rose/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e02",
-        "evidence": "Survives the station sabotage through the shields being restored; Cassandra escapes by teleport.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
       "captive": {
         "episodeId": "s01e01",
         "evidence": "Held in the Nestene chamber.",
         "source": "https://tardis.guide/story/rose/transcript/"
       },
-      "sacrifice": {
-        "episodeId": "s01e02",
-        "evidence": "Braves the heat and fan system to save the station.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
       "parent": {
         "episodeId": "s01e09",
         "evidence": "Says he has been a dad.",
         "source": "https://tardis.guide/story/the-empty-child/transcript/"
-      },
-      "mind": {
-        "episodeId": "s01e13",
-        "evidence": "Channels the time vortex through their mind and body.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
-      "healing": {
-        "episodeId": "s01e13",
-        "evidence": "Rose revives Jack; the Doctor removes the vortex from Rose and regenerates.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
       },
       "alien": {
         "episodeId": "s01e01",
@@ -2175,11 +1803,6 @@
         "episodeId": "s01e10",
         "evidence": "Directly encounters Jamie, the Empty Child.",
         "source": "https://tardis.guide/story/the-doctor-dances/transcript/"
-      },
-      "spider-encounter": {
-        "episodeId": "s01e02",
-        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
     },
     "externalIds": {
@@ -2226,21 +1849,6 @@
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
     "storyTraits": {
-      "rescuer": {
-        "episodeId": "s01e08",
-        "evidence": "Repairs the paradox by stepping into the car's path.",
-        "source": "https://tardis.guide/story/fathers-day/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e08",
-        "evidence": "Rose initially pulls him clear of the car.",
-        "source": "https://tardis.guide/story/fathers-day/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e08",
-        "evidence": "Deliberately gives his life to repair time.",
-        "source": "https://tardis.guide/story/fathers-day/transcript/"
-      },
       "parent": {
         "episodeId": "s01e08",
         "evidence": "Rose's father.",
@@ -2289,11 +1897,6 @@
       "alien": {
         "episodeId": "s01e02",
         "evidence": "Depicted or identified as non-human alien life in this story.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
-      "spider-encounter": {
-        "episodeId": "s01e02",
-        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
     }
@@ -2344,11 +1947,6 @@
         "episodeId": "s01e02",
         "evidence": "Depicted or identified as non-human alien life in this story.",
         "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
-      "spider-encounter": {
-        "episodeId": "s01e02",
-        "evidence": "Directly handles, commands or is attacked by Cassandra's robot spiders.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
       }
     }
   },
@@ -2363,11 +1961,6 @@
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
     "storyTraits": {
-      "kills": {
-        "episodeId": "s01e08",
-        "evidence": "Consumes people in the damaged timeline.",
-        "source": "https://tardis.guide/story/fathers-day/transcript/"
-      },
       "alien": {
         "episodeId": "s01e08",
         "evidence": "Depicted or identified as non-human alien life in this story.",
@@ -2422,18 +2015,7 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
-    "storyTraits": {
-      "kills": {
-        "episodeId": "s01e02",
-        "evidence": "Causes lethal station sabotage.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
-      "enhanced": {
-        "episodeId": "s01e02",
-        "evidence": "Cassandra relies on a support frame; the spiders are machines.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      }
-    }
+    "storyTraits": {}
   },
   {
     "id": "rodrick",
@@ -2483,40 +2065,10 @@
         "evidence": "Conceals her identity as Pete's daughter.",
         "source": "https://tardis.guide/story/fathers-day/transcript/"
       },
-      "rescuer": {
-        "episodeId": "s01e01",
-        "evidence": "Stops the Nestene attack and escapes with Mickey.",
-        "source": "https://tardis.guide/story/rose/transcript/"
-      },
-      "rescued": {
-        "episodeId": "s01e02",
-        "evidence": "Survives the station sabotage through the shields being restored; Cassandra escapes by teleport.",
-        "source": "https://tardis.guide/story/the-end-of-the-world/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e01",
-        "evidence": "Drops anti-plastic into the Nestene.",
-        "source": "https://tardis.guide/story/rose/transcript/"
-      },
       "captive": {
         "episodeId": "s01e06",
         "evidence": "Rose is held in the Vault; the Dalek is restrained and tortured.",
         "source": "https://tardis.guide/story/dalek/transcript/"
-      },
-      "sacrifice": {
-        "episodeId": "s01e13",
-        "evidence": "Rose returns to the Daleks; Lynda volunteers to help defend the station.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
-      "mind": {
-        "episodeId": "s01e13",
-        "evidence": "Channels the time vortex through their mind and body.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
-      },
-      "healing": {
-        "episodeId": "s01e13",
-        "evidence": "Rose revives Jack; the Doctor removes the vortex from Rose and regenerates.",
-        "source": "https://tardis.guide/story/the-parting-of-the-ways/transcript/"
       },
       "transformed": {
         "episodeId": "s01e13",
@@ -2713,11 +2265,6 @@
         "evidence": "Uses stolen human identities.",
         "source": "https://tardis.guide/story/world-war-three/transcript/"
       },
-      "kills": {
-        "episodeId": "s01e05",
-        "evidence": "Slitheen kill their victims; Mickey and Harriet arrange the lethal counterattack.",
-        "source": "https://tardis.guide/story/world-war-three/transcript/"
-      },
       "alien": {
         "episodeId": "s01e04",
         "evidence": "Depicted or identified as non-human alien life in this story.",
@@ -2880,11 +2427,6 @@
         "evidence": "Runs Satellite Five's information-control operation.",
         "source": "https://tardis.guide/story/the-long-game/transcript/"
       },
-      "kills": {
-        "episodeId": "s01e07",
-        "evidence": "The rulers kill Suki; Cathica brings down their lethal regime.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
       "human": {
         "episodeId": "s01e07",
         "evidence": "A human character; bodily modifications do not change eligibility for this clue.",
@@ -2908,11 +2450,6 @@
       "leader": {
         "episodeId": "s01e07",
         "evidence": "Runs Satellite Five's information-control operation.",
-        "source": "https://tardis.guide/story/the-long-game/transcript/"
-      },
-      "kills": {
-        "episodeId": "s01e07",
-        "evidence": "The rulers kill Suki; Cathica brings down their lethal regime.",
         "source": "https://tardis.guide/story/the-long-game/transcript/"
       },
       "alien": {
@@ -2969,13 +2506,7 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
-    "storyTraits": {
-      "enhanced": {
-        "episodeId": "s01e12",
-        "evidence": "Android body or direct bodily connection to station technology.",
-        "source": "https://tardis.guide/story/bad-wolf/transcript/"
-      }
-    }
+    "storyTraits": {}
   },
   {
     "id": "trinity-wells",
@@ -3021,13 +2552,7 @@
     "typeIds": [],
     "playable": true,
     "selectionNote": "Included in the curated Series 1 starter pool.",
-    "storyTraits": {
-      "enhanced": {
-        "episodeId": "s01e12",
-        "evidence": "Android body or direct bodily connection to station technology.",
-        "source": "https://tardis.guide/story/bad-wolf/transcript/"
-      }
-    }
+    "storyTraits": {}
   },
   {
     "id": "tvmaze-character-161649",
@@ -3161,6 +2686,46 @@
       "leader": {
         "episodeId": "tvmaze-episode-13899",
         "evidence": "Commanded the UNIT raid on the ATMOS factory. Medical Director on Project Indigo for UNIT - threatened the Daleks with the Osterhagen Key.",
+        "source": ""
+      },
+      "captive": {
+        "episodeId": "tvmaze-episode-13885",
+        "evidence": "Kidnapped by Milo and Cheen (the young couple) in Gridlock. Captured by a pig slave in Daleks in Manhattan. Trapped inside the Genetic Manipulation Device by Lazarus in The Lazarus Experiment. Jettisoned in an escape capsule by Ashton in 42. Held hostage by Mother of Mine in Human Nature. Trapped in 1969 by the Weeping Angels in Blink. Captured on the Valiant by the Master in The Sound of Drums. Captured and cloned in The Sontaran Stratagem. Teleported into the Crucible and imprisoned by Davros in Journey's End.",
+        "source": ""
+      },
+      "companion": {
+        "episodeId": "tvmaze-episode-13883",
+        "evidence": "Joins the Doctor in Smith and Jones as a passenger (later made an official companion in The Lazarus Experiment)",
+        "source": ""
+      },
+      "human": {
+        "episodeId": "tvmaze-episode-13883",
+        "evidence": "Confirmed human by the Judoon in Smith and Jones.",
+        "source": ""
+      },
+      "weeping-angel-encounter": {
+        "episodeId": "tvmaze-episode-13892",
+        "evidence": "Sent back to 1969 by a Weeping Angel, explicitly confirmed in the episode.",
+        "source": ""
+      },
+      "master-encounter": {
+        "episodeId": "tvmaze-episode-13893",
+        "evidence": "Knows of Harold Saxon prior to Utopia and is known as Professor Yana but both later confirmed as the Master.",
+        "source": ""
+      },
+      "sontaran-encounter": {
+        "episodeId": "tvmaze-episode-13899",
+        "evidence": "Encounters Commander Skorr in the ATMOS factory after getting captured to be cloned in The Sontaran Stratagem.",
+        "source": ""
+      },
+      "judoon-encounter": {
+        "episodeId": "tvmaze-episode-13883",
+        "evidence": "Meets the Judoon upon the moon. The Judoon Captain scans her to verify her species.",
+        "source": ""
+      },
+      "time-travel": {
+        "episodeId": "tvmaze-episode-13884",
+        "evidence": "Travels back in time with the Doctor during The Shakespeare Code.",
         "source": ""
       }
     }
@@ -3379,7 +2944,38 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {}
+    "storyTraits": {
+      "leader": {
+        "episodeId": "tvmaze-episode-13971",
+        "evidence": "Captain of Bowie Base One.",
+        "source": ""
+      },
+      "human": {
+        "episodeId": "tvmaze-episode-13971",
+        "evidence": "Confirmed to be from Earth.",
+        "source": ""
+      },
+      "tardis": {
+        "episodeId": "tvmaze-episode-13971",
+        "evidence": "Taken back to Earth by the Doctor in the TARDIS.",
+        "source": ""
+      },
+      "dalek-encounter": {
+        "episodeId": "tvmaze-episode-13971",
+        "evidence": "Confirmed to have met them as a child in a flashback.",
+        "source": ""
+      },
+      "parent": {
+        "episodeId": "tvmaze-episode-13971",
+        "evidence": "Is shown communicating with her daughter, Emily.",
+        "source": ""
+      },
+      "has-died": {
+        "episodeId": "tvmaze-episode-13971",
+        "evidence": "Confirmed to have died to the nuclear detonation of Bowie Base One in an aborted timeline. Commits suicide after being taken back to Earth in the rewritten timeline.",
+        "source": ""
+      }
+    }
   },
   {
     "id": "tvmaze-character-447610",
@@ -3422,18 +3018,6 @@
     "name": "Tegan Jovanka",
     "externalIds": {
       "tvmaze": 1028865
-    },
-    "kind": "individual",
-    "aliases": [],
-    "typeIds": [],
-    "playable": true,
-    "storyTraits": {}
-  },
-  {
-    "id": "tvmaze-character-1028866",
-    "name": "Ace",
-    "externalIds": {
-      "tvmaze": 1028866
     },
     "kind": "individual",
     "aliases": [],
@@ -3495,15 +3079,26 @@
   },
   {
     "id": "tvmaze-character-445537",
-    "name": "Alex",
+    "name": "Alex Klein (The Christmas Invasion)",
     "externalIds": {
       "tvmaze": 445537
     },
     "kind": "individual",
-    "aliases": [],
+    "aliases": [
+      "Assistant",
+      "Senior aide",
+      "Aide",
+      "UNIT"
+    ],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13961",
+        "evidence": "UNIT Employee and Senior Aide to Harriet Jones",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -4634,7 +4229,28 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "transformed": {
+        "episodeId": "tvmaze-episode-13881",
+        "evidence": "Transformed into a Cyberman.",
+        "source": ""
+      },
+      "captive": {
+        "episodeId": "tvmaze-episode-13881",
+        "evidence": "Captured by the Cybermen to be converted.",
+        "source": ""
+      },
+      "human": {
+        "episodeId": "tvmaze-episode-13881",
+        "evidence": "Employee of Torchwood.",
+        "source": ""
+      },
+      "cyberman-encounter": {
+        "episodeId": "tvmaze-episode-13881",
+        "evidence": "Captured by a Cyberman to be converted.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -5687,7 +5303,18 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "has-died": {
+        "episodeId": "tvmaze-episode-13889",
+        "evidence": "Murdered by Korwin in 42.",
+        "source": ""
+      },
+      "human": {
+        "episodeId": "tvmaze-episode-13889",
+        "evidence": "42nd century salvage and cargo crew.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -6230,10 +5857,33 @@
       "tvmaze": 161302
     },
     "kind": "individual",
-    "aliases": [],
+    "aliases": [
+      "Cabinet Member"
+    ],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-13894",
+        "evidence": "Cabinet Member for UK Parliament.",
+        "source": ""
+      },
+      "has-died": {
+        "episodeId": "tvmaze-episode-13894",
+        "evidence": "Murdered by the Master via gas attack in the cabinet meeting.",
+        "source": ""
+      },
+      "master-encounter": {
+        "episodeId": "tvmaze-episode-13894",
+        "evidence": "Murdered by the Master in the cabinet meeting.",
+        "source": ""
+      },
+      "leader": {
+        "episodeId": "tvmaze-episode-13894",
+        "evidence": "Senior cabinet member, attempts to run the cabinet meeting.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -7117,7 +6767,18 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "parent": {
+        "episodeId": "tvmaze-episode-13902",
+        "evidence": "A real historical figure with a confirmed child.",
+        "source": ""
+      },
+      "human": {
+        "episodeId": "tvmaze-episode-13902",
+        "evidence": "Real historical figure.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -7819,7 +7480,18 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "judoon-encounter": {
+        "episodeId": "tvmaze-episode-13907",
+        "evidence": "Works with the Judoon at the Shadow Proclamation.",
+        "source": ""
+      },
+      "alien": {
+        "episodeId": "tvmaze-episode-13907",
+        "evidence": "Humanoid alien, no confirmation of Earth origin.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -8304,19 +7976,6 @@
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
-    "id": "tvmaze-character-361803",
-    "name": "Adelaide's Father",
-    "externalIds": {
-      "tvmaze": 361803
-    },
-    "kind": "individual",
-    "aliases": [],
-    "typeIds": [],
-    "playable": true,
-    "storyTraits": {},
-    "selectionNote": "Imported TVmaze character; episode links and category facts need review."
-  },
-  {
     "id": "tvmaze-character-361802",
     "name": "Mikhail",
     "externalIds": {
@@ -8430,7 +8089,13 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "human": {
+        "episodeId": "tvmaze-episode-1201842",
+        "evidence": "From Earth, confirmed human when she transforms into the Master which applies to the entire human race.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
@@ -8453,10 +8118,28 @@
       "tvmaze": 448512
     },
     "kind": "individual",
-    "aliases": [],
+    "aliases": [
+      "Vinvocci"
+    ],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {},
+    "storyTraits": {
+      "alien": {
+        "episodeId": "tvmaze-episode-1201842",
+        "evidence": "Confirmed to be a Vinvocci after being mistaken for a Zocci by the Doctor.",
+        "source": ""
+      },
+      "master-encounter": {
+        "episodeId": "tvmaze-episode-1201842",
+        "evidence": "Directly replies to the Master during the Doctor's escape to the Vinvocci ship.",
+        "source": ""
+      },
+      "deception": {
+        "episodeId": "tvmaze-episode-1201842",
+        "evidence": "Disguises herself as human with a shimmer to work in the Naismith mansion.",
+        "source": ""
+      }
+    },
     "selectionNote": "Imported TVmaze character; episode links and category facts need review."
   },
   {
