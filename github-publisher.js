@@ -3,7 +3,7 @@
 'use strict';
 const names=['characters','episodes','appearances','categories'];
 class Publisher{
- constructor(request=globalThis.fetch){this.request=request;this.token='';this.baseline=null;this.busy=false;}
+ constructor(request=globalThis.fetch.bind(globalThis)){this.request=request;this.token='';this.baseline=null;this.busy=false;}
  disconnect(){this.token='';this.baseline=null;}
  async api(path,method='GET',body){
   if(!this.token)throw Error('Connect to GitHub first.');
