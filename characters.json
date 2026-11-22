@@ -3147,7 +3147,23 @@
     "aliases": [],
     "typeIds": [],
     "playable": true,
-    "storyTraits": {}
+    "storyTraits": {
+      "tardis": {
+        "episodeId": "tvmaze-episode-13883",
+        "evidence": "Martha was a companion during series 3 and 4.",
+        "source": ""
+      },
+      "dalek-encounter": {
+        "episodeId": "tvmaze-episode-13886",
+        "evidence": "Met in the sewers of New York in 1930.",
+        "source": ""
+      },
+      "leader": {
+        "episodeId": "tvmaze-episode-13899",
+        "evidence": "Commanded the UNIT raid on the ATMOS factory. Medical Director on Project Indigo for UNIT - threatened the Daleks with the Osterhagen Key.",
+        "source": ""
+      }
+    }
   },
   {
     "id": "tvmaze-character-161375",

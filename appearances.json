@@ -1675,7 +1675,7 @@
   {
     "characterId": "mickey-smith",
     "episodeId": "tvmaze-episode-13961",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13961/guestcast",
     "creditedName": "Mickey Smith",
     "sourceVoice": false,
@@ -1684,7 +1684,7 @@
   {
     "characterId": "jackie-tyler",
     "episodeId": "tvmaze-episode-13961",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13961/guestcast",
     "creditedName": "Jackie Tyler",
     "sourceVoice": false,
@@ -2269,7 +2269,7 @@
   {
     "characterId": "jackie-tyler",
     "episodeId": "tvmaze-episode-13875",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13875/guestcast",
     "creditedName": "Jackie Tyler",
     "sourceVoice": false,
@@ -2593,7 +2593,7 @@
   {
     "characterId": "jackie-tyler",
     "episodeId": "tvmaze-episode-13879",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13879/guestcast",
     "creditedName": "Jackie Tyler",
     "sourceVoice": false,
@@ -2764,7 +2764,7 @@
   {
     "characterId": "jackie-tyler",
     "episodeId": "tvmaze-episode-13881",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13881/guestcast",
     "creditedName": "Jackie Tyler",
     "sourceVoice": false,
@@ -2971,7 +2971,7 @@
   {
     "characterId": "jackie-tyler",
     "episodeId": "tvmaze-episode-13882",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13882/guestcast",
     "creditedName": "Jackie Tyler",
     "sourceVoice": false,
@@ -4553,15 +4553,6 @@
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
   },
   {
-    "characterId": "rose-tyler",
-    "episodeId": "tvmaze-episode-13896",
-    "mode": "unreviewed",
-    "source": "https://api.tvmaze.com/episodes/13896/guestcast",
-    "creditedName": "Rose Tyler",
-    "sourceVoice": false,
-    "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
-  },
-  {
     "characterId": "tvmaze-character-161316",
     "episodeId": "tvmaze-episode-13896",
     "mode": "unreviewed",
@@ -4927,15 +4918,6 @@
     "mode": "unreviewed",
     "source": "https://api.tvmaze.com/episodes/13899/guestcast",
     "creditedName": "Martha Clone",
-    "sourceVoice": false,
-    "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
-  },
-  {
-    "characterId": "rose-tyler",
-    "episodeId": "tvmaze-episode-13900",
-    "mode": "unreviewed",
-    "source": "https://api.tvmaze.com/episodes/13900/guestcast",
-    "creditedName": "Rose Tyler",
     "sourceVoice": false,
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
   },
@@ -5435,15 +5417,6 @@
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
   },
   {
-    "characterId": "rose-tyler",
-    "episodeId": "tvmaze-episode-13905",
-    "mode": "unreviewed",
-    "source": "https://api.tvmaze.com/episodes/13905/guestcast",
-    "creditedName": "Rose Tyler",
-    "sourceVoice": false,
-    "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
-  },
-  {
     "characterId": "tvmaze-character-161396",
     "episodeId": "tvmaze-episode-13905",
     "mode": "unreviewed",
@@ -5914,7 +5887,7 @@
   {
     "characterId": "jackie-tyler",
     "episodeId": "tvmaze-episode-13908",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/13908/guestcast",
     "creditedName": "Jackie Tyler",
     "sourceVoice": false,
@@ -6605,18 +6578,9 @@
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
   },
   {
-    "characterId": "rose-tyler",
-    "episodeId": "tvmaze-episode-1201843",
-    "mode": "unreviewed",
-    "source": "https://api.tvmaze.com/episodes/1201843/guestcast",
-    "creditedName": "Rose Tyler",
-    "sourceVoice": false,
-    "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
-  },
-  {
     "characterId": "tvmaze-character-53341",
     "episodeId": "tvmaze-episode-1201843",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/1201843/guestcast",
     "creditedName": "Martha Jones",
     "sourceVoice": false,
@@ -6652,7 +6616,7 @@
   {
     "characterId": "jackie-tyler",
     "episodeId": "tvmaze-episode-1201843",
-    "mode": "unreviewed",
+    "mode": "in-person",
     "source": "https://api.tvmaze.com/episodes/1201843/guestcast",
     "creditedName": "Jackie Tyler",
     "sourceVoice": false,
@@ -6846,5 +6810,245 @@
     "creditedName": "The Visionary",
     "sourceVoice": false,
     "reviewNote": "Cast credit only. Check the scene and choose in-person, voice, broadcast, archive or another appearance mode before this counts in the game."
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13883",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13884",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13885",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13886",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13887",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13888",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13889",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13890",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13891",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13892",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13893",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13894",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13895",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13899",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13900",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13901",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13907",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "tvmaze-character-53341",
+    "episodeId": "tvmaze-episode-13908",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13961",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13870",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13871",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13872",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13873",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13874",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13875",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13876",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13877",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13878",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13879",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13880",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13881",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13882",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13963",
+    "mode": "archive"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13896",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13900",
+    "mode": "broadcast"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13905",
+    "mode": "broadcast"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13906",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13907",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-13908",
+    "mode": "in-person"
+  },
+  {
+    "performers": [],
+    "characterId": "rose-tyler",
+    "episodeId": "tvmaze-episode-1201843",
+    "mode": "in-person"
   }
 ]
